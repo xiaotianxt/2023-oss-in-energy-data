@@ -1,0 +1,370 @@
+repository_name,repository_url,project_name,category,scorecard_score,criticality_score
+ADGEfficiency/energy-py,https://github.com/ADGEfficiency/energy-py,energy-py,Other,3.4,0.24724
+AntaresSimulatorTeam/Antares_Simulator,https://github.com/AntaresSimulatorTeam/Antares_Simulator,Antares Simulator,Other,5.3,0.46824
+Azure/opendigitaltwins-energygrid,https://github.com/Azure/opendigitaltwins-energygrid,Digital Twins Definition Language ontology for Energy Grid,Other,3.4,0.28509
+BEMRosetta/BEMRosetta,https://github.com/BEMRosetta/BEMRosetta,BEMRosetta,Other,3.3,0.27593
+BattMoTeam/BattMo,https://github.com/BattMoTeam/BattMo,BattMo,Batteries,3.7,0.36438
+BioSTEAMDevelopmentGroup/biosteam,https://github.com/BioSTEAMDevelopmentGroup/biosteam,biosteam,Other,4.5,0.43536
+BreakingBytes/pvfree,https://github.com/BreakingBytes/pvfree,PV Free,Other,4.6,0.30823
+Breakthrough-Energy/PowerSimData,https://github.com/Breakthrough-Energy/PowerSimData,PowerSimData,Simulation,4.5,0.34374
+Breakthrough-Energy/REISE.jl,https://github.com/Breakthrough-Energy/REISE.jl,REISE.jl,Simulation,4.0,0.29435
+Breakthrough-Energy/REISE.jl,https://github.com/Breakthrough-Energy/REISE.jl,REISE.jl,Simulation,4.0,0.29435
+BrickSchema/Brick,https://github.com/BrickSchema/Brick,Brick,Other,4.8,0.41478
+CalebBell/thermo,https://github.com/CalebBell/thermo,thermo,Other,2.3,0.39064
+CalebBell/thermo,https://github.com/CalebBell/thermo,thermo,Other,2.3,0.39064
+CenterForTheBuiltEnvironment/clima,https://github.com/CenterForTheBuiltEnvironment/clima,CBE Clima Tool,Other,4.5,0.33221
+CenterForTheBuiltEnvironment/comfort_tool,https://github.com/CenterForTheBuiltEnvironment/comfort_tool,comfort_tool,Other,4.3,0.3704
+DemandRegioTeam/disaggregator,https://github.com/DemandRegioTeam/disaggregator,disaggregator,Other,3.1,0.2841
+DuraMAT/pv-terms,https://github.com/DuraMAT/pv-terms,pv-terms,Other,2.9,0.26442
+ECSHackWeek/impedance.py,https://github.com/ECSHackWeek/impedance.py,impedance.py,Other,4.2,0.39818
+ECSIM/gopem,https://github.com/ECSIM/gopem,gopem,Other,4.3,0.31434
+ECSIM/opem,https://github.com/ECSIM/opem,OPEM,Other,4.2,0.34891
+EDF-TREE/BuildSysPro,https://github.com/EDF-TREE/BuildSysPro,BuildSysPro,Other,1.4,0.32725
+EMLab/emlab-generation,https://github.com/EMLab/emlab-generation,emlab-generation,Modeling,2.6,0.23344
+EPGOxford/OPEN,https://github.com/EPGOxford/OPEN,OPEN,Other,2.3,0.26488
+EcotopeResearch/HPWHsim,https://github.com/EcotopeResearch/HPWHsim,HPWHsim,Other,5.4,0.39654
+ElektrikAkar/3d_milp,https://github.com/ElektrikAkar/3d_milp,3d_milp,Other,1.5,0.20768
+EnergieID/entsoe-py,https://github.com/EnergieID/entsoe-py,entsoe-py,Other,3.9,0.46402
+Energy-Innovation/eps-us,https://github.com/Energy-Innovation/eps-us,Energy Policy Simulator,Other,2.8,0.34368
+Energy-Sparks/energy-sparks,https://github.com/Energy-Sparks/energy-sparks,energy-sparks,Other,6.9,0.39828
+EnergyTransition/ESDL,https://github.com/EnergyTransition/ESDL,ESDL,Other,4.3,0.33283
+EnnoidMe/ENNOID-BMS,https://github.com/EnnoidMe/ENNOID-BMS,ENNOID-BMS,Batteries,2.6,0.24796
+Exawind/amr-wind,https://github.com/Exawind/amr-wind,amr-wind,Other,7.0,0.44748
+Exawind/nalu-wind,https://github.com/Exawind/nalu-wind,nalu-wind,Other,6.3,
+FZJ-IEK3-VSA/FINE,https://github.com/FZJ-IEK3-VSA/FINE,FINE,Modeling,4.9,0.37817
+FZJ-IEK3-VSA/HIM,https://github.com/FZJ-IEK3-VSA/HIM,HIM,Other,2.6,0.25545
+FZJ-IEK3-VSA/HiSim,https://github.com/FZJ-IEK3-VSA/HiSim,HiSim,Other,4.9,0.37386
+FZJ-IEK3-VSA/LoadProfileGenerator,https://github.com/FZJ-IEK3-VSA/LoadProfileGenerator,LoadProfileGenerator,Other,3.9,0.26601
+FZJ-IEK3-VSA/glaes,https://github.com/FZJ-IEK3-VSA/glaes,GLAES,Other,4.0,0.30688
+FZJ-IEK3-VSA/tsam,https://github.com/FZJ-IEK3-VSA/tsam,tsam,Other,3.9,0.40576
+FZJ-IEK3-VSA/tsib,https://github.com/FZJ-IEK3-VSA/tsib,tsib,Other,1.6,0.27226
+FZJ-IEK3-VSA/tsib,https://github.com/FZJ-IEK3-VSA/tsib,tsib,Other,1.6,0.27226
+FlexiGIS/FlexiGIS,https://github.com/FlexiGIS/FlexiGIS,FlexiGIS,Other,2.2,0.30513
+GMLC-TDC/HELICS,https://github.com/GMLC-TDC/HELICS,HELICS,Simulation,6.5,0.44698
+GenXProject/GenX,https://github.com/GenXProject/GenX,GenX,Other,5.6,0.40158
+GridProtectionAlliance/SIEGate,https://github.com/GridProtectionAlliance/SIEGate,SIEGate,Other,3.9,0.34916
+GridProtectionAlliance/gsf,https://github.com/GridProtectionAlliance/gsf,GSF,Other,7.1,0.46527
+GridProtectionAlliance/openHistorian,https://github.com/GridProtectionAlliance/openHistorian,openHistorian,Other,6.3,0.43689
+GridProtectionAlliance/openPDC,https://github.com/GridProtectionAlliance/openPDC,openPDC,Other,5.4,0.42715
+GridProtectionAlliance/openXDA,https://github.com/GridProtectionAlliance/openXDA,openXDA,Other,3.7,0.4291
+HIT2GAP-EU-PROJECT/bemserver,https://github.com/HIT2GAP-EU-PROJECT/bemserver,BEMServer,Other,1.9,0.26119
+HotMaps/Hotmaps-toolbox-service,https://github.com/HotMaps/Hotmaps-toolbox-service,Hotmaps,Other,1.4,0.31672
+IAMconsortium/pyam,https://github.com/IAMconsortium/pyam,pyam,Other,5.9,0.42011
+IAMconsortium/pyam,https://github.com/IAMconsortium/pyam,pyam,Other,5.9,0.42011
+IBM/rl-testbed-for-energyplus,https://github.com/IBM/rl-testbed-for-energyplus,rl-testbed-for-energyplus,Other,5.2,0.35137
+ICWallis/fractoolbox,https://github.com/ICWallis/fractoolbox,fractoolbox,Other,2.7,0.24506
+IDAES/idaes-pse,https://github.com/IDAES/idaes-pse,The IDAES Toolkit,Other,4.8,0.45724
+IEA-Task-43/digital_wra_data_standard,https://github.com/IEA-Task-43/digital_wra_data_standard,Digital WRA Data Standards,Other,4.2,0.39428
+IEAWindTask37/IEA-15-240-RWT,https://github.com/IEAWindTask37/IEA-15-240-RWT,IEA-15-240-RWT,Other,4.1,0.35596
+IIT-EnergySystemModels/openTEPES,https://github.com/IIT-EnergySystemModels/openTEPES,openTEPES,Other,4.2,0.39346
+IIT-EnergySystemModels/openTEPES,https://github.com/IIT-EnergySystemModels/openTEPES,openTEPES,Other,4.2,0.39346
+ImperialCollegeLondon/sharpy,https://github.com/ImperialCollegeLondon/sharpy,SHARPy,Other,4.9,0.40112
+JGCRI/gcam-core,https://github.com/JGCRI/gcam-core,GCAM,Modeling,2.9,0.51856
+Japhiolite/geothermics,https://github.com/Japhiolite/geothermics,geothermics,Other,2.9,0.26416
+JuliaEnergy/Joulia.jl,https://github.com/JuliaEnergy/Joulia.jl,Joulia.jl,Other,2.6,0.18681
+JuliaEnergy/PowerDynamics.jl,https://github.com/JuliaEnergy/PowerDynamics.jl,PowerDynamics.jl,Other,5.4,0.44445
+KTH-dESA/OnSSET-2016,https://github.com/KTH-dESA/OnSSET-2016,OnSSET,Optimization,2.4,0.28681
+LBNL-ETA/MSWH,https://github.com/LBNL-ETA/MSWH,Multiscale Solar Water Heating,Other,2.6,0.30198
+LBNL-JCI-ICF/better,https://github.com/LBNL-JCI-ICF/better,BETTER,Other,2.3,0.25051
+LBNL-UCB-STI/beam,https://github.com/LBNL-UCB-STI/beam,BEAM,Other,3.3,0.48608
+LibreSolar/bms-firmware,https://github.com/LibreSolar/bms-firmware,LibreSolar,Other,3.8,0.31535
+LibreSolar/charge-controller-firmware,https://github.com/LibreSolar/charge-controller-firmware,Charge Controller Firmware,Other,3.4,0.30662
+Lkruitwagen/solar-pv-global-inventory,https://github.com/Lkruitwagen/solar-pv-global-inventory,"A Global Inventory of Commerical-, Industrial-, and Utility-Scale Photovoltaic Solar Generating Units",Other,1.5,0.25265
+MATPOWER/matpower,https://github.com/MATPOWER/matpower,MATPOWER,Simulation,4.2,0.43318
+MATPOWER/matpower,https://github.com/MATPOWER/matpower,MATPOWER,Simulation,4.2,0.43318
+MHKiT-Software/MHKiT-Python,https://github.com/MHKiT-Software/MHKiT-Python,MHKiT-Python,Other,5.1,0.39392
+MassimoCimmino/pygfunction,https://github.com/MassimoCimmino/pygfunction,pygfunction,Other,4.0,0.36108
+NREL-SIIP/InfrastructureSystems.jl,https://github.com/NREL-SIIP/InfrastructureSystems.jl,InfrastructureSystems.jl,Other,5.6,0.44788
+NREL-SIIP/PowerSimulations.jl,https://github.com/NREL-SIIP/PowerSimulations.jl,PowerSimulations.jl,Modeling,5.5,0.46353
+NREL-SIIP/PowerSimulationsDynamics.jl,https://github.com/NREL-SIIP/PowerSimulationsDynamics.jl,PowerSimulationsDynamics.jl,Simulation,4.4,0.36061
+NREL-SIIP/PowerSimulationsDynamics.jl,https://github.com/NREL-SIIP/PowerSimulationsDynamics.jl,PowerSimulationsDynamics.jl,Simulation,4.4,0.36061
+NREL-SIIP/PowerSystems.jl,https://github.com/NREL-SIIP/PowerSystems.jl,PowerSystems.jl,Other,5.2,0.44696
+NREL/EnergyPlus,https://github.com/NREL/EnergyPlus,EnergyPlus,Other,4.5,
+NREL/Industry-Energy-Tool,https://github.com/NREL/Industry-Energy-Tool,Industry Energy Tool,Other,2.7,0.23331
+NREL/NRWAL,https://github.com/NREL/NRWAL,NRWAL,Other,3.5,0.35306
+NREL/OpenOA,https://github.com/NREL/OpenOA,OpenOA,Other,4.6,0.39566
+NREL/OpenStudio,https://github.com/NREL/OpenStudio,OpenStudio,Other,4.1,0.56265
+NREL/OpenStudio-ERI,https://github.com/NREL/OpenStudio-ERI,OpenStudio-ERI,Other,2.7,0.49976
+NREL/OpenStudio-HPXML,https://github.com/NREL/OpenStudio-HPXML,OpenStudio-HPXML,Other,3.4,0.50734
+NREL/PV_ICE,https://github.com/NREL/PV_ICE,PV_ICE,Other,3.6,0.34002
+NREL/REopt_Lite_API,https://github.com/NREL/REopt_Lite_API,REopt Lite API,Optimization,5.5,0.41849
+NREL/ROSCO,https://github.com/NREL/ROSCO,ROSCO,Other,4.4,
+NREL/SAM,https://github.com/NREL/SAM,System Advisor Model,Other,3.6,0.49307
+NREL/SolTrace,https://github.com/NREL/SolTrace,SolTrace,Other,3.7,0.35936
+NREL/SolarPILOT,https://github.com/NREL/SolarPILOT,SolarPILOT,Other,2.9,0.31027
+NREL/WindSE,https://github.com/NREL/WindSE,WindSE,Other,3.4,0.29714
+NREL/bifacial_radiance,https://github.com/NREL/bifacial_radiance,bifacial_radiance,Other,4.0,0.42066
+NREL/bifacialvf,https://github.com/NREL/bifacialvf,bifacialvf,Other,4.0,0.3223
+NREL/dgen,https://github.com/NREL/dgen,The Distributed Generation Market Demand (dGen) Model,Other,4.7,0.35633
+NREL/hescore-hpxml,https://github.com/NREL/hescore-hpxml,HPXML to Home Energy Score Translator,Other,3.8,0.34509
+NREL/rdtools,https://github.com/NREL/rdtools,rdtools,Other,5.9,0.41608
+NREL/rdtools,https://github.com/NREL/rdtools,rdtools,Other,5.9,0.41608
+NREL/reV,https://github.com/NREL/reV,reV,Other,5.1,0.45075
+NREL/reVX,https://github.com/NREL/reVX,reVX,Other,5.1,0.39482
+NREL/resstock,https://github.com/NREL/resstock,resstock,Other,4.2,0.50245
+NewMotion/ocpp,https://github.com/NewMotion/ocpp,The Open Charge Point Protocol,Other,3.0,0.3111
+OSUKED/ElexonDataPortal,https://github.com/OSUKED/ElexonDataPortal,ElexonDataPortal,Other,3.1,0.25741
+OSUKED/Power-Station-Dictionary,https://github.com/OSUKED/Power-Station-Dictionary,Power Station Dictionary,Other,2.8,0.2776
+OSeMOSYS/OSeMOSYS,https://github.com/OSeMOSYS/OSeMOSYS,OSeMOSYS,Modeling,3.9,0.37383
+Open-Power-System-Data/conventional_power_plants,https://github.com/Open-Power-System-Data/conventional_power_plants,conventional power plants,Other,2.9,0.31406
+Open-Power-System-Data/renewable_power_plants,https://github.com/Open-Power-System-Data/renewable_power_plants,renewable power plant,Other,3.4,0.31643
+Open-Power-System-Data/renewable_power_plants,https://github.com/Open-Power-System-Data/renewable_power_plants,renewable power plant,Other,3.4,0.31643
+Open-Power-System-Data/time_series,https://github.com/Open-Power-System-Data/time_series,time series,Other,2.9,0.30622
+OpenChargingCloud/WWCP_Core,https://github.com/OpenChargingCloud/WWCP_Core,WWCP_Core,Other,4.1,0.30371
+OpenChargingCloud/WWCP_OCPP,https://github.com/OpenChargingCloud/WWCP_OCPP,WWCP_OCPP,Other,4.9,0.29335
+OpenEMS/openems,https://github.com/OpenEMS/openems,OpenEMS,Other,5.0,0.56394
+OpenEnergyPlatform/oeplatform,https://github.com/OpenEnergyPlatform/oeplatform,Open Energy Platform,Other,4.8,0.51382
+OpenEnergyPlatform/open-MaStR,https://github.com/OpenEnergyPlatform/open-MaStR,open-MaStR,Other,3.9,0.42681
+OpenIPSL/OpenIPSL,https://github.com/OpenIPSL/OpenIPSL,OpenIPSL,Other,4.7,0.39317
+OpenLEADR/openleadr-python,https://github.com/OpenLEADR/openleadr-python,OpenLEADR,Interfaces,3.5,0.35338
+OpenMDAO/OpenMDAO,https://github.com/OpenMDAO/OpenMDAO,OpenMDAO,Other,5.8,0.53705
+OpenModelica/OpenModelica,https://github.com/OpenModelica/OpenModelica,OpenModelica,Other,4.1,0.59711
+PV-Lab/BayesProcess,https://github.com/PV-Lab/BayesProcess,BayesProcess,Other,1.5,0.20528
+PV-Lab/autoXRD,https://github.com/PV-Lab/autoXRD,autoXRD,Other,2.4,0.20025
+PerovskiteSCModelling/IonMonger,https://github.com/PerovskiteSCModelling/IonMonger,IonMonger,Other,3.6,0.21907
+Planheat/Planheat-Tool,https://github.com/Planheat/Planheat-Tool,PLANHEAT Tool,Other,1.6,0.22667
+PowerGenome/PowerGenome,https://github.com/PowerGenome/PowerGenome,PowerGenome,Other,4.6,0.36686
+PyPSA/PyPSA,https://github.com/PyPSA/PyPSA,PyPSA,Simulation,6.4,0.54554
+PyPSA/atlite,https://github.com/PyPSA/atlite,Atlite,Other,6.8,0.41998
+PyPSA/pypsa-eur,https://github.com/PyPSA/pypsa-eur,PyPSA-Eur,Simulation,5.7,0.51707
+PyPSA/pypsa-eur,https://github.com/PyPSA/pypsa-eur,PyPSA-Eur,Simulation,5.7,0.51707
+PyPSA/pypsa-eur-sec,https://github.com/PyPSA/pypsa-eur-sec,PyPSA-Eur-Sec,Other,3.9,0.41552
+PyPSA/whobs-server,https://github.com/PyPSA/whobs-server,whobs-server,Other,3.0,0.24529
+RAMP-project/RAMP,https://github.com/RAMP-project/RAMP,RAMP,Other,4.1,0.36282
+RAMP-project/RAMP-mobility,https://github.com/RAMP-project/RAMP-mobility,RAMP-mobility,Other,3.4,0.3028
+RIAPS/riaps-core,https://github.com/RIAPS/riaps-core,RIAPS,Platform,2.9,0.31086
+RWTH-EBC/AixLib,https://github.com/RWTH-EBC/AixLib,AixLib,Other,3.5,0.46212
+RWTH-EBC/TEASER,https://github.com/RWTH-EBC/TEASER,TEASER,Simulation,4.2,0.46316
+RWTH-EBC/TEASER,https://github.com/RWTH-EBC/TEASER,TEASER,Simulation,4.2,0.46316
+RWTH-EBC/pyCity,https://github.com/RWTH-EBC/pyCity,pyCity_base,Other,2.7,0.32231
+RWTH-EBC/pyCity,https://github.com/RWTH-EBC/pyCity,pyCity_base,Other,2.7,0.32231
+RamiKrispin/UKgrid,https://github.com/RamiKrispin/UKgrid,UKgrid,Other,2.6,0.19412
+RamiKrispin/USgrid,https://github.com/RamiKrispin/USgrid,USgrid,Other,2.7,0.19913
+RentadroneCL/Photovoltaic_Fault_Detector,https://github.com/RentadroneCL/Photovoltaic_Fault_Detector,Photovoltaic_Fault_Detector,Other,0.7,0.28192
+SEED-platform/seed,https://github.com/SEED-platform/seed,SEED,Other,5.4,0.48554
+SNL-WaterPower/CACTUS,https://github.com/SNL-WaterPower/CACTUS,CACTUS,Other,3.8,0.2838
+SNL-WaterPower/WecOptTool,https://github.com/SNL-WaterPower/WecOptTool,WecOptTool,Other,2.6,0.23226
+Samuel-Buteau/universal-battery-database,https://github.com/Samuel-Buteau/universal-battery-database,universal-battery-database,Other,1.9,0.2273
+SanPen/ESIOS,https://github.com/SanPen/ESIOS,ESIOS,Other,3.0,0.2441
+SanPen/GridCal,https://github.com/SanPen/GridCal,GridCal,Other,4.4,0.42969
+SeitaBV/flexmeasures,https://github.com/SeitaBV/flexmeasures,FlexMeasures,Other,5.9,
+SmartTensors/GeoThermalCloud.jl,https://github.com/SmartTensors/GeoThermalCloud.jl,GeoThermalCloud.jl,Other,3.3,0.31929
+SolarArbiter/solarforecastarbiter-core,https://github.com/SolarArbiter/solarforecastarbiter-core,Solar Forecast Arbiter,Other,4.5,0.33311
+SolarTherm/SolarTherm,https://github.com/SolarTherm/SolarTherm,SolarTherm,Other,4.1,0.41383
+SonyCSL/APIS,https://github.com/SonyCSL/APIS,APIS,Other,2.6,0.23463
+Spine-project/Spine-Toolbox,https://github.com/Spine-project/Spine-Toolbox,Spine-Toolbox,Other,4.2,0.48252
+SunPower/PVMismatch,https://github.com/SunPower/PVMismatch,PVMismatch,Other,2.1,0.36206
+SunPower/pvfactors,https://github.com/SunPower/pvfactors,pvfactors,Other,2.8,0.31246
+TEB-model/teb,https://github.com/TEB-model/teb,teb,Other,2.2,0.23462
+TRI-AMDD/beep,https://github.com/TRI-AMDD/beep,beep,Batteries,4.4,0.41229
+TemoaProject/temoa,https://github.com/TemoaProject/temoa,Temoa,Optimization,2.9,0.41455
+Thales1330/PSP,https://github.com/Thales1330/PSP,PSP-UFU,Other,2.9,0.29507
+Total-RD/pymgrid,https://github.com/Total-RD/pymgrid,pymgrid,Other,2.9,0.31762
+UdK-VPT/BuildingSystems,https://github.com/UdK-VPT/BuildingSystems,BuildingSystems,Other,1.8,0.38062
+V2GClarity/RISE-V2G,https://github.com/V2GClarity/RISE-V2G,RISE-V2G,Other,4.1,
+VOLTTRON/volttron,https://github.com/VOLTTRON/volttron,VOLTTRON,Other,4.4,0.50339
+VUB-HYDR/REVUB,https://github.com/VUB-HYDR/REVUB,REVUB,Other,2.8,
+WEC-Sim/WEC-Sim,https://github.com/WEC-Sim/WEC-Sim,WEC-Sim,Other,5.1,0.48487
+WISDEM/AirfoilPreppy,https://github.com/WISDEM/AirfoilPreppy,AirfoilPreppy,Other,2.9,0.31609
+WISDEM/LandBOSSE,https://github.com/WISDEM/LandBOSSE,LandBOSSE,Other,3.8,0.37921
+WISDEM/ORBIT,https://github.com/WISDEM/ORBIT,ORBIT,Other,5.0,0.38519
+WISDEM/WEIS,https://github.com/WISDEM/WEIS,WEIS,Other,4.1,0.48193
+WMD-group/CarrierCapture.jl,https://github.com/WMD-group/CarrierCapture.jl,CarrierCapture.jl,Other,3.5,0.37845
+YingyiLiu/HAMS,https://github.com/YingyiLiu/HAMS,HAMS,Other,2.8,0.30651
+YoungFaithful/CapacityExpansion.jl,https://github.com/YoungFaithful/CapacityExpansion.jl,CapacityExpansion.jl,Other,3.1,0.32993
+adamgreenhall/minpower,https://github.com/adamgreenhall/minpower,minpower,Optimization,2.1,0.25029
+alliander-opensource/openstf,https://github.com/alliander-opensource/openstf,Openstf,Forecasting,4.4,0.46006
+aqreed/solarpy,https://github.com/aqreed/solarpy,solarpy,Other,2.7,0.21613
+architecture-building-systems/RC_BuildingSimulator,https://github.com/architecture-building-systems/RC_BuildingSimulator,RC_BuildingSimulator,Other,2.4,0.30922
+arnolddevos/CIMTool,https://github.com/arnolddevos/CIMTool,CIMTool,Modeling,1.5,0.19203
+audunarn/ANYstructure,https://github.com/audunarn/ANYstructure,ANYstructure,Other,1.4,0.33231
+awebox/awebox,https://github.com/awebox/awebox,awebox,Other,4.3,0.34936
+balmorelcommunity/Balmorel,https://github.com/balmorelcommunity/Balmorel,Balmorel,Modeling,4.7,0.32486
+battery-lcf/battery-archive-sandbox,https://github.com/battery-lcf/battery-archive-sandbox,Battery Lifecycle (BLC) Framework,Batteries,2.6,0.18989
+batterysim/equiv-circ-model,https://github.com/batterysim/equiv-circ-model,equiv-circ-model,Other,1.9,0.2303
+beanit/iec61850bean,https://github.com/beanit/iec61850bean,IEC61850bean,Other,2.7,0.30237
+bje-/NEMO,https://github.com/bje-/NEMO,NEMO,Optimization,3.1,0.2631
+blue-marble/gridpath,https://github.com/blue-marble/gridpath,GridPath,Other,5.1,0.38059
+brightwind-dev/brightwind,https://github.com/brightwind-dev/brightwind,brightwind,Other,4.0,0.36942
+buds-lab/building-data-genome-project-2,https://github.com/buds-lab/building-data-genome-project-2,The Building Data Genome 2 Data-Set,Other,3.6,0.24686
+calliope-project/calliope,https://github.com/calliope-project/calliope,Calliope,Modeling,4.8,0.42095
+calliope-project/euro-calliope,https://github.com/calliope-project/euro-calliope,Euro-Calliope,Other,4.5,0.34176
+catalyst-cooperative/pudl,https://github.com/catalyst-cooperative/pudl,The Public Utility Data Liberation Project,Other,6.3,0.4815
+chargeprice/open-ev-data,https://github.com/chargeprice/open-ev-data,open-ev-data,Other,3.2,0.28179
+cim-iec/CIMverter,https://github.com/cim-iec/CIMverter,CIMverter,Other,3.1,0.24362
+com-pas/compas-core,https://github.com/com-pas/compas-core,CoMPAS,Other,5.5,0.37052
+cuihantao/andes,https://github.com/cuihantao/andes,ANDES,Other,3.3,0.45664
+danielePala/CIMDraw,https://github.com/danielePala/CIMDraw,CIMdraw,Modeling,2.6,0.22204
+danieljfarrell/pvtrace,https://github.com/danieljfarrell/pvtrace,pvtrace,Other,3.2,0.29143
+danjulio/MPPT-Solar-Charger,https://github.com/danjulio/MPPT-Solar-Charger,MPPT-Solar-Charger,Other,1.2,0.25007
+davidhowey/SLIDE,https://github.com/davidhowey/SLIDE,SLIDE,Other,3.0,0.22845
+dazhiyang/SolarData,https://github.com/dazhiyang/SolarData,SolarData,Other,2.2,0.19786
+e2nIEE/pandapipes,https://github.com/e2nIEE/pandapipes,pandapipes,Other,5.5,0.44358
+e2nIEE/pandapower,https://github.com/e2nIEE/pandapower,pandapower,Other,6.4,0.55512
+e2nIEE/pandapower,https://github.com/e2nIEE/pandapower,pandapower,Other,6.4,0.55512
+e2nIEE/simbench,https://github.com/e2nIEE/simbench,SimBench,Other,3.5,0.29066
+ecmwf-projects/thermofeel,https://github.com/ecmwf-projects/thermofeel,Thermofeel,Other,2.9,0.30475
+emma-model/EMMA,https://github.com/emma-model/EMMA,The Electricity Market Model EMMA,Other,1.4,0.1966
+emoncms/emoncms,https://github.com/emoncms/emoncms,Emoncms,Other,4.8,0.53168
+energy-modelling-toolkit/Dispa-SET,https://github.com/energy-modelling-toolkit/Dispa-SET,Dispa-SET,Other,3.7,0.37889
+energyPATHWAYS/energyPATHWAYS,https://github.com/energyPATHWAYS/energyPATHWAYS,EnergyPATHWAYS,Modeling,2.8,0.31829
+energywebfoundation/origin,https://github.com/energywebfoundation/origin,origin,Other,4.5,0.42453
+flexiblepower/fpai-core,https://github.com/flexiblepower/fpai-core,EF-Pi,Platform,2.6,0.30546
+flexiblepower/powermatcher,https://github.com/flexiblepower/powermatcher,PowerMatcher,Other,2.7,0.37171
+foxBMS/foxbms-2,https://github.com/foxBMS/foxbms-2,foxBMS 2,Batteries,2.2,0.23852
+fraukewiese/renpass,https://github.com/fraukewiese/renpass,renpass,Simulation,2.7,0.16419
+frkunz/stELMOD,https://github.com/frkunz/stELMOD,stELMOD,Optimization,2.7,0.20922
+greco-project/pvcompare,https://github.com/greco-project/pvcompare,pvcompare,Other,4.6,0.33738
+gridsingularity/gsy-e,https://github.com/gridsingularity/gsy-e,Grid Singularity Energy Exchange Engine (D3A),Other,4.8,0.43945
+gsoh/VED,https://github.com/gsoh/VED,Vehicle Energy Dataset,Other,2.6,0.18853
+gurbyz/power-wheel-card,https://github.com/gurbyz/power-wheel-card,power-wheel-card,Other,2.5,0.2535
+holgerteichgraeber/TimeSeriesClustering.jl,https://github.com/holgerteichgraeber/TimeSeriesClustering.jl,TimeSeriesClustering,Other,3.9,0.33723
+hongyuanjia/eplusr,https://github.com/hongyuanjia/eplusr,eplusr,Other,3.1,0.27991
+hubblo-org/scaphandre,https://github.com/hubblo-org/scaphandre,Scaphandre,Monitoring,3.6,0.41154
+hydro-python/hydropowerlib,https://github.com/hydro-python/hydropowerlib,hydropowerlib,Other,3.0,0.23642
+hyphae/APIS,https://github.com/hyphae/APIS,Hyphae,Other,6.0,0.32491
+iat-cener/tonatiuh,https://github.com/iat-cener/tonatiuh,Tonatiuh,Other,2.5,0.30869
+ie3-institute/PowerSystemDataModel,https://github.com/ie3-institute/PowerSystemDataModel,PowerSystemDataModel,Other,5.8,0.41875
+iiasa/message_ix,https://github.com/iiasa/message_ix,MESSAGEix,Other,6.0,0.43411
+intelligent-environments-lab/CityLearn,https://github.com/intelligent-environments-lab/CityLearn,CityLearn,Other,4.3,0.39657
+jepegit/cellpy,https://github.com/jepegit/cellpy,cellpy,Batteries,2.6,0.43164
+kdmayer/3D-PV-Locator,https://github.com/kdmayer/3D-PV-Locator,3D-PV-Locator,Other,1.8,0.23438
+kdmayer/PV4GER,https://github.com/kdmayer/PV4GER,PV4GER,Other,1.8,0.23438
+ladybug-tools/honeybee,https://github.com/ladybug-tools/honeybee,honeybee,Other,2.2,0.42453
+lanl-ansi/GasModels.jl,https://github.com/lanl-ansi/GasModels.jl,GasModels.jl,Other,4.7,0.41548
+lanl-ansi/PowerModels.jl,https://github.com/lanl-ansi/PowerModels.jl,PowerModels.jl,Optimization,5.0,0.44659
+lanl-ansi/PowerModelsAnnex.jl,https://github.com/lanl-ansi/PowerModelsAnnex.jl,PowerModelsAnnex.jl,Other,3.2,0.41559
+lanl/FEHM,https://github.com/lanl/FEHM,FEHM,Other,2.1,
+lbl-srg/MPCPy,https://github.com/lbl-srg/MPCPy,MPCPy,Other,3.0,0.34541
+lbl-srg/modelica-buildings,https://github.com/lbl-srg/modelica-buildings,Modelica Buildings library,Other,4.2,0.53435
+leonardgoeke/AnyMOD.jl,https://github.com/leonardgoeke/AnyMOD.jl,AnyMOD.jl,Other,3.1,0.31229
+lionsimbatoolbox/LIONSIMBA,https://github.com/lionsimbatoolbox/LIONSIMBA,LIONSIMBA,Other,2.6,0.21618
+lkev/wtphm,https://github.com/lkev/wtphm,wtphm,Other,1.5,0.2069
+lkev/wtphm,https://github.com/lkev/wtphm,wtphm,Other,1.5,0.2069
+mancellin/capytaine,https://github.com/mancellin/capytaine,Capytaine,Other,4.4,0.43525
+mdh266/NYCBuildingEnergyUse,https://github.com/mdh266/NYCBuildingEnergyUse,NYCBuildingEnergyUse,Other,1.8,0.24811
+mobilityhouse/ocpp,https://github.com/mobilityhouse/ocpp,ocpp,Other,6.6,
+nealde/Ampere,https://github.com/nealde/Ampere,Ampere,Other,1.8,0.2034
+niclasmattsson/GlobalEnergyGIS,https://github.com/niclasmattsson/GlobalEnergyGIS,GlobalEnergyGIS,Other,2.6,0.22499
+nilmtk/nilmtk,https://github.com/nilmtk/nilmtk,NILMTK,Monitoring,3.8,0.47164
+nmstreethran/WindTurbineClassification,https://github.com/nmstreethran/WindTurbineClassification,WindTurbineClassification,Other,3.0,0.22141
+oemof/DHNx,https://github.com/oemof/DHNx,DHNx,Other,3.8,0.33561
+oemof/demandlib,https://github.com/oemof/demandlib,demandlib,Other,4.0,0.42382
+oemof/feedinlib,https://github.com/oemof/feedinlib,feedinlib,Other,3.0,0.36899
+oemof/oemof,https://github.com/oemof/oemof,Open Energy Modelling Framework (oemof),Modeling,3.0,0.43406
+oemof/tespy,https://github.com/oemof/tespy,tespy,Other,5.1,0.46974
+open-ideas/IDEAS,https://github.com/open-ideas/IDEAS,IDEAS,Other,4.8,0.47953
+openENTRANCE/nomenclature,https://github.com/openENTRANCE/nomenclature,openENTRANCE,Other,4.2,0.3531
+openclimatefix/predict_pv_yield,https://github.com/openclimatefix/predict_pv_yield,predict_pv_yield,Other,2.5,0.26657
+openeemeter/eemeter,https://github.com/openeemeter/eemeter,OpenEEmeter,Other,4.8,0.42056
+openego/eDisGo/,https://github.com/openego/eDisGo/,eDisGo,Other,4.8,0.42812
+openenergymonitor/EmonLib,https://github.com/openenergymonitor/EmonLib,EmonLib,Other,3.2,0.338
+openenergymonitor/STM32,https://github.com/openenergymonitor/STM32,STM32 Energy Monitoring,Other,2.7,0.27893
+opennem/opennem-fe,https://github.com/opennem/opennem-fe,OpenNEM,Other,4.1,0.36797
+opfab/operatorfabric-core,https://github.com/opfab/operatorfabric-core,OperatorFabric,Platform,8.4,0.46178
+opfab/operatorfabric-core,https://github.com/opfab/operatorfabric-core,OperatorFabric,Platform,8.4,0.46178
+oscarperpinan/solar,https://github.com/oscarperpinan/solar,solaR,Other,2.6,0.28144
+ozsolarwind/siren,https://github.com/ozsolarwind/siren,SIREN,Other,3.5,0.25462
+pingswept/pysolar,https://github.com/pingswept/pysolar,Pysolar,Other,3.0,0.39964
+powertac/powertac-server,https://github.com/powertac/powertac-server,PowerTAC,Other,4.2,0.42003
+powsybl/powsybl-open-loadflow,https://github.com/powsybl/powsybl-open-loadflow,PowSyBl Open Load Flow,Other,6.2,0.38763
+pvedu/photovoltaic,https://github.com/pvedu/photovoltaic,photovoltaic,Other,2.7,0.2482
+pvlib/pvanalytics,https://github.com/pvlib/pvanalytics,pvanalytics,Other,3.7,0.35954
+pvlib/pvlib-python,https://github.com/pvlib/pvlib-python,pvlib-python,Other,5.4,0.5197
+pvlib/pvlib-python,https://github.com/pvlib/pvlib-python,pvlib-python,Other,5.4,0.5197
+pybamm-team/PyBaMM,https://github.com/pybamm-team/PyBaMM,PyBaMM,Batteries,7.8,0.55107
+pybamm-team/liionpack,https://github.com/pybamm-team/liionpack,liionpack,Batteries,4.9,0.42212
+pypsa-meets-africa/pypsa-africa,https://github.com/pypsa-meets-africa/pypsa-africa,PyPSA meets Africa,Other,6.1,0.47024
+python-windrose/windrose,https://github.com/python-windrose/windrose,windrose,Other,5.8,0.39824
+qpv-research-group/rayflare,https://github.com/qpv-research-group/rayflare,rayflare,Other,3.6,0.30719
+qpv-research-group/solcore5,https://github.com/qpv-research-group/solcore5,solcore5,Other,3.0,0.37107
+qpv-research-group/solcore5,https://github.com/qpv-research-group/solcore5,solcore5,Other,3.0,0.37107
+quintel/etengine,https://github.com/quintel/etengine,Energy Transition Engine,Other,5.6,0.44472
+quintel/etmodel,https://github.com/quintel/etmodel,Energy Transition Model (ETM),Modeling,5.1,0.49985
+reegis/deflex,https://github.com/reegis/deflex,deflex,Other,2.6,0.31749
+renewables-ninja/gsee,https://github.com/renewables-ninja/gsee,GSEE,Simulation,3.5,0.27198
+richard-weinhold/pomato,https://github.com/richard-weinhold/pomato,POMATO,Other,3.3,0.33951
+rl-institut/multi-vector-simulator,https://github.com/rl-institut/multi-vector-simulator,MVS,Other,4.1,0.38426
+rlogiacco/BatterySense,https://github.com/rlogiacco/BatterySense,BatterySense,Batteries,3.3,0.32825
+robinhenry/gym-anm,https://github.com/robinhenry/gym-anm,Gym-ANM,Other,3.7,0.34839
+ropensci/eia,https://github.com/ropensci/eia,EIA,Other,3.8,0.36549
+rte-antares-rpackage/antaresRead,https://github.com/rte-antares-rpackage/antaresRead,antaresRead,Other,4.8,0.39643
+rte-antares-rpackage/antaresViz,https://github.com/rte-antares-rpackage/antaresViz,antaresViz,Other,4.7,0.40188
+rte-france/Grid2Op,https://github.com/rte-france/Grid2Op,Grid2Op,Other,5.4,0.41256
+rwl/PYPOWER,https://github.com/rwl/PYPOWER,PYPOWER,Simulation,5.0,0.35183
+rwl/PYPOWER,https://github.com/rwl/PYPOWER,PYPOWER,Simulation,5.0,0.35183
+sandialabs/hyram,https://github.com/sandialabs/hyram,The Hydrogen Risk Assessment Models,Other,2.4,0.30021
+signals-dev/GreenGuard,https://github.com/signals-dev/GreenGuard,GreenGuard,Other,3.7,0.28045
+slacgismo/StatisticalClearSky,https://github.com/slacgismo/StatisticalClearSky,StatisticalClearSky,Other,3.7,0.30884
+slacgismo/TESS,https://github.com/slacgismo/TESS,Transactive Energy Service System,Other,2.3,0.26496
+slacgismo/gridlabd,https://github.com/slacgismo/gridlabd,GridLAB-D,Other,5.0,0.34457
+slacgismo/pv-system-profiler,https://github.com/slacgismo/pv-system-profiler,pv-system-profiler,Other,1.8,0.29692
+slacgismo/pv-system-profiler,https://github.com/slacgismo/pv-system-profiler,pv-system-profiler,Other,1.8,0.29692
+slacgismo/solar-data-tools,https://github.com/slacgismo/solar-data-tools,solar-data-tools,Other,5.3,0.37164
+sogno-platform/covee,https://github.com/sogno-platform/covee,CoVee,Control,2.9,0.21299
+sogno-platform/dpsim,https://github.com/sogno-platform/dpsim,DPsim,Simulation,6.9,0.42859
+sogno-platform/dpsim,https://github.com/sogno-platform/dpsim,DPsim,Simulation,6.9,0.42859
+sogno-platform/libcimpp,https://github.com/sogno-platform/libcimpp,libcimpp,Other,5.2,0.34346
+sogno-platform/pintura,https://github.com/sogno-platform/pintura,Pintura,Other,4.2,0.28246
+sogno-platform/proloaf,https://github.com/sogno-platform/proloaf,ProLoaF,Forecasting,2.9,0.34351
+squishykid/solax,https://github.com/squishykid/solax,solax,Other,4.7,0.40656
+switch-model/switch,https://github.com/switch-model/switch,Switch,Optimization,2.8,0.39735
+systemcatch/eiapy,https://github.com/systemcatch/eiapy,eiapy,Other,2.5,0.2367
+tdcosim/SolarPV-DER-simulation-tool,https://github.com/tdcosim/SolarPV-DER-simulation-tool,SolarPV-DER-simulation-tool,Other,2.2,0.25141
+tdcosim/SolarPV-DER-simulation-utility,https://github.com/tdcosim/SolarPV-DER-simulation-utility,SolarPV-DER-simulation-utility,Other,2.2,0.25141
+thomastu/pyEIA,https://github.com/thomastu/pyEIA,pyEIA,Other,3.4,0.23262
+tmrowco/electricitymap-contrib,https://github.com/tmrowco/electricitymap-contrib,electricitymap-contrib,Other,6.1,0.50115
+transportenergy/database,https://github.com/transportenergy/database,Tools for the iTEM databases,Other,5.5,0.36688
+tum-ens/dhmin,https://github.com/tum-ens/dhmin,dhmin,Optimization,2.6,0.20122
+tum-ens/pyGRETA,https://github.com/tum-ens/pyGRETA,pyGRETA,Other,2.6,0.28668
+tum-ens/rivus,https://github.com/tum-ens/rivus,rivus,Optimization,3.8,0.23798
+tum-ens/urbs,https://github.com/tum-ens/urbs,urbs,Optimization,3.7,0.39944
+tum-ewk/ficus,https://github.com/tum-ewk/ficus,ficus,Optimization,2.6,0.17691
+turbinesFoam/turbinesFoam,https://github.com/turbinesFoam/turbinesFoam,turbinesFoam,Other,3.4,0.36132
+upb-lea/gym-electric-motor,https://github.com/upb-lea/gym-electric-motor,Gym Electric Motor,Other,3.7,0.37379
+upb-lea/openmodelica-microgrid-gym,https://github.com/upb-lea/openmodelica-microgrid-gym,openmodelica-microgrid-gym,Other,2.8,0.31017
+upb-lea/openmodelica-microgrid-gym,https://github.com/upb-lea/openmodelica-microgrid-gym,openmodelica-microgrid-gym,Other,2.8,0.31017
+volkszaehler/mbmd,https://github.com/volkszaehler/mbmd,ModBus Measurement Daemon,Other,4.0,0.32738
+waiwera/waiwera,https://github.com/waiwera/waiwera,waiwera,Other,4.8,0.33234
+waiwera/waiwera,https://github.com/waiwera/waiwera,waiwera,Other,4.8,0.33234
+,https://github.com/Breakthrough-Energy/plug,,Unknown,,0.25668
+,https://github.com/ColasGael/Machine-Learning-for-Solar-Energy-Prediction,,Unknown,,0.2019
+,https://github.com/FRESNA/powerplantmatching,,Unknown,,0.37332
+,https://github.com/FZJ-IEK3-VSA/RESKit,,Unknown,,0.34079
+,https://github.com/GridProtectionAlliance/openMIC,,Unknown,,0.35945
+,https://github.com/MATPOWER/most,,Unknown,,0.30611
+,https://github.com/MarvinLer/pypownet,,Unknown,,0.29403
+,https://github.com/NREL/floris,,Unknown,,0.47207
+,https://github.com/NewMotion/docile-charge-point,,Unknown,,0.23346
+,https://github.com/OSGP/open-smart-grid-platform,,Unknown,,0.50602
+,https://github.com/OpenFAST/openfast,,Unknown,,0.52425
+,https://github.com/RE-Lab-Projects/hplib,,Unknown,,0.25728
+,https://github.com/SAP/emobility-smart-charging,,Unknown,,0.36002
+,https://github.com/UNSW-CEEM/nempy,,Unknown,,0.2852
+,https://github.com/architecture-building-systems/CityEnergyAnalyst,,Unknown,,0.54567
+,https://github.com/buds-lab/the-building-data-genome-project,,Unknown,,0.29665
+,https://github.com/charxie/multiphysics,,Unknown,,0.24389
+,https://github.com/dpinney/omf,,Unknown,,0.35876
+,https://github.com/energyRt/energyRt/,,Unknown,,0.27845
+,https://github.com/google/makani,,Unknown,,0.21056
+,https://github.com/grid-parity-exchange/Egret,,Unknown,,0.36895
+,https://github.com/ibpsa/modelica-ibpsa,,Unknown,,0.47442
+,https://github.com/ibpsa/project1,,Unknown,,0.44503
+,https://github.com/jbrowell/ProbCast,,Unknown,,0.31346
+,https://github.com/kamal0013/PowNet,,Unknown,,0.34965
+,https://github.com/m4rz910/NYISOToolkit,,Unknown,,0.23474
+,https://github.com/meltaxa/solariot,,Unknown,,0.34894
+,https://github.com/mz-automation/lib60870,,Unknown,,0.378
+,https://github.com/mz-automation/lib60870.NET,,Unknown,,0.29723
+,https://github.com/mz-automation/libiec61850,,Unknown,,0.46621
+,https://github.com/openCEMorg/openCEM,,Unknown,,0.31125
+,https://github.com/openclimatefix/nowcasting,,Unknown,,0.32216
+,https://github.com/openclimatefix/pvoutput,,Unknown,,0.36552
+,https://github.com/openenergymonitor/emonpi,,Unknown,,0.42617
+,https://github.com/powsybl/powsybl-core,,Unknown,,0.46426
+,https://github.com/pvcaptest/pvcaptest,,Unknown,,0.29246
+,https://github.com/pyaf/load_forecasting,,Unknown,,0.24421
+,https://github.com/rl-institut/offgridders,,Unknown,,0.28768
+,https://github.com/snl-quest/snl-quest,,Unknown,,0.3022
+,https://github.com/voltbras/go-ocpp,,Unknown,,0.23837
+,https://github.com/wattdepot/wattdepot,,Unknown,,0.24218

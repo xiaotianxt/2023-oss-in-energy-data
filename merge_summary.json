@@ -1,0 +1,18 @@
+{
+  "total_repositories": 367,
+  "repositories_with_scorecard": 325,
+  "repositories_with_criticality": 359,
+  "repositories_with_both": 317,
+  "scorecard_only": 8,
+  "criticality_only": 42,
+  "scorecard_mean": 3.816615384615385,
+  "scorecard_median": 3.7,
+  "scorecard_std": 1.3669040861109387,
+  "scorecard_min": 0.7,
+  "scorecard_max": 8.4,
+  "criticality_mean": 0.35039440111420617,
+  "criticality_median": 0.34541,
+  "criticality_std": 0.09071982803056079,
+  "criticality_min": 0.16419,
+  "criticality_max": 0.59711
+}

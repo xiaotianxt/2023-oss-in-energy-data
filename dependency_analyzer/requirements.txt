@@ -1,0 +1,12 @@
+PyGithub
+requests
+pyyaml
+pandas
+sqlalchemy
+packaging
+pipdeptree
+requirements-parser
+click
+tqdm
+python-dotenv
+tom

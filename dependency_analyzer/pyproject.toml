@@ -1,0 +1,36 @@
+[project]
+name = "energy-dependency-analyzer"
+version = "1.0.0"
+description = "Dependency analysis tool for energy sector open source projects"
+authors = [
+    {name = "Energy Research Team"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "PyGithub",
+    "requests",
+    "pyyaml", 
+    "pandas",
+    "sqlalchemy",
+    "packaging",
+    "click",
+    "tqdm",
+    "python-dotenv",
+    "toml",
+]
+
+[project.scripts]
+energy-deps = "cli:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
+
+
+
+
+

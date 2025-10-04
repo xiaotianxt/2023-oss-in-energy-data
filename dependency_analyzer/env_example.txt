@@ -1,0 +1,5 @@
+# GitHub API Token (required)
+# Get your token from: https://github.com/settings/tokens
+# Requires 'public_repo' scope for accessing public repositories
+GITHUB_TOKEN=your_github_token_here
+
