@@ -1,0 +1,207 @@
+# VulnRecon Configuration File
+
+# General Settings
+general:
+  output_directory: "results"
+  log_level: "INFO"
+  max_concurrent_scans: 5
+  timeout_seconds: 300
+
+# Database Settings
+database:
+  path: "../dependency_analyzer/data/dependencies.db"
+  cache_enabled: true
+  cache_ttl_hours: 24
+
+# Detector Configuration
+detectors:
+  enabled:
+    - pyyaml
+    - django
+    - pillow
+    - requests
+    - urllib3
+    - cryptography
+    - flask
+    - jinja2
+    - lxml
+    - numpy
+
+  pyyaml:
+    enabled: true
+    severity: "CRITICAL"
+    patterns:
+      - "yaml.load("
+      - "yaml.load_all("
+      - "Loader=.*Loader"
+    safe_patterns:
+      - "yaml.safe_load("
+      - "yaml.safe_load_all("
+    check_version: true
+    vulnerable_versions: "<5.4"
+
+  django:
+    enabled: true
+    severity: "HIGH"
+    checks:
+      - debug_enabled
+      - secret_key_hardcoded
+      - sql_injection
+      - xss_vulnerabilities
+      - insecure_middleware
+    settings_files:
+      - "settings.py"
+      - "settings/*.py"
+      - "config/settings.py"
+
+  pillow:
+    enabled: true
+    severity: "HIGH"
+    check_version: true
+    vulnerable_versions: "<10.0.0"
+    patterns:
+      - "Image.open("
+      - "ImageFile.LOAD_TRUNCATED_IMAGES"
+
+  requests:
+    enabled: true
+    severity: "MEDIUM"
+    patterns:
+      - "verify=False"
+      - "verify = False"
+      - "requests.get.*allow_redirects=True"
+      - "timeout=None"
+
+# Static Analysis Settings
+static_analysis:
+  enabled: true
+  max_file_size_mb: 10
+  file_extensions:
+    - ".py"
+    - ".js"
+    - ".java"
+    - ".go"
+    - ".rb"
+    - ".php"
+  exclude_patterns:
+    - "*/test/*"
+    - "*/tests/*"
+    - "*/vendor/*"
+    - "*/node_modules/*"
+    - "*/.venv/*"
+    - "*/venv/*"
+  dangerous_functions:
+    python:
+      - "eval("
+      - "exec("
+      - "compile("
+      - "__import__("
+      - "pickle.loads("
+      - "yaml.load("
+      - "os.system("
+      - "subprocess.call"
+    javascript:
+      - "eval("
+      - "Function("
+      - "setTimeout"
+      - "setInterval"
+
+# Risk Scoring
+risk_scoring:
+  weights:
+    cve_count: 0.3
+    severity: 0.4
+    exploitability: 0.2
+    code_patterns: 0.1
+
+  severity_scores:
+    CRITICAL: 10.0
+    HIGH: 7.5
+    MEDIUM: 5.0
+    LOW: 2.5
+    INFO: 0.0
+
+  exploitability_factors:
+    remote_code_execution: 10.0
+    sql_injection: 8.0
+    authentication_bypass: 7.5
+    privilege_escalation: 7.0
+    information_disclosure: 5.0
+    denial_of_service: 3.0
+
+# Reporting
+reporting:
+  formats:
+    - json
+    - html
+    - markdown
+
+  json:
+    enabled: true
+    pretty_print: true
+    include_raw_data: true
+
+  html:
+    enabled: true
+    template: "default"
+    include_charts: true
+    include_code_snippets: true
+
+  markdown:
+    enabled: true
+    include_summary: true
+    include_remediation: true
+
+  include_sections:
+    - executive_summary
+    - vulnerability_details
+    - risk_assessment
+    - affected_files
+    - remediation_steps
+    - references
+
+# Reconnaissance Settings
+reconnaissance:
+  safe_mode: true  # Only perform static analysis, no active testing
+  check_versions: true
+  analyze_dependencies: true
+  scan_configuration_files: true
+  check_secrets: true
+  patterns:
+    secrets:
+      - "api_key"
+      - "apikey"
+      - "api-key"
+      - "password"
+      - "secret"
+      - "token"
+      - "aws_access_key_id"
+      - "aws_secret_access_key"
+      - "private_key"
+
+# Rate Limiting (for GitHub API, etc.)
+rate_limiting:
+  enabled: true
+  requests_per_minute: 30
+  retry_attempts: 3
+  backoff_factor: 2
+
+# Notifications
+notifications:
+  enabled: false
+  slack:
+    enabled: false
+    webhook_url: ""
+  email:
+    enabled: false
+    smtp_server: ""
+    smtp_port: 587
+    from_address: ""
+    to_addresses: []
+
+# Legal & Compliance
+compliance:
+  require_authorization: true
+  log_all_scans: true
+  scan_log_path: "logs/scan_history.log"
+  disclaimer_required: true
