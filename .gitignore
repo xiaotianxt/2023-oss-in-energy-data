@@ -65,9 +65,21 @@ results/archived_scans/*.csv
 results/archived_scans/*.txt
 !results/archived_scans/.gitkeep
 
-# SBOM scan results
-dependency_analyzer/sbom_scan_results/
-dependency_analyzer/full_analysis_results/
+# SBOM scan results (keep directory structure)
+dependency_analyzer/sbom_scan_results/*.json
+dependency_analyzer/full_analysis_results/*.json
+dependency_analyzer/full_analysis_results/*.csv
+dependency_analyzer/multi_tier_scan_results/*.json
+
+# Keep important result files (remove from gitignore)
+!dependency_analyzer/full_analysis_results/EXECUTIVE_SUMMARY.json
+!dependency_analyzer/full_analysis_results/cve_summary.csv
+
+# Large database file (don't commit - too big)
+dependency_analyzer/data/dependencies.db
+
+# Keep schema/migration files
+!dependency_analyzer/data/*.sql
 
 # Test files
 test_*.py
