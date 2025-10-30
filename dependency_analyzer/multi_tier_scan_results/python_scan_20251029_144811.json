@@ -1,0 +1,39 @@
+{
+  "scan_timestamp": "2025-10-29T14:48:11.256804",
+  "scan_mode": "python_only",
+  "total_projects": 3,
+  "projects_scanned": 1,
+  "projects_with_vulnerabilities": 0,
+  "total_cves_found": 0,
+  "tier_statistics": {
+    "tier1_github_api": 0,
+    "tier2_sbom_files": 0,
+    "tier3_recursive": 0,
+    "tier4_database": 0,
+    "failed": 1
+  },
+  "project_results": [
+    {
+      "project_name": "ProbCast",
+      "scan_status": "skipped",
+      "reason": "python_only mode enabled, project language is r"
+    },
+    {
+      "project_name": "openleadr-python",
+      "project_url": "https://github.com/OpenLEADR/openleadr-python",
+      "language": "python",
+      "scan_timestamp": "2025-10-29T14:47:45.195804",
+      "tier_used": null,
+      "dependencies": [],
+      "cves": [],
+      "cve_count": 0,
+      "scan_status": "failed",
+      "reason": "No dependencies found via any tier"
+    },
+    {
+      "project_name": "openstef",
+      "scan_status": "skipped",
+      "reason": "python_only mode enabled, project language is html"
+    }
+  ]
+}

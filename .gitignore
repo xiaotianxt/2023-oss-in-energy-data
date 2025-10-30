@@ -1,1 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
 tokens.env
+
+# Database
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+full_analysis.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Results (keep structure, ignore large files)
+results/archived_scans/*.json
+results/archived_scans/*.csv
+results/archived_scans/*.txt
+!results/archived_scans/.gitkeep
+
+# SBOM scan results
+dependency_analyzer/sbom_scan_results/
+dependency_analyzer/full_analysis_results/
+
+# Test files
+test_*.py
+*_test.py
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Claude Code
+.claude/
+
+# Package manager
+node_modules/
+package-lock.json
+yarn.lock

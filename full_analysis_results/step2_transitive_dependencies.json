@@ -1,0 +1,3933 @@
+{
+  "total_projects": 357,
+  "duration_seconds": 19575.450436115265,
+  "projects": [
+    {
+      "project_id": 1,
+      "project_name": "ProbCast",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 0,
+        "api_calls_cached": 0,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 2,
+      "project_name": "openleadr-python",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 0,
+        "api_calls_cached": 0,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 3,
+      "project_name": "openstef",
+      "direct_dependencies": 20,
+      "total_transitive": 51467035,
+      "cache_stats": {
+        "resolved_packages_cached": 453,
+        "api_calls_cached": 457,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 4,
+      "project_name": "covee",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 453,
+        "api_calls_cached": 457,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 5,
+      "project_name": "proloaf",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 453,
+        "api_calls_cached": 457,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 6,
+      "project_name": "OSeMOSYS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 453,
+        "api_calls_cached": 457,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 7,
+      "project_name": "calliope",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 453,
+        "api_calls_cached": 457,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 8,
+      "project_name": "oemof",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 453,
+        "api_calls_cached": 457,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 9,
+      "project_name": "FINE",
+      "direct_dependencies": 25,
+      "total_transitive": 541794,
+      "cache_stats": {
+        "resolved_packages_cached": 538,
+        "api_calls_cached": 542,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 10,
+      "project_name": "CIMDraw",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 538,
+        "api_calls_cached": 542,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 11,
+      "project_name": "Balmorel",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 538,
+        "api_calls_cached": 542,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 12,
+      "project_name": "CIMTool",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 538,
+        "api_calls_cached": 542,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 13,
+      "project_name": "emlab-generation",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 538,
+        "api_calls_cached": 542,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 14,
+      "project_name": "gcam-core",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 538,
+        "api_calls_cached": 542,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 15,
+      "project_name": "PowerSimulations.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 538,
+        "api_calls_cached": 542,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 16,
+      "project_name": "plug",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 538,
+        "api_calls_cached": 542,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 17,
+      "project_name": "etmodel",
+      "direct_dependencies": 43,
+      "total_transitive": 868,
+      "cache_stats": {
+        "resolved_packages_cached": 864,
+        "api_calls_cached": 868,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 18,
+      "project_name": "EnergyPATHWAYS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 864,
+        "api_calls_cached": 868,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 19,
+      "project_name": "nilmtk",
+      "direct_dependencies": 22,
+      "total_transitive": 143296,
+      "cache_stats": {
+        "resolved_packages_cached": 910,
+        "api_calls_cached": 915,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 20,
+      "project_name": "wattdepot",
+      "direct_dependencies": 39,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 949,
+        "api_calls_cached": 954,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 21,
+      "project_name": "scaphandre",
+      "direct_dependencies": 21,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 970,
+        "api_calls_cached": 975,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 22,
+      "project_name": "ficus",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 970,
+        "api_calls_cached": 975,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 23,
+      "project_name": "temoa",
+      "direct_dependencies": 191,
+      "total_transitive": 8828145,
+      "cache_stats": {
+        "resolved_packages_cached": 1207,
+        "api_calls_cached": 1216,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 24,
+      "project_name": "urbs",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1207,
+        "api_calls_cached": 1216,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 25,
+      "project_name": "OnSSET-2016",
+      "direct_dependencies": 9,
+      "total_transitive": 3504,
+      "cache_stats": {
+        "resolved_packages_cached": 1208,
+        "api_calls_cached": 1217,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 26,
+      "project_name": "dhmin",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1208,
+        "api_calls_cached": 1217,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 27,
+      "project_name": "minpower",
+      "direct_dependencies": 4,
+      "total_transitive": 18399,
+      "cache_stats": {
+        "resolved_packages_cached": 1209,
+        "api_calls_cached": 1218,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 28,
+      "project_name": "NEMO",
+      "direct_dependencies": 15,
+      "total_transitive": 111391,
+      "cache_stats": {
+        "resolved_packages_cached": 1219,
+        "api_calls_cached": 1229,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 29,
+      "project_name": "most",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1219,
+        "api_calls_cached": 1229,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 30,
+      "project_name": "rivus",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1219,
+        "api_calls_cached": 1229,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 31,
+      "project_name": "switch",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1219,
+        "api_calls_cached": 1229,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 32,
+      "project_name": "stELMOD",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1219,
+        "api_calls_cached": 1229,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 33,
+      "project_name": "PowerModels.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1219,
+        "api_calls_cached": 1229,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 34,
+      "project_name": "REopt_API",
+      "direct_dependencies": 117,
+      "total_transitive": 294720,
+      "cache_stats": {
+        "resolved_packages_cached": 1312,
+        "api_calls_cached": 1323,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 35,
+      "project_name": "open-smart-grid-platform",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1312,
+        "api_calls_cached": 1323,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 36,
+      "project_name": "operatorfabric-core",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1312,
+        "api_calls_cached": 1323,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 37,
+      "project_name": "riaps-core",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1312,
+        "api_calls_cached": 1323,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 38,
+      "project_name": "fpai-core",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1312,
+        "api_calls_cached": 1323,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 39,
+      "project_name": "matpower",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1312,
+        "api_calls_cached": 1323,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 40,
+      "project_name": "PYPOWER",
+      "direct_dependencies": 16,
+      "total_transitive": 7452,
+      "cache_stats": {
+        "resolved_packages_cached": 1313,
+        "api_calls_cached": 1324,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 41,
+      "project_name": "PyPSA",
+      "direct_dependencies": 45,
+      "total_transitive": 309281,
+      "cache_stats": {
+        "resolved_packages_cached": 1344,
+        "api_calls_cached": 1356,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 42,
+      "project_name": "pypsa-eur",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1344,
+        "api_calls_cached": 1356,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 43,
+      "project_name": "renpass",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1344,
+        "api_calls_cached": 1356,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 44,
+      "project_name": "dpsim",
+      "direct_dependencies": 8,
+      "total_transitive": 7735,
+      "cache_stats": {
+        "resolved_packages_cached": 1362,
+        "api_calls_cached": 1374,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 45,
+      "project_name": "HELICS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1362,
+        "api_calls_cached": 1374,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 46,
+      "project_name": "PowerSimData",
+      "direct_dependencies": 15,
+      "total_transitive": 642924,
+      "cache_stats": {
+        "resolved_packages_cached": 1396,
+        "api_calls_cached": 1408,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 47,
+      "project_name": "gsee",
+      "direct_dependencies": 4,
+      "total_transitive": 136477,
+      "cache_stats": {
+        "resolved_packages_cached": 1396,
+        "api_calls_cached": 1408,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 48,
+      "project_name": "PowerSimulationsDynamics.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1396,
+        "api_calls_cached": 1408,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 49,
+      "project_name": "REISE.jl",
+      "direct_dependencies": 10,
+      "total_transitive": 33319,
+      "cache_stats": {
+        "resolved_packages_cached": 1398,
+        "api_calls_cached": 1410,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 50,
+      "project_name": "TEASER",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1398,
+        "api_calls_cached": 1410,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 51,
+      "project_name": "PyBaMM",
+      "direct_dependencies": 49,
+      "total_transitive": 954464,
+      "cache_stats": {
+        "resolved_packages_cached": 1503,
+        "api_calls_cached": 1515,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 52,
+      "project_name": "ENNOID-BMS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1503,
+        "api_calls_cached": 1515,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 53,
+      "project_name": "cellpy",
+      "direct_dependencies": 35,
+      "total_transitive": 249011,
+      "cache_stats": {
+        "resolved_packages_cached": 1512,
+        "api_calls_cached": 1524,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 54,
+      "project_name": "foxbms-2",
+      "direct_dependencies": 110,
+      "total_transitive": 35638,
+      "cache_stats": {
+        "resolved_packages_cached": 1548,
+        "api_calls_cached": 1560,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 55,
+      "project_name": "BatterySense",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1548,
+        "api_calls_cached": 1560,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 56,
+      "project_name": "BattMo",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1548,
+        "api_calls_cached": 1560,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 57,
+      "project_name": "liionpack",
+      "direct_dependencies": 18,
+      "total_transitive": 1022230,
+      "cache_stats": {
+        "resolved_packages_cached": 1565,
+        "api_calls_cached": 1577,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 58,
+      "project_name": "battery-archive-sandbox",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1565,
+        "api_calls_cached": 1577,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 59,
+      "project_name": "beep",
+      "direct_dependencies": 22,
+      "total_transitive": 18366,
+      "cache_stats": {
+        "resolved_packages_cached": 1569,
+        "api_calls_cached": 1581,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 60,
+      "project_name": "Dispa-SET",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1569,
+        "api_calls_cached": 1581,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 61,
+      "project_name": "energyRt",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1569,
+        "api_calls_cached": 1581,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 62,
+      "project_name": "pandapower",
+      "direct_dependencies": 42,
+      "total_transitive": 264899,
+      "cache_stats": {
+        "resolved_packages_cached": 1609,
+        "api_calls_cached": 1621,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 63,
+      "project_name": "pyCity",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1609,
+        "api_calls_cached": 1621,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 64,
+      "project_name": "node",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1609,
+        "api_calls_cached": 1621,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 65,
+      "project_name": "libcimpp",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1609,
+        "api_calls_cached": 1621,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 66,
+      "project_name": "pintura",
+      "direct_dependencies": 16,
+      "total_transitive": 113,
+      "cache_stats": {
+        "resolved_packages_cached": 1622,
+        "api_calls_cached": 1634,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 67,
+      "project_name": "openems",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1622,
+        "api_calls_cached": 1634,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 68,
+      "project_name": "volkszaehler.org",
+      "direct_dependencies": 15,
+      "total_transitive": 927,
+      "cache_stats": {
+        "resolved_packages_cached": 1770,
+        "api_calls_cached": 1782,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 69,
+      "project_name": "cimverter",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1770,
+        "api_calls_cached": 1782,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 70,
+      "project_name": "iec61850bean",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1770,
+        "api_calls_cached": 1782,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 71,
+      "project_name": "libiec61850",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1770,
+        "api_calls_cached": 1782,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 72,
+      "project_name": "lib60870",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1770,
+        "api_calls_cached": 1782,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 73,
+      "project_name": "lib60870.NET",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1770,
+        "api_calls_cached": 1782,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 74,
+      "project_name": "siren",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1770,
+        "api_calls_cached": 1782,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 75,
+      "project_name": "powsybl-core",
+      "direct_dependencies": 148,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1914,
+        "api_calls_cached": 1926,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 76,
+      "project_name": "opendsm",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1914,
+        "api_calls_cached": 1926,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 77,
+      "project_name": "gsf",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1914,
+        "api_calls_cached": 1926,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 78,
+      "project_name": "openPDC",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1914,
+        "api_calls_cached": 1926,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 79,
+      "project_name": "openHistorian",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1914,
+        "api_calls_cached": 1926,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 80,
+      "project_name": "openXDA",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1914,
+        "api_calls_cached": 1926,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 81,
+      "project_name": "openMIC",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 1914,
+        "api_calls_cached": 1926,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 82,
+      "project_name": "energy-py",
+      "direct_dependencies": 3,
+      "total_transitive": 510145060,
+      "cache_stats": {
+        "resolved_packages_cached": 1959,
+        "api_calls_cached": 1972,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 83,
+      "project_name": "power-wheel-card",
+      "direct_dependencies": 7,
+      "total_transitive": 743,
+      "cache_stats": {
+        "resolved_packages_cached": 2049,
+        "api_calls_cached": 2062,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 84,
+      "project_name": "SIEGate",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2049,
+        "api_calls_cached": 2062,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 85,
+      "project_name": "atlite",
+      "direct_dependencies": 32,
+      "total_transitive": 96462,
+      "cache_stats": {
+        "resolved_packages_cached": 2058,
+        "api_calls_cached": 2072,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 86,
+      "project_name": "PowerSystems.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2058,
+        "api_calls_cached": 2072,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 87,
+      "project_name": "glaes",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2058,
+        "api_calls_cached": 2072,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 88,
+      "project_name": "compas-core",
+      "direct_dependencies": 9,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2067,
+        "api_calls_cached": 2081,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 89,
+      "project_name": "APIS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2067,
+        "api_calls_cached": 2081,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 90,
+      "project_name": "powertac-server",
+      "direct_dependencies": 4,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2069,
+        "api_calls_cached": 2083,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 91,
+      "project_name": "powermatcher",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2069,
+        "api_calls_cached": 2083,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 92,
+      "project_name": "pvlib-python",
+      "direct_dependencies": 33,
+      "total_transitive": 190823,
+      "cache_stats": {
+        "resolved_packages_cached": 2071,
+        "api_calls_cached": 2085,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 93,
+      "project_name": "pvfactors",
+      "direct_dependencies": 5,
+      "total_transitive": 118127,
+      "cache_stats": {
+        "resolved_packages_cached": 2071,
+        "api_calls_cached": 2085,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 94,
+      "project_name": "PVMismatch",
+      "direct_dependencies": 11,
+      "total_transitive": 120823,
+      "cache_stats": {
+        "resolved_packages_cached": 2072,
+        "api_calls_cached": 2086,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 95,
+      "project_name": "rdtools",
+      "direct_dependencies": 34,
+      "total_transitive": 200524,
+      "cache_stats": {
+        "resolved_packages_cached": 2084,
+        "api_calls_cached": 2098,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 96,
+      "project_name": "Machine-Learning-for-Solar-Energy-Prediction",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2084,
+        "api_calls_cached": 2098,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 97,
+      "project_name": "feedinlib",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2084,
+        "api_calls_cached": 2098,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 98,
+      "project_name": "photovoltaic",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2084,
+        "api_calls_cached": 2098,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 99,
+      "project_name": "pvcaptest",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2084,
+        "api_calls_cached": 2098,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 100,
+      "project_name": "pvtrace",
+      "direct_dependencies": 4,
+      "total_transitive": 3055,
+      "cache_stats": {
+        "resolved_packages_cached": 2086,
+        "api_calls_cached": 2100,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 101,
+      "project_name": "SolarPILOT",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2086,
+        "api_calls_cached": 2100,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 102,
+      "project_name": "solar-data-tools",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2086,
+        "api_calls_cached": 2100,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 103,
+      "project_name": "SolarPV-DER-simulation-tool",
+      "direct_dependencies": 4,
+      "total_transitive": 2658,
+      "cache_stats": {
+        "resolved_packages_cached": 2086,
+        "api_calls_cached": 2100,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 104,
+      "project_name": "SolarPV-DER-simulation-tool",
+      "direct_dependencies": 4,
+      "total_transitive": 2658,
+      "cache_stats": {
+        "resolved_packages_cached": 2086,
+        "api_calls_cached": 2100,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 105,
+      "project_name": "3D-PV-Locator",
+      "direct_dependencies": 16,
+      "total_transitive": 60253,
+      "cache_stats": {
+        "resolved_packages_cached": 2096,
+        "api_calls_cached": 2110,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 106,
+      "project_name": "dgen",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2096,
+        "api_calls_cached": 2110,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 107,
+      "project_name": "WOMBAT",
+      "direct_dependencies": 35,
+      "total_transitive": 15820237,
+      "cache_stats": {
+        "resolved_packages_cached": 2132,
+        "api_calls_cached": 2148,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 108,
+      "project_name": "NRWAL",
+      "direct_dependencies": 4,
+      "total_transitive": 2868,
+      "cache_stats": {
+        "resolved_packages_cached": 2132,
+        "api_calls_cached": 2148,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 109,
+      "project_name": "welib",
+      "direct_dependencies": 7,
+      "total_transitive": 6160,
+      "cache_stats": {
+        "resolved_packages_cached": 2132,
+        "api_calls_cached": 2148,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 110,
+      "project_name": "digital_wra_data_standard",
+      "direct_dependencies": 22,
+      "total_transitive": 2759,
+      "cache_stats": {
+        "resolved_packages_cached": 2391,
+        "api_calls_cached": 2407,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 111,
+      "project_name": "awebox",
+      "direct_dependencies": 16,
+      "total_transitive": 12055,
+      "cache_stats": {
+        "resolved_packages_cached": 2394,
+        "api_calls_cached": 2410,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 112,
+      "project_name": "EMMA",
+      "direct_dependencies": 6,
+      "total_transitive": 2884,
+      "cache_stats": {
+        "resolved_packages_cached": 2394,
+        "api_calls_cached": 2410,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 113,
+      "project_name": "bifacial_radiance",
+      "direct_dependencies": 27,
+      "total_transitive": 139550,
+      "cache_stats": {
+        "resolved_packages_cached": 2399,
+        "api_calls_cached": 2415,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 114,
+      "project_name": "autoXRD",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2399,
+        "api_calls_cached": 2415,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 115,
+      "project_name": "BayesProcess",
+      "direct_dependencies": 5,
+      "total_transitive": 7450,
+      "cache_stats": {
+        "resolved_packages_cached": 2399,
+        "api_calls_cached": 2415,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 116,
+      "project_name": "solcore5",
+      "direct_dependencies": 21,
+      "total_transitive": 13477,
+      "cache_stats": {
+        "resolved_packages_cached": 2406,
+        "api_calls_cached": 2422,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 117,
+      "project_name": "solax",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2406,
+        "api_calls_cached": 2422,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 118,
+      "project_name": "bifacialvf",
+      "direct_dependencies": 16,
+      "total_transitive": 127921,
+      "cache_stats": {
+        "resolved_packages_cached": 2406,
+        "api_calls_cached": 2422,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 119,
+      "project_name": "solar",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2406,
+        "api_calls_cached": 2422,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 120,
+      "project_name": "SolarTherm",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2406,
+        "api_calls_cached": 2422,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 121,
+      "project_name": "charge-controller-firmware",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2406,
+        "api_calls_cached": 2422,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 122,
+      "project_name": "bms-firmware",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2406,
+        "api_calls_cached": 2422,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 123,
+      "project_name": "pvoutput",
+      "direct_dependencies": 15,
+      "total_transitive": 14606,
+      "cache_stats": {
+        "resolved_packages_cached": 2407,
+        "api_calls_cached": 2423,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 124,
+      "project_name": "predict_pv_yield",
+      "direct_dependencies": 24,
+      "total_transitive": 37107005,
+      "cache_stats": {
+        "resolved_packages_cached": 2435,
+        "api_calls_cached": 2451,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 125,
+      "project_name": "solarpy",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2435,
+        "api_calls_cached": 2451,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 126,
+      "project_name": "solariot",
+      "direct_dependencies": 7,
+      "total_transitive": 5585,
+      "cache_stats": {
+        "resolved_packages_cached": 2441,
+        "api_calls_cached": 2457,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 127,
+      "project_name": "pvanalytics",
+      "direct_dependencies": 21,
+      "total_transitive": 344205,
+      "cache_stats": {
+        "resolved_packages_cached": 2452,
+        "api_calls_cached": 2468,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 128,
+      "project_name": "IonMonger",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2452,
+        "api_calls_cached": 2468,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 129,
+      "project_name": "rayflare",
+      "direct_dependencies": 10,
+      "total_transitive": 94181,
+      "cache_stats": {
+        "resolved_packages_cached": 2454,
+        "api_calls_cached": 2470,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 130,
+      "project_name": "pv-terms",
+      "direct_dependencies": 3,
+      "total_transitive": 3467,
+      "cache_stats": {
+        "resolved_packages_cached": 2454,
+        "api_calls_cached": 2470,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 131,
+      "project_name": "StatisticalClearSky",
+      "direct_dependencies": 7,
+      "total_transitive": 313040,
+      "cache_stats": {
+        "resolved_packages_cached": 2474,
+        "api_calls_cached": 2490,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 132,
+      "project_name": "Photovoltaic_Fault_Detector",
+      "direct_dependencies": 19,
+      "total_transitive": 12737,
+      "cache_stats": {
+        "resolved_packages_cached": 2482,
+        "api_calls_cached": 2498,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 133,
+      "project_name": "SolTrace",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2482,
+        "api_calls_cached": 2498,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 134,
+      "project_name": "nasapower",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2482,
+        "api_calls_cached": 2498,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 135,
+      "project_name": "pvcompare",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2482,
+        "api_calls_cached": 2498,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 136,
+      "project_name": "CarrierCapture.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2482,
+        "api_calls_cached": 2498,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 137,
+      "project_name": "MPPT-Solar-Charger",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2482,
+        "api_calls_cached": 2498,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 138,
+      "project_name": "honeybee",
+      "direct_dependencies": 1,
+      "total_transitive": 4,
+      "cache_stats": {
+        "resolved_packages_cached": 2485,
+        "api_calls_cached": 2501,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 139,
+      "project_name": "tonatiuh",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2485,
+        "api_calls_cached": 2501,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 140,
+      "project_name": "3D-PV-Locator",
+      "direct_dependencies": 16,
+      "total_transitive": 60253,
+      "cache_stats": {
+        "resolved_packages_cached": 2485,
+        "api_calls_cached": 2501,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 141,
+      "project_name": "pvfree",
+      "direct_dependencies": 24,
+      "total_transitive": 157736,
+      "cache_stats": {
+        "resolved_packages_cached": 2490,
+        "api_calls_cached": 2506,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 142,
+      "project_name": "pysolar",
+      "direct_dependencies": 1,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2490,
+        "api_calls_cached": 2506,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 143,
+      "project_name": "PV_ICE",
+      "direct_dependencies": 11,
+      "total_transitive": 2961,
+      "cache_stats": {
+        "resolved_packages_cached": 2490,
+        "api_calls_cached": 2506,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 144,
+      "project_name": "quartz-frontend",
+      "direct_dependencies": 8,
+      "total_transitive": 487,
+      "cache_stats": {
+        "resolved_packages_cached": 2508,
+        "api_calls_cached": 2524,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 145,
+      "project_name": "solarforecastarbiter-core",
+      "direct_dependencies": 32,
+      "total_transitive": 156556,
+      "cache_stats": {
+        "resolved_packages_cached": 2511,
+        "api_calls_cached": 2527,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 146,
+      "project_name": "pv-system-profiler",
+      "direct_dependencies": 12,
+      "total_transitive": 283769,
+      "cache_stats": {
+        "resolved_packages_cached": 2511,
+        "api_calls_cached": 2527,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 147,
+      "project_name": "solar-pv-global-inventory",
+      "direct_dependencies": 10,
+      "total_transitive": 5274,
+      "cache_stats": {
+        "resolved_packages_cached": 2516,
+        "api_calls_cached": 2532,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 148,
+      "project_name": "IEA-15-240-RWT",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2516,
+        "api_calls_cached": 2532,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 149,
+      "project_name": "makani",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2516,
+        "api_calls_cached": 2532,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 150,
+      "project_name": "windpowerlib",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2516,
+        "api_calls_cached": 2532,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 151,
+      "project_name": "turbinesFoam",
+      "direct_dependencies": 4,
+      "total_transitive": 2899,
+      "cache_stats": {
+        "resolved_packages_cached": 2516,
+        "api_calls_cached": 2532,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 152,
+      "project_name": "openfast",
+      "direct_dependencies": 4,
+      "total_transitive": 33,
+      "cache_stats": {
+        "resolved_packages_cached": 2519,
+        "api_calls_cached": 2535,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 153,
+      "project_name": "nalu-wind",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2519,
+        "api_calls_cached": 2535,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 154,
+      "project_name": "amr-wind",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2519,
+        "api_calls_cached": 2535,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 155,
+      "project_name": "OpenOA",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2519,
+        "api_calls_cached": 2535,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 156,
+      "project_name": "ROSCO",
+      "direct_dependencies": 14,
+      "total_transitive": 6333248,
+      "cache_stats": {
+        "resolved_packages_cached": 2547,
+        "api_calls_cached": 2563,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 157,
+      "project_name": "floris",
+      "direct_dependencies": 21,
+      "total_transitive": 560023,
+      "cache_stats": {
+        "resolved_packages_cached": 2553,
+        "api_calls_cached": 2569,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 158,
+      "project_name": "windtools",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2553,
+        "api_calls_cached": 2569,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 159,
+      "project_name": "WISDEM",
+      "direct_dependencies": 28,
+      "total_transitive": 3137080,
+      "cache_stats": {
+        "resolved_packages_cached": 2553,
+        "api_calls_cached": 2569,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 160,
+      "project_name": "LandBOSSE",
+      "direct_dependencies": 9,
+      "total_transitive": 6146,
+      "cache_stats": {
+        "resolved_packages_cached": 2553,
+        "api_calls_cached": 2569,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 161,
+      "project_name": "OpenMDAO",
+      "direct_dependencies": 36,
+      "total_transitive": 4662664,
+      "cache_stats": {
+        "resolved_packages_cached": 2554,
+        "api_calls_cached": 2570,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 162,
+      "project_name": "windfarmGA",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2554,
+        "api_calls_cached": 2570,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 163,
+      "project_name": "wtphm",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2554,
+        "api_calls_cached": 2570,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 164,
+      "project_name": "AirfoilPreppy",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2554,
+        "api_calls_cached": 2570,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 165,
+      "project_name": "Draco",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2554,
+        "api_calls_cached": 2570,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 166,
+      "project_name": "ORBIT",
+      "direct_dependencies": 17,
+      "total_transitive": 14627,
+      "cache_stats": {
+        "resolved_packages_cached": 2554,
+        "api_calls_cached": 2570,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 167,
+      "project_name": "WindTurbineClassification",
+      "direct_dependencies": 20,
+      "total_transitive": 546105,
+      "cache_stats": {
+        "resolved_packages_cached": 2557,
+        "api_calls_cached": 2573,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 168,
+      "project_name": "ANYstructure",
+      "direct_dependencies": 6,
+      "total_transitive": 30484,
+      "cache_stats": {
+        "resolved_packages_cached": 2568,
+        "api_calls_cached": 2584,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 169,
+      "project_name": "windrose",
+      "direct_dependencies": 35,
+      "total_transitive": 52746,
+      "cache_stats": {
+        "resolved_packages_cached": 2574,
+        "api_calls_cached": 2590,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 170,
+      "project_name": "sharpy",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2574,
+        "api_calls_cached": 2590,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 171,
+      "project_name": "WindSE",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2574,
+        "api_calls_cached": 2590,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 172,
+      "project_name": "WEIS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2574,
+        "api_calls_cached": 2590,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 173,
+      "project_name": "HAMS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2574,
+        "api_calls_cached": 2590,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 174,
+      "project_name": "brightwind",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2574,
+        "api_calls_cached": 2590,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 175,
+      "project_name": "WecOptTool",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2574,
+        "api_calls_cached": 2590,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 176,
+      "project_name": "hydropowerlib",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2574,
+        "api_calls_cached": 2590,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 177,
+      "project_name": "MHKiT-Python",
+      "direct_dependencies": 22,
+      "total_transitive": 57936,
+      "cache_stats": {
+        "resolved_packages_cached": 2577,
+        "api_calls_cached": 2593,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 178,
+      "project_name": "WEC-Sim",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2577,
+        "api_calls_cached": 2593,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 179,
+      "project_name": "BEMRosetta",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2577,
+        "api_calls_cached": 2593,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 180,
+      "project_name": "CACTUS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2577,
+        "api_calls_cached": 2593,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 181,
+      "project_name": "pygfunction",
+      "direct_dependencies": 5,
+      "total_transitive": 2659,
+      "cache_stats": {
+        "resolved_packages_cached": 2578,
+        "api_calls_cached": 2594,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 182,
+      "project_name": "capytaine",
+      "direct_dependencies": 11,
+      "total_transitive": 21161,
+      "cache_stats": {
+        "resolved_packages_cached": 2578,
+        "api_calls_cached": 2594,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 183,
+      "project_name": "geothermics",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2578,
+        "api_calls_cached": 2594,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 184,
+      "project_name": "multiphysics",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2578,
+        "api_calls_cached": 2594,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 185,
+      "project_name": "FEHM",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2578,
+        "api_calls_cached": 2594,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 186,
+      "project_name": "thermo",
+      "direct_dependencies": 6,
+      "total_transitive": 210059,
+      "cache_stats": {
+        "resolved_packages_cached": 2582,
+        "api_calls_cached": 2598,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 187,
+      "project_name": "waiwera",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2582,
+        "api_calls_cached": 2598,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 188,
+      "project_name": "fractoolbox",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2582,
+        "api_calls_cached": 2598,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 189,
+      "project_name": "GeoThermalCloud.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2582,
+        "api_calls_cached": 2598,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 190,
+      "project_name": "biosteam",
+      "direct_dependencies": 12,
+      "total_transitive": 2342181,
+      "cache_stats": {
+        "resolved_packages_cached": 2596,
+        "api_calls_cached": 2613,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 191,
+      "project_name": "impedance.py",
+      "direct_dependencies": 8,
+      "total_transitive": 17832,
+      "cache_stats": {
+        "resolved_packages_cached": 2596,
+        "api_calls_cached": 2613,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 192,
+      "project_name": "snl-quest",
+      "direct_dependencies": 9,
+      "total_transitive": 33838,
+      "cache_stats": {
+        "resolved_packages_cached": 2600,
+        "api_calls_cached": 2617,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 193,
+      "project_name": "universal-battery-database",
+      "direct_dependencies": 44,
+      "total_transitive": 41447,
+      "cache_stats": {
+        "resolved_packages_cached": 2607,
+        "api_calls_cached": 2624,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 194,
+      "project_name": "SLIDE",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2607,
+        "api_calls_cached": 2624,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 195,
+      "project_name": "equiv-circ-model",
+      "direct_dependencies": 4,
+      "total_transitive": 5526,
+      "cache_stats": {
+        "resolved_packages_cached": 2607,
+        "api_calls_cached": 2624,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 196,
+      "project_name": "Ampere",
+      "direct_dependencies": 6,
+      "total_transitive": 3371,
+      "cache_stats": {
+        "resolved_packages_cached": 2607,
+        "api_calls_cached": 2624,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 197,
+      "project_name": "3d_milp",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2607,
+        "api_calls_cached": 2624,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 198,
+      "project_name": "LIONSIMBA",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2607,
+        "api_calls_cached": 2624,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 199,
+      "project_name": "opem",
+      "direct_dependencies": 2,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2608,
+        "api_calls_cached": 2625,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 200,
+      "project_name": "gopem",
+      "direct_dependencies": 6,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2611,
+        "api_calls_cached": 2628,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 201,
+      "project_name": "HIM",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2611,
+        "api_calls_cached": 2628,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 202,
+      "project_name": "pandapipes",
+      "direct_dependencies": 29,
+      "total_transitive": 274220,
+      "cache_stats": {
+        "resolved_packages_cached": 2613,
+        "api_calls_cached": 2630,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 203,
+      "project_name": "hyram",
+      "direct_dependencies": 5,
+      "total_transitive": 9604,
+      "cache_stats": {
+        "resolved_packages_cached": 2613,
+        "api_calls_cached": 2630,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 204,
+      "project_name": "GasModels.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2613,
+        "api_calls_cached": 2630,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 205,
+      "project_name": "hescore-hpxml",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2613,
+        "api_calls_cached": 2630,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 206,
+      "project_name": "LoadProfileGenerator",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2613,
+        "api_calls_cached": 2630,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 207,
+      "project_name": "the-building-data-genome-project",
+      "direct_dependencies": 172,
+      "total_transitive": 614694,
+      "cache_stats": {
+        "resolved_packages_cached": 2671,
+        "api_calls_cached": 2688,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 208,
+      "project_name": "volttron",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2671,
+        "api_calls_cached": 2688,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 209,
+      "project_name": "EnergyPlus",
+      "direct_dependencies": 1,
+      "total_transitive": 175,
+      "cache_stats": {
+        "resolved_packages_cached": 2671,
+        "api_calls_cached": 2688,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 210,
+      "project_name": "OpenStudio",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2671,
+        "api_calls_cached": 2688,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 211,
+      "project_name": "bemserver",
+      "direct_dependencies": 23,
+      "total_transitive": 108209,
+      "cache_stats": {
+        "resolved_packages_cached": 2682,
+        "api_calls_cached": 2699,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 212,
+      "project_name": "seed",
+      "direct_dependencies": 14,
+      "total_transitive": 516,
+      "cache_stats": {
+        "resolved_packages_cached": 2741,
+        "api_calls_cached": 2758,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 213,
+      "project_name": "HPWHsim",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2741,
+        "api_calls_cached": 2758,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 214,
+      "project_name": "OpenStudio-ERI",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2741,
+        "api_calls_cached": 2758,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 215,
+      "project_name": "OpenStudio-HPXML",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2741,
+        "api_calls_cached": 2758,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 216,
+      "project_name": "AixLib",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2741,
+        "api_calls_cached": 2758,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 217,
+      "project_name": "tespy",
+      "direct_dependencies": 22,
+      "total_transitive": 229118,
+      "cache_stats": {
+        "resolved_packages_cached": 2745,
+        "api_calls_cached": 2762,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 218,
+      "project_name": "RC_BuildingSimulator",
+      "direct_dependencies": 5,
+      "total_transitive": 3026,
+      "cache_stats": {
+        "resolved_packages_cached": 2745,
+        "api_calls_cached": 2762,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 219,
+      "project_name": "NYCBuildingEnergyUse",
+      "direct_dependencies": 8,
+      "total_transitive": 112879,
+      "cache_stats": {
+        "resolved_packages_cached": 2753,
+        "api_calls_cached": 2770,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 220,
+      "project_name": "CityEnergyAnalyst",
+      "direct_dependencies": 41,
+      "total_transitive": 319461,
+      "cache_stats": {
+        "resolved_packages_cached": 2785,
+        "api_calls_cached": 2802,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 221,
+      "project_name": "Hotmaps-toolbox-service",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2785,
+        "api_calls_cached": 2802,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 222,
+      "project_name": "modelica-buildings",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2785,
+        "api_calls_cached": 2802,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 223,
+      "project_name": "BuildSysPro",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2785,
+        "api_calls_cached": 2802,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 224,
+      "project_name": "MPCPy",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2785,
+        "api_calls_cached": 2802,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 225,
+      "project_name": "Planheat-Tool",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2785,
+        "api_calls_cached": 2802,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 226,
+      "project_name": "BuildingSystems",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2785,
+        "api_calls_cached": 2802,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 227,
+      "project_name": "modelica-ibpsa",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2785,
+        "api_calls_cached": 2802,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 228,
+      "project_name": "project1",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2785,
+        "api_calls_cached": 2802,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 229,
+      "project_name": "teb",
+      "direct_dependencies": 4,
+      "total_transitive": 2868,
+      "cache_stats": {
+        "resolved_packages_cached": 2786,
+        "api_calls_cached": 2803,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 230,
+      "project_name": "tsib",
+      "direct_dependencies": 11,
+      "total_transitive": 122115,
+      "cache_stats": {
+        "resolved_packages_cached": 2788,
+        "api_calls_cached": 2805,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 231,
+      "project_name": "DHNx",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2788,
+        "api_calls_cached": 2805,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 232,
+      "project_name": "pythermalcomfort",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2788,
+        "api_calls_cached": 2805,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 233,
+      "project_name": "building-data-genome-project-2",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2788,
+        "api_calls_cached": 2805,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 234,
+      "project_name": "comfort_tool",
+      "direct_dependencies": 23,
+      "total_transitive": 5954,
+      "cache_stats": {
+        "resolved_packages_cached": 2791,
+        "api_calls_cached": 2808,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 235,
+      "project_name": "resstock",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2791,
+        "api_calls_cached": 2808,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 236,
+      "project_name": "MSWH",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2791,
+        "api_calls_cached": 2808,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 237,
+      "project_name": "eplusr",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2791,
+        "api_calls_cached": 2808,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 238,
+      "project_name": "Brick",
+      "direct_dependencies": 13,
+      "total_transitive": 40138,
+      "cache_stats": {
+        "resolved_packages_cached": 2803,
+        "api_calls_cached": 2820,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 239,
+      "project_name": "better",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2803,
+        "api_calls_cached": 2820,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 240,
+      "project_name": "mbmd",
+      "direct_dependencies": 51,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2854,
+        "api_calls_cached": 2871,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 241,
+      "project_name": "HiSim",
+      "direct_dependencies": 33,
+      "total_transitive": 3266354,
+      "cache_stats": {
+        "resolved_packages_cached": 2898,
+        "api_calls_cached": 2915,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 242,
+      "project_name": "hplib",
+      "direct_dependencies": 7,
+      "total_transitive": 5584,
+      "cache_stats": {
+        "resolved_packages_cached": 2899,
+        "api_calls_cached": 2916,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 243,
+      "project_name": "thermofeel",
+      "direct_dependencies": 3,
+      "total_transitive": 159,
+      "cache_stats": {
+        "resolved_packages_cached": 2900,
+        "api_calls_cached": 2917,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 244,
+      "project_name": "clima",
+      "direct_dependencies": 59,
+      "total_transitive": 795838,
+      "cache_stats": {
+        "resolved_packages_cached": 2952,
+        "api_calls_cached": 2969,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 245,
+      "project_name": "ocpp",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2952,
+        "api_calls_cached": 2969,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 246,
+      "project_name": "ocpp",
+      "direct_dependencies": 1,
+      "total_transitive": 21,
+      "cache_stats": {
+        "resolved_packages_cached": 2952,
+        "api_calls_cached": 2969,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 247,
+      "project_name": "docile-charge-point",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2952,
+        "api_calls_cached": 2969,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 248,
+      "project_name": "RISE-V2G",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2952,
+        "api_calls_cached": 2969,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 249,
+      "project_name": "gym-electric-motor",
+      "direct_dependencies": 7,
+      "total_transitive": 170038713,
+      "cache_stats": {
+        "resolved_packages_cached": 2952,
+        "api_calls_cached": 2969,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 250,
+      "project_name": "beam",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2952,
+        "api_calls_cached": 2969,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 251,
+      "project_name": "WWCP_OCPP",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2952,
+        "api_calls_cached": 2969,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 252,
+      "project_name": "WWCP_Core",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2952,
+        "api_calls_cached": 2969,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 253,
+      "project_name": "RAMP-mobility",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2952,
+        "api_calls_cached": 2969,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 254,
+      "project_name": "VED",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2952,
+        "api_calls_cached": 2969,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 255,
+      "project_name": "go-ocpp",
+      "direct_dependencies": 3,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 2952,
+        "api_calls_cached": 2969,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 256,
+      "project_name": "emobility-smart-charging",
+      "direct_dependencies": 58,
+      "total_transitive": 2213,
+      "cache_stats": {
+        "resolved_packages_cached": 3123,
+        "api_calls_cached": 3140,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 257,
+      "project_name": "open-ev-data",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3123,
+        "api_calls_cached": 3140,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 258,
+      "project_name": "Industry-Energy-Tool",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3123,
+        "api_calls_cached": 3140,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 259,
+      "project_name": "OpenModelica",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3123,
+        "api_calls_cached": 3140,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 260,
+      "project_name": "SAM",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3123,
+        "api_calls_cached": 3140,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 261,
+      "project_name": "openTEPES",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3123,
+        "api_calls_cached": 3140,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 262,
+      "project_name": "PowerGenome",
+      "direct_dependencies": 36,
+      "total_transitive": 31936,
+      "cache_stats": {
+        "resolved_packages_cached": 3128,
+        "api_calls_cached": 3145,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 263,
+      "project_name": "load_forecasting",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3128,
+        "api_calls_cached": 3145,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 264,
+      "project_name": "euro-calliope",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3128,
+        "api_calls_cached": 3145,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 265,
+      "project_name": "REVUB",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3128,
+        "api_calls_cached": 3145,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 266,
+      "project_name": "nempy",
+      "direct_dependencies": 4,
+      "total_transitive": 2869,
+      "cache_stats": {
+        "resolved_packages_cached": 3128,
+        "api_calls_cached": 3145,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 267,
+      "project_name": "GlobalEnergyGIS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3128,
+        "api_calls_cached": 3145,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 268,
+      "project_name": "IDEAS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3128,
+        "api_calls_cached": 3145,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 269,
+      "project_name": "Joulia.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3128,
+        "api_calls_cached": 3145,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 270,
+      "project_name": "Antares_Simulator",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3128,
+        "api_calls_cached": 3145,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 271,
+      "project_name": "openentrance",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3128,
+        "api_calls_cached": 3145,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 272,
+      "project_name": "idaes-pse",
+      "direct_dependencies": 14,
+      "total_transitive": 5500237,
+      "cache_stats": {
+        "resolved_packages_cached": 3137,
+        "api_calls_cached": 3154,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 273,
+      "project_name": "PowerSystemDataModel",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3137,
+        "api_calls_cached": 3154,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 274,
+      "project_name": "pypsa-eur-sec",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3137,
+        "api_calls_cached": 3154,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 275,
+      "project_name": "antaresViz",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3137,
+        "api_calls_cached": 3154,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 276,
+      "project_name": "antaresRead",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3137,
+        "api_calls_cached": 3154,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 277,
+      "project_name": "demandlib",
+      "direct_dependencies": 21,
+      "total_transitive": 25131,
+      "cache_stats": {
+        "resolved_packages_cached": 3144,
+        "api_calls_cached": 3161,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 278,
+      "project_name": "Spine-Toolbox",
+      "direct_dependencies": 14,
+      "total_transitive": 97209,
+      "cache_stats": {
+        "resolved_packages_cached": 3155,
+        "api_calls_cached": 3172,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 279,
+      "project_name": "deflex",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3155,
+        "api_calls_cached": 3172,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 280,
+      "project_name": "AnyMOD.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3155,
+        "api_calls_cached": 3172,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 281,
+      "project_name": "FlexiGIS",
+      "direct_dependencies": 48,
+      "total_transitive": 57143,
+      "cache_stats": {
+        "resolved_packages_cached": 3160,
+        "api_calls_cached": 3177,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 282,
+      "project_name": "reVX",
+      "direct_dependencies": 26,
+      "total_transitive": 136555,
+      "cache_stats": {
+        "resolved_packages_cached": 3174,
+        "api_calls_cached": 3191,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 283,
+      "project_name": "CapacityExpansion.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3174,
+        "api_calls_cached": 3191,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 284,
+      "project_name": "pypsa-earth",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3174,
+        "api_calls_cached": 3191,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 285,
+      "project_name": "GenX.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3174,
+        "api_calls_cached": 3191,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 286,
+      "project_name": "oeplatform",
+      "direct_dependencies": 95,
+      "total_transitive": 235542,
+      "cache_stats": {
+        "resolved_packages_cached": 3353,
+        "api_calls_cached": 3370,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 287,
+      "project_name": "pyGRETA",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3353,
+        "api_calls_cached": 3370,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 288,
+      "project_name": "RESKit",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3353,
+        "api_calls_cached": 3370,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 289,
+      "project_name": "powsybl-open-loadflow",
+      "direct_dependencies": 26,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3372,
+        "api_calls_cached": 3389,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 290,
+      "project_name": "multi-vector-simulator",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3372,
+        "api_calls_cached": 3389,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 291,
+      "project_name": "PowNet",
+      "direct_dependencies": 13,
+      "total_transitive": 44496,
+      "cache_stats": {
+        "resolved_packages_cached": 3374,
+        "api_calls_cached": 3391,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 292,
+      "project_name": "OpenIPSL",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3374,
+        "api_calls_cached": 3391,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 293,
+      "project_name": "pyam",
+      "direct_dependencies": 13,
+      "total_transitive": 2575560,
+      "cache_stats": {
+        "resolved_packages_cached": 3374,
+        "api_calls_cached": 3391,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 294,
+      "project_name": "RAMP",
+      "direct_dependencies": 7,
+      "total_transitive": 3125,
+      "cache_stats": {
+        "resolved_packages_cached": 3374,
+        "api_calls_cached": 3391,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 295,
+      "project_name": "pomato",
+      "direct_dependencies": 20,
+      "total_transitive": 11807,
+      "cache_stats": {
+        "resolved_packages_cached": 3378,
+        "api_calls_cached": 3395,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 296,
+      "project_name": "reV",
+      "direct_dependencies": 17,
+      "total_transitive": 45660,
+      "cache_stats": {
+        "resolved_packages_cached": 3378,
+        "api_calls_cached": 3395,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 297,
+      "project_name": "openCEM",
+      "direct_dependencies": 25,
+      "total_transitive": 12101,
+      "cache_stats": {
+        "resolved_packages_cached": 3380,
+        "api_calls_cached": 3397,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 298,
+      "project_name": "whobs-server",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3380,
+        "api_calls_cached": 3397,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 299,
+      "project_name": "CityLearn",
+      "direct_dependencies": 11,
+      "total_transitive": 170067447,
+      "cache_stats": {
+        "resolved_packages_cached": 3385,
+        "api_calls_cached": 3402,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 300,
+      "project_name": "rl-testbed-for-energyplus",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3385,
+        "api_calls_cached": 3402,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 301,
+      "project_name": "tsam",
+      "direct_dependencies": 7,
+      "total_transitive": 192689,
+      "cache_stats": {
+        "resolved_packages_cached": 3385,
+        "api_calls_cached": 3402,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 302,
+      "project_name": "TimeSeriesClustering.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3385,
+        "api_calls_cached": 3402,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 303,
+      "project_name": "message_ix",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3385,
+        "api_calls_cached": 3402,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 304,
+      "project_name": "gridpath",
+      "direct_dependencies": 81,
+      "total_transitive": 911938,
+      "cache_stats": {
+        "resolved_packages_cached": 3391,
+        "api_calls_cached": 3408,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 305,
+      "project_name": "andes",
+      "direct_dependencies": 17,
+      "total_transitive": 8644,
+      "cache_stats": {
+        "resolved_packages_cached": 3392,
+        "api_calls_cached": 3409,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 306,
+      "project_name": "ESDL",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3392,
+        "api_calls_cached": 3409,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 307,
+      "project_name": "TESS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3392,
+        "api_calls_cached": 3409,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 308,
+      "project_name": "omf",
+      "direct_dependencies": 53,
+      "total_transitive": 89052,
+      "cache_stats": {
+        "resolved_packages_cached": 3402,
+        "api_calls_cached": 3419,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 309,
+      "project_name": "PSP",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3402,
+        "api_calls_cached": 3419,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 310,
+      "project_name": "eps-us",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3402,
+        "api_calls_cached": 3419,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 311,
+      "project_name": "energy-sparks",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3402,
+        "api_calls_cached": 3419,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 312,
+      "project_name": "emonpi",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3402,
+        "api_calls_cached": 3419,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 313,
+      "project_name": "EmonLib",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3402,
+        "api_calls_cached": 3419,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 314,
+      "project_name": "emoncms",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3402,
+        "api_calls_cached": 3419,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 315,
+      "project_name": "Egret",
+      "direct_dependencies": 9,
+      "total_transitive": 413963,
+      "cache_stats": {
+        "resolved_packages_cached": 3403,
+        "api_calls_cached": 3420,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 316,
+      "project_name": "simbench",
+      "direct_dependencies": 31,
+      "total_transitive": 263449,
+      "cache_stats": {
+        "resolved_packages_cached": 3403,
+        "api_calls_cached": 3420,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 317,
+      "project_name": "STM32",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3403,
+        "api_calls_cached": 3420,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 318,
+      "project_name": "flexmeasures",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3403,
+        "api_calls_cached": 3420,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 319,
+      "project_name": "etengine",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3403,
+        "api_calls_cached": 3420,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 320,
+      "project_name": "PowerModelsAnnex.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3403,
+        "api_calls_cached": 3420,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 321,
+      "project_name": "pypownet",
+      "direct_dependencies": 11,
+      "total_transitive": 8980,
+      "cache_stats": {
+        "resolved_packages_cached": 3404,
+        "api_calls_cached": 3421,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 322,
+      "project_name": "eDisGo",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3404,
+        "api_calls_cached": 3421,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 323,
+      "project_name": "grid2op",
+      "direct_dependencies": 46,
+      "total_transitive": 681599397,
+      "cache_stats": {
+        "resolved_packages_cached": 3409,
+        "api_calls_cached": 3426,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 324,
+      "project_name": "offgridders",
+      "direct_dependencies": 10,
+      "total_transitive": 220595,
+      "cache_stats": {
+        "resolved_packages_cached": 3409,
+        "api_calls_cached": 3426,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 325,
+      "project_name": "openmodelica-microgrid-gym",
+      "direct_dependencies": 17,
+      "total_transitive": 17750,
+      "cache_stats": {
+        "resolved_packages_cached": 3414,
+        "api_calls_cached": 3431,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 326,
+      "project_name": "PowerDynamics.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3414,
+        "api_calls_cached": 3431,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 327,
+      "project_name": "InfrastructureSystems.jl",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3414,
+        "api_calls_cached": 3431,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 328,
+      "project_name": "VeraGrid",
+      "direct_dependencies": 34,
+      "total_transitive": 261087,
+      "cache_stats": {
+        "resolved_packages_cached": 3415,
+        "api_calls_cached": 3432,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 329,
+      "project_name": "origin",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3415,
+        "api_calls_cached": 3432,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 330,
+      "project_name": "gsy-e",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3415,
+        "api_calls_cached": 3432,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 331,
+      "project_name": "APIS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3415,
+        "api_calls_cached": 3432,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 332,
+      "project_name": "pymgrid",
+      "direct_dependencies": 11,
+      "total_transitive": 13627,
+      "cache_stats": {
+        "resolved_packages_cached": 3415,
+        "api_calls_cached": 3432,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 333,
+      "project_name": "OPEN",
+      "direct_dependencies": 11,
+      "total_transitive": 90338,
+      "cache_stats": {
+        "resolved_packages_cached": 3418,
+        "api_calls_cached": 3435,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 334,
+      "project_name": "gridlabd-old",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3418,
+        "api_calls_cached": 3435,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 335,
+      "project_name": "gym-anm",
+      "direct_dependencies": 7,
+      "total_transitive": 170038886,
+      "cache_stats": {
+        "resolved_packages_cached": 3419,
+        "api_calls_cached": 3436,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 336,
+      "project_name": "database",
+      "direct_dependencies": 22,
+      "total_transitive": 25482253,
+      "cache_stats": {
+        "resolved_packages_cached": 3431,
+        "api_calls_cached": 3450,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 337,
+      "project_name": "opendigitaltwins-energygrid",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3431,
+        "api_calls_cached": 3450,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 338,
+      "project_name": "opennem-fe",
+      "direct_dependencies": 53,
+      "total_transitive": 3781,
+      "cache_stats": {
+        "resolved_packages_cached": 3620,
+        "api_calls_cached": 3639,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 339,
+      "project_name": "pudl",
+      "direct_dependencies": 91,
+      "total_transitive": 3719396,
+      "cache_stats": {
+        "resolved_packages_cached": 3693,
+        "api_calls_cached": 3712,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 340,
+      "project_name": "electricitymaps-contrib",
+      "direct_dependencies": 22,
+      "total_transitive": 5695,
+      "cache_stats": {
+        "resolved_packages_cached": 3698,
+        "api_calls_cached": 3717,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 341,
+      "project_name": "entsoe-py",
+      "direct_dependencies": 4,
+      "total_transitive": 2910,
+      "cache_stats": {
+        "resolved_packages_cached": 3698,
+        "api_calls_cached": 3717,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 342,
+      "project_name": "time_series",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3698,
+        "api_calls_cached": 3717,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 343,
+      "project_name": "renewable_power_plants",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3698,
+        "api_calls_cached": 3717,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 344,
+      "project_name": "conventional_power_plants",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3698,
+        "api_calls_cached": 3717,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 345,
+      "project_name": "open-MaStR",
+      "direct_dependencies": 21,
+      "total_transitive": 14162,
+      "cache_stats": {
+        "resolved_packages_cached": 3706,
+        "api_calls_cached": 3725,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 346,
+      "project_name": "powerplantmatching",
+      "direct_dependencies": 42,
+      "total_transitive": 221292,
+      "cache_stats": {
+        "resolved_packages_cached": 3719,
+        "api_calls_cached": 3738,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 347,
+      "project_name": "pyEIA",
+      "direct_dependencies": 7,
+      "total_transitive": 15301,
+      "cache_stats": {
+        "resolved_packages_cached": 3722,
+        "api_calls_cached": 3741,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 348,
+      "project_name": "eia",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3722,
+        "api_calls_cached": 3741,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 349,
+      "project_name": "NYISOToolkit",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3722,
+        "api_calls_cached": 3741,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 350,
+      "project_name": "SolarData",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3722,
+        "api_calls_cached": 3741,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 351,
+      "project_name": "UKgrid",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3722,
+        "api_calls_cached": 3741,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 352,
+      "project_name": "USgrid",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3722,
+        "api_calls_cached": 3741,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 353,
+      "project_name": "ESIOS",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3722,
+        "api_calls_cached": 3741,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 354,
+      "project_name": "disaggregator",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3722,
+        "api_calls_cached": 3741,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 355,
+      "project_name": "eiapy",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3722,
+        "api_calls_cached": 3741,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 356,
+      "project_name": "Power-Station-Dictionary",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3722,
+        "api_calls_cached": 3741,
+        "cache_hit_rate": 0.0
+      }
+    },
+    {
+      "project_id": 357,
+      "project_name": "ElexonDataPortal",
+      "direct_dependencies": 0,
+      "total_transitive": 0,
+      "cache_stats": {
+        "resolved_packages_cached": 3722,
+        "api_calls_cached": 3741,
+        "cache_hit_rate": 0.0
+      }
+    }
+  ]
+}

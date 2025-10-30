@@ -1,0 +1,1946 @@
+{
+  "generated_at": "2025-10-30",
+  "total_projects_analyzed": 20,
+  "most_vulnerable_projects": [
+    {
+      "rank": 1,
+      "name": "oeplatform",
+      "url": "https://github.com/OpenEnergyPlatform/oeplatform",
+      "language": "python",
+      "total_cves": 465,
+      "total_dependencies": 95,
+      "vulnerable_packages": 17,
+      "risk_score": 489.47,
+      "vulnerable_dependencies": [
+        {
+          "package": "Django",
+          "ecosystem": "pypi",
+          "cves": 255
+        },
+        {
+          "package": "Pillow",
+          "ecosystem": "pypi",
+          "cves": 111
+        },
+        {
+          "package": "urllib3",
+          "ecosystem": "pypi",
+          "cves": 25
+        },
+        {
+          "package": "vite",
+          "ecosystem": "npm",
+          "cves": 16
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "jquery",
+          "ecosystem": "npm",
+          "cves": 8
+        },
+        {
+          "package": "markdown2",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "axios",
+          "ecosystem": "npm",
+          "cves": 7
+        },
+        {
+          "package": "lodash",
+          "ecosystem": "npm",
+          "cves": 7
+        },
+        {
+          "package": "SQLAlchemy",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "djangorestframework",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "black",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "react",
+          "ecosystem": "npm",
+          "cves": 2
+        },
+        {
+          "package": "chart.js",
+          "ecosystem": "npm",
+          "cves": 1
+        },
+        {
+          "package": "graphql",
+          "ecosystem": "npm",
+          "cves": 1
+        },
+        {
+          "package": "i",
+          "ecosystem": "npm",
+          "cves": 1
+        },
+        {
+          "package": "react-dom",
+          "ecosystem": "npm",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "REopt_API",
+      "url": "https://github.com/NREL/REopt_Lite_API",
+      "language": "python",
+      "total_cves": 446,
+      "total_dependencies": 117,
+      "vulnerable_packages": 32,
+      "risk_score": 381.2,
+      "vulnerable_dependencies": [
+        {
+          "package": "Django",
+          "ecosystem": "pypi",
+          "cves": 255
+        },
+        {
+          "package": "urllib3",
+          "ecosystem": "pypi",
+          "cves": 25
+        },
+        {
+          "package": "cryptography",
+          "ecosystem": "pypi",
+          "cves": 24
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "lxml",
+          "ecosystem": "pypi",
+          "cves": 11
+        },
+        {
+          "package": "GitPython",
+          "ecosystem": "pypi",
+          "cves": 10
+        },
+        {
+          "package": "PyYAML",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "Pygments",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "SQLAlchemy",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "certifi",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "httplib2",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "rsa",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "PyJWT",
+          "ecosystem": "pypi",
+          "cves": 5
+        },
+        {
+          "package": "protobuf",
+          "ecosystem": "pypi",
+          "cves": 5
+        },
+        {
+          "package": "sqlparse",
+          "ecosystem": "pypi",
+          "cves": 5
+        },
+        {
+          "package": "celery",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "gunicorn",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "redis",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "Fiona",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "django-celery-results",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "django-tastypie",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "future",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "idna",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "numexpr",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "oauthlib",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "openpyxl",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "pipreqs",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "psutil",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "zipp",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "the-building-data-genome-project",
+      "url": "https://github.com/buds-lab/the-building-data-genome-project",
+      "language": "jupyter notebook",
+      "total_cves": 390,
+      "total_dependencies": 172,
+      "vulnerable_packages": 43,
+      "risk_score": 226.74,
+      "vulnerable_dependencies": [
+        {
+          "package": "Pillow",
+          "ecosystem": "pypi",
+          "cves": 111
+        },
+        {
+          "package": "notebook",
+          "ecosystem": "pypi",
+          "cves": 29
+        },
+        {
+          "package": "cryptography",
+          "ecosystem": "pypi",
+          "cves": 24
+        },
+        {
+          "package": "Werkzeug",
+          "ecosystem": "pypi",
+          "cves": 17
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "Jinja2",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "ipython",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "lxml",
+          "ecosystem": "pypi",
+          "cves": 11
+        },
+        {
+          "package": "tornado",
+          "ecosystem": "pypi",
+          "cves": 11
+        },
+        {
+          "package": "nltk",
+          "ecosystem": "pypi",
+          "cves": 10
+        },
+        {
+          "package": "Flask-Cors",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "PyYAML",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "Pygments",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "pycrypto",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "Flask",
+          "ecosystem": "pypi",
+          "cves": 7
+        },
+        {
+          "package": "SQLAlchemy",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "certifi",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "mistune",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "pyOpenSSL",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "scikit-learn",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "protobuf",
+          "ecosystem": "pypi",
+          "cves": 5
+        },
+        {
+          "package": "CherryPy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "redis",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "jupyter-core",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "py",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "Babel",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "dask",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "docutils",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "future",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "gevent",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "idna",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "joblib",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "mpmath",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "nbconvert",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "numexpr",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "openpyxl",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "psutil",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "rope",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "astropy",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "configobj",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "universal-battery-database",
+      "url": "https://github.com/Samuel-Buteau/universal-battery-database",
+      "language": "python",
+      "total_cves": 361,
+      "total_dependencies": 44,
+      "vulnerable_packages": 13,
+      "risk_score": 820.45,
+      "vulnerable_dependencies": [
+        {
+          "package": "Django",
+          "ecosystem": "pypi",
+          "cves": 255
+        },
+        {
+          "package": "urllib3",
+          "ecosystem": "pypi",
+          "cves": 25
+        },
+        {
+          "package": "Werkzeug",
+          "ecosystem": "pypi",
+          "cves": 17
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "certifi",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "grpcio",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "rsa",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "protobuf",
+          "ecosystem": "pypi",
+          "cves": 5
+        },
+        {
+          "package": "sqlparse",
+          "ecosystem": "pypi",
+          "cves": 5
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "idna",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "oauthlib",
+          "ecosystem": "pypi",
+          "cves": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "temoa",
+      "url": "https://github.com/TemoaProject/temoa",
+      "language": "python",
+      "total_cves": 354,
+      "total_dependencies": 191,
+      "vulnerable_packages": 38,
+      "risk_score": 185.34,
+      "vulnerable_dependencies": [
+        {
+          "package": "pillow",
+          "ecosystem": "pypi",
+          "cves": 111
+        },
+        {
+          "package": "notebook",
+          "ecosystem": "pypi",
+          "cves": 29
+        },
+        {
+          "package": "urllib3",
+          "ecosystem": "pypi",
+          "cves": 25
+        },
+        {
+          "package": "jupyter-server",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "ipython",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "jinja2",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "lxml",
+          "ecosystem": "pypi",
+          "cves": 11
+        },
+        {
+          "package": "tornado",
+          "ecosystem": "pypi",
+          "cves": 11
+        },
+        {
+          "package": "bleach",
+          "ecosystem": "pypi",
+          "cves": 10
+        },
+        {
+          "package": "pygments",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "pyyaml",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "starlette",
+          "ecosystem": "pypi",
+          "cves": 7
+        },
+        {
+          "package": "certifi",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "jupyterlab",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "mistune",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "pyjwt",
+          "ecosystem": "pypi",
+          "cves": 5
+        },
+        {
+          "package": "mako",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "markdown-it-py",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "fastapi",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "jupyter-core",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "pydantic",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "babel",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "docutils",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "hpack",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "idna",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "joblib",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "nbconvert",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "openpyxl",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "psutil",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "fonttools",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "h11",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "h2",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "jupyter-lsp",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "parso",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "pvfree",
+      "url": "https://github.com/BreakingBytes/pvfree",
+      "language": "python",
+      "total_cves": 321,
+      "total_dependencies": 24,
+      "vulnerable_packages": 11,
+      "risk_score": 1337.5,
+      "vulnerable_dependencies": [
+        {
+          "package": "Django",
+          "ecosystem": "pypi",
+          "cves": 255
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "Jinja2",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "lxml",
+          "ecosystem": "pypi",
+          "cves": 11
+        },
+        {
+          "package": "PyYAML",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "gunicorn",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "tqdm",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "django-tastypie",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "openpyxl",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "foxbms-2",
+      "url": "https://github.com/foxBMS/foxbms-2",
+      "language": "c",
+      "total_cves": 256,
+      "total_dependencies": 110,
+      "vulnerable_packages": 21,
+      "risk_score": 232.73,
+      "vulnerable_dependencies": [
+        {
+          "package": "pillow",
+          "ecosystem": "pypi",
+          "cves": 111
+        },
+        {
+          "package": "urllib3",
+          "ecosystem": "pypi",
+          "cves": 25
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "Jinja2",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "lxml",
+          "ecosystem": "pypi",
+          "cves": 11
+        },
+        {
+          "package": "GitPython",
+          "ecosystem": "pypi",
+          "cves": 10
+        },
+        {
+          "package": "PyYAML",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "Pygments",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "pyarrow",
+          "ecosystem": "pypi",
+          "cves": 7
+        },
+        {
+          "package": "setuptools",
+          "ecosystem": "pypi",
+          "cves": 7
+        },
+        {
+          "package": "certifi",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "virtualenv",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "babel",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "docutils",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "idna",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "joblib",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "pywin32",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "fonttools",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "gridpath",
+      "url": "https://github.com/blue-marble/gridpath",
+      "language": "python",
+      "total_cves": 243,
+      "total_dependencies": 81,
+      "vulnerable_packages": 18,
+      "risk_score": 300.0,
+      "vulnerable_dependencies": [
+        {
+          "package": "pillow",
+          "ecosystem": "pypi",
+          "cves": 111
+        },
+        {
+          "package": "urllib3",
+          "ecosystem": "pypi",
+          "cves": 25
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "Jinja2",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "ipython",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "tornado",
+          "ecosystem": "pypi",
+          "cves": 11
+        },
+        {
+          "package": "PyYAML",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "Pygments",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "certifi",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "duckdb",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "jupyter_core",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "babel",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "black",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "docutils",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "idna",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "parso",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "omf",
+      "url": "https://github.com/dpinney/omf",
+      "language": "python",
+      "total_cves": 221,
+      "total_dependencies": 53,
+      "vulnerable_packages": 17,
+      "risk_score": 416.98,
+      "vulnerable_dependencies": [
+        {
+          "package": "Pillow",
+          "ecosystem": "pypi",
+          "cves": 111
+        },
+        {
+          "package": "Werkzeug",
+          "ecosystem": "pypi",
+          "cves": 17
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "Jinja2",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "tornado",
+          "ecosystem": "pypi",
+          "cves": 11
+        },
+        {
+          "package": "Flask",
+          "ecosystem": "pypi",
+          "cves": 7
+        },
+        {
+          "package": "keyring",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "scikit-learn",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "gunicorn",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "tqdm",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "gevent",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "joblib",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "openpyxl",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "wheel",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "pudl",
+      "url": "https://github.com/catalyst-cooperative/pudl",
+      "language": "python",
+      "total_cves": 210,
+      "total_dependencies": 91,
+      "vulnerable_packages": 23,
+      "risk_score": 230.77,
+      "vulnerable_dependencies": [
+        {
+          "package": "mlflow",
+          "ecosystem": "pypi",
+          "cves": 74
+        },
+        {
+          "package": "urllib3",
+          "ecosystem": "pypi",
+          "cves": 25
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "jinja2",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "pyyaml",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "pyarrow",
+          "ecosystem": "pypi",
+          "cves": 7
+        },
+        {
+          "package": "grpcio",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "jupyterlab",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "scikit-learn",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "sqlalchemy",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "dbt-core",
+          "ecosystem": "pypi",
+          "cves": 5
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "duckdb",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "gdal",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "pydantic",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "dagster",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "dask",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "nbconvert",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "numexpr",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "deepdiff",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "jupyter-lsp",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "3D-PV-Locator",
+      "url": "https://github.com/kdmayer/3D-PV-Locator",
+      "language": "python",
+      "total_cves": 205,
+      "total_dependencies": 16,
+      "vulnerable_packages": 9,
+      "risk_score": 1281.25,
+      "vulnerable_dependencies": [
+        {
+          "package": "pillow",
+          "ecosystem": "pypi",
+          "cves": 111
+        },
+        {
+          "package": "notebook",
+          "ecosystem": "pypi",
+          "cves": 29
+        },
+        {
+          "package": "urllib3",
+          "ecosystem": "pypi",
+          "cves": 25
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "torch",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "pyyaml",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "gdal",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "3D-PV-Locator",
+      "url": "https://github.com/kdmayer/PV4GER",
+      "language": "python",
+      "total_cves": 205,
+      "total_dependencies": 16,
+      "vulnerable_packages": 9,
+      "risk_score": 1281.25,
+      "vulnerable_dependencies": [
+        {
+          "package": "pillow",
+          "ecosystem": "pypi",
+          "cves": 111
+        },
+        {
+          "package": "notebook",
+          "ecosystem": "pypi",
+          "cves": 29
+        },
+        {
+          "package": "urllib3",
+          "ecosystem": "pypi",
+          "cves": 25
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "torch",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "pyyaml",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "gdal",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "rdtools",
+      "url": "https://github.com/NREL/rdtools",
+      "language": "python",
+      "total_cves": 186,
+      "total_dependencies": 34,
+      "vulnerable_packages": 11,
+      "risk_score": 547.06,
+      "vulnerable_dependencies": [
+        {
+          "package": "Pillow",
+          "ecosystem": "pypi",
+          "cves": 111
+        },
+        {
+          "package": "urllib3",
+          "ecosystem": "pypi",
+          "cves": 25
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "certifi",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "scikit-learn",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "idna",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "joblib",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "fonttools",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "powerplantmatching",
+      "url": "https://github.com/FRESNA/powerplantmatching",
+      "language": "python",
+      "total_cves": 161,
+      "total_dependencies": 41,
+      "vulnerable_packages": 9,
+      "risk_score": 392.68,
+      "vulnerable_dependencies": [
+        {
+          "package": "pillow",
+          "ecosystem": "pypi",
+          "cves": 111
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "pyyaml",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "cairosvg",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "tqdm",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "openpyxl",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "pvlib-python",
+      "url": "https://github.com/pvlib/pvlib-python",
+      "language": "python",
+      "total_cves": 161,
+      "total_dependencies": 32,
+      "vulnerable_packages": 7,
+      "risk_score": 503.12,
+      "vulnerable_dependencies": [
+        {
+          "package": "pillow",
+          "ecosystem": "pypi",
+          "cves": 111
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "ipython",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "docutils",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "VeraGrid",
+      "url": "https://github.com/SanPen/GridCal",
+      "language": "matlab",
+      "total_cves": 147,
+      "total_dependencies": 34,
+      "vulnerable_packages": 14,
+      "risk_score": 432.35,
+      "vulnerable_dependencies": [
+        {
+          "package": "opencv-python",
+          "ecosystem": "pypi",
+          "cves": 32
+        },
+        {
+          "package": "urllib3",
+          "ecosystem": "pypi",
+          "cves": 25
+        },
+        {
+          "package": "cryptography",
+          "ecosystem": "pypi",
+          "cves": 24
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "pyarrow",
+          "ecosystem": "pypi",
+          "cves": 7
+        },
+        {
+          "package": "setuptools",
+          "ecosystem": "pypi",
+          "cves": 7
+        },
+        {
+          "package": "scikit-learn",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "uvicorn",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "websockets",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "fastapi",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "openpyxl",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "solar-pv-global-inventory",
+      "url": "https://github.com/Lkruitwagen/solar-pv-global-inventory",
+      "language": "jupyter notebook",
+      "total_cves": 126,
+      "total_dependencies": 10,
+      "vulnerable_packages": 3,
+      "risk_score": 1260.0,
+      "vulnerable_dependencies": [
+        {
+          "package": "pillow",
+          "ecosystem": "pypi",
+          "cves": 111
+        },
+        {
+          "package": "pyyaml",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "keras",
+          "ecosystem": "pypi",
+          "cves": 7
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "cellpy",
+      "url": "https://github.com/jepegit/cellpy",
+      "language": "python",
+      "total_cves": 122,
+      "total_dependencies": 34,
+      "vulnerable_packages": 14,
+      "risk_score": 358.82,
+      "vulnerable_dependencies": [
+        {
+          "package": "notebook",
+          "ecosystem": "pypi",
+          "cves": 29
+        },
+        {
+          "package": "cryptography",
+          "ecosystem": "pypi",
+          "cves": 24
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "ipython",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "setuptools",
+          "ecosystem": "pypi",
+          "cves": 7
+        },
+        {
+          "package": "jupyterlab",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "sqlalchemy",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "tqdm",
+          "ecosystem": "pypi",
+          "cves": 3
+        },
+        {
+          "package": "cookiecutter",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "openpyxl",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "fabric",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "clima",
+      "url": "https://github.com/CenterForTheBuiltEnvironment/clima",
+      "language": "python",
+      "total_cves": 119,
+      "total_dependencies": 59,
+      "vulnerable_packages": 17,
+      "risk_score": 201.69,
+      "vulnerable_dependencies": [
+        {
+          "package": "urllib3",
+          "ecosystem": "pypi",
+          "cves": 25
+        },
+        {
+          "package": "Werkzeug",
+          "ecosystem": "pypi",
+          "cves": 17
+        },
+        {
+          "package": "numpy",
+          "ecosystem": "pypi",
+          "cves": 16
+        },
+        {
+          "package": "Jinja2",
+          "ecosystem": "pypi",
+          "cves": 15
+        },
+        {
+          "package": "requests",
+          "ecosystem": "pypi",
+          "cves": 12
+        },
+        {
+          "package": "Pygments",
+          "ecosystem": "pypi",
+          "cves": 8
+        },
+        {
+          "package": "Flask",
+          "ecosystem": "pypi",
+          "cves": 7
+        },
+        {
+          "package": "certifi",
+          "ecosystem": "pypi",
+          "cves": 6
+        },
+        {
+          "package": "scipy",
+          "ecosystem": "pypi",
+          "cves": 4
+        },
+        {
+          "package": "black",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "dash",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "idna",
+          "ecosystem": "pypi",
+          "cves": 2
+        },
+        {
+          "package": "Flask-Caching",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "dash-core-components",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "dash-html-components",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "pandas",
+          "ecosystem": "pypi",
+          "cves": 1
+        },
+        {
+          "package": "zipp",
+          "ecosystem": "pypi",
+          "cves": 1
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "powsybl-core",
+      "url": "https://github.com/powsybl/powsybl-core",
+      "language": "java",
+      "total_cves": 111,
+      "total_dependencies": 147,
+      "vulnerable_packages": 14,
+      "risk_score": 75.51,
+      "vulnerable_dependencies": [
+        {
+          "package": "com.fasterxml.jackson.core:jackson-databind",
+          "ecosystem": "maven",
+          "cves": 69
+        },
+        {
+          "package": "org.apache.commons:commons-compress",
+          "ecosystem": "maven",
+          "cves": 11
+        },
+        {
+          "package": "org.yaml:snakeyaml",
+          "ecosystem": "maven",
+          "cves": 8
+        },
+        {
+          "package": "ch.qos.logback:logback-core",
+          "ecosystem": "maven",
+          "cves": 7
+        },
+        {
+          "package": "org.apache.commons:commons-configuration2",
+          "ecosystem": "maven",
+          "cves": 4
+        },
+        {
+          "package": "com.google.guava:guava",
+          "ecosystem": "maven",
+          "cves": 3
+        },
+        {
+          "package": "ch.qos.logback:logback-classic",
+          "ecosystem": "maven",
+          "cves": 2
+        },
+        {
+          "package": "com.fasterxml.jackson.core:jackson-core",
+          "ecosystem": "maven",
+          "cves": 2
+        },
+        {
+          "package": "commons-io:commons-io",
+          "ecosystem": "maven",
+          "cves": 2
+        },
+        {
+          "package": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+          "ecosystem": "maven",
+          "cves": 1
+        },
+        {
+          "package": "org.apache.commons:commons-lang3",
+          "ecosystem": "maven",
+          "cves": 1
+        },
+        {
+          "package": "org.apache.commons:commons-text",
+          "ecosystem": "maven",
+          "cves": 1
+        },
+        {
+          "package": "org.apache.poi:poi-ooxml",
+          "ecosystem": "maven",
+          "cves": 1
+        },
+        {
+          "package": "org.xmlunit:xmlunit-core",
+          "ecosystem": "maven",
+          "cves": 1
+        }
+      ]
+    }
+  ]
+}
