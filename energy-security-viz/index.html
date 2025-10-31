@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Energy Sector Open Source Security Dashboard</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="container">
+          <h1>⚡ Energy Sector Open Source Security Dashboard</h1>
+          <p class="subtitle">Comprehensive vulnerability analysis of 375 energy-related open source projects</p>
+        </div>
+      </header>
+
+      <!-- Stats Overview -->
+      <section class="stats-overview">
+        <div class="container">
+          <div class="stats-grid" id="statsGrid"></div>
+        </div>
+      </section>
+
+      <!-- Navigation Tabs -->
+      <nav class="tabs">
+        <div class="container">
+          <button class="tab-btn active" data-tab="ecosystem">🌐 Ecosystem View</button>
+          <button class="tab-btn" data-tab="packages">📦 Package Analysis</button>
+          <button class="tab-btn" data-tab="projects">🚀 Project Explorer</button>
+          <button class="tab-btn" data-tab="categories">📊 Category Insights</button>
+          <button class="tab-btn" data-tab="network">🕸️ Dependency Network</button>
+        </div>
+      </nav>
+
+      <!-- Tab Content -->
+      <main class="main-content">
+        <div class="container">
+          
+          <!-- Ecosystem View Tab -->
+          <div class="tab-content active" id="ecosystem">
+            <h2>🌐 Security Ecosystem Overview</h2>
+            <div class="chart-grid">
+              <div class="chart-card">
+                <h3>Vulnerability Distribution by Severity</h3>
+                <canvas id="severityChart"></canvas>
+              </div>
+              <div class="chart-card">
+                <h3>Package Type Distribution</h3>
+                <canvas id="packageTypeChart"></canvas>
+              </div>
+              <div class="chart-card">
+                <h3>Language Vulnerability Landscape</h3>
+                <canvas id="languageChart"></canvas>
+              </div>
+              <div class="chart-card full-width">
+                <h3>Category Health Scores</h3>
+                <div id="categoryHealthChart"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Package Analysis Tab -->
+          <div class="tab-content" id="packages">
+            <h2>📦 Most Vulnerable Packages</h2>
+            <div class="chart-card">
+              <h3>Top 20 Risky Dependencies</h3>
+              <div id="packageTable"></div>
+            </div>
+          </div>
+
+          <!-- Project Explorer Tab -->
+          <div class="tab-content" id="projects">
+            <h2>🚀 Project Security Explorer</h2>
+            <div class="controls">
+              <input type="text" id="projectSearch" placeholder="Search projects..." />
+              <select id="categoryFilter">
+                <option value="">All Categories</option>
+              </select>
+              <select id="statusFilter">
+                <option value="">All Statuses</option>
+                <option value="vulnerable">Vulnerable</option>
+                <option value="clean">Clean</option>
+              </select>
+            </div>
+            <div class="chart-card">
+              <h3>Project Details</h3>
+              <div id="projectList"></div>
+            </div>
+          </div>
+
+          <!-- Category Insights Tab -->
+          <div class="tab-content" id="categories">
+            <h2>📊 Category Security Analysis</h2>
+            <div class="chart-grid">
+              <div class="chart-card">
+                <h3>Vulnerabilities by Category</h3>
+                <canvas id="categoryVulnChart"></canvas>
+              </div>
+              <div class="chart-card">
+                <h3>Projects by Category</h3>
+                <canvas id="categoryProjectChart"></canvas>
+              </div>
+              <div class="chart-card full-width">
+                <h3>Category Comparison Matrix</h3>
+                <div id="categoryMatrix"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dependency Network Tab -->
+          <div class="tab-content" id="network">
+            <h2>🕸️ Dependency Risk Network</h2>
+            <p class="description">Interactive network showing high-risk dependencies and their project impact</p>
+            <div class="chart-card">
+              <div id="networkGraph"></div>
+            </div>
+            <div class="chart-card">
+              <h3>Most Common Vulnerabilities</h3>
+              <div id="vulnTable"></div>
+            </div>
+          </div>
+
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <p>🔍 Data generated using <strong>Grype</strong> vulnerability scanner | 
+             📊 Analyzing <strong>375</strong> open source projects | 
+             ⏰ Last updated: <span id="lastUpdate"></span></p>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

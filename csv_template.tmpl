@@ -1,0 +1,4 @@
+Package,Version,Type,Vulnerability ID,Severity,Fixed In
+{{- range .Matches}}
+"{{.Artifact.Name}}","{{.Artifact.Version}}","{{.Artifact.Type}}","{{.Vulnerability.ID}}","{{.Vulnerability.Severity}}","{{if .Vulnerability.Fix.Versions}}{{range $i, $v := .Vulnerability.Fix.Versions}}{{if $i}}, {{end}}{{$v}}{{end}}{{else}}No fix available{{end}}"
+{{- end}}

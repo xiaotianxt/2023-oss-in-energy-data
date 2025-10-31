@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test JSON Load</title>
+</head>
+<body>
+    <h1>Testing vulnerability-data.json</h1>
+    <div id="result"></div>
+    
+    <script>
+        fetch('/vulnerability-data.json')
+            .then(response => {
+                console.log('Response status:', response.status);
+                console.log('Response ok:', response.ok);
+                return response.json();
+            })
+            .then(data => {
+                console.log('Data loaded:', data);
+                document.getElementById('result').innerHTML = `
+                    <h2>✅ Success!</h2>
+                    <p>Total Projects: ${data.overview.total_projects}</p>
+                    <p>Vulnerable Projects: ${data.overview.vulnerable_projects}</p>
+                    <p>Total Vulnerabilities: ${data.overview.total_vulnerabilities}</p>
+                    <pre>${JSON.stringify(data.overview, null, 2)}</pre>
+                `;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('result').innerHTML = `
+                    <h2>❌ Error</h2>
+                    <p>${error.message}</p>
+                `;
+            });
+    </script>
+</body>
+</html>
+
+
