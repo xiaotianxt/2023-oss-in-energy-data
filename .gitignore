@@ -107,3 +107,24 @@ node_modules/
 package-lock.json
 yarn.lock
 .vercel
+
+# Cloned repositories (managed as submodules)
+repos/*
+!repos/.gitkeep
+
+# SBOM files (too large for git)
+sbom/*.json
+
+# CSV vulnerability reports (too large for git)
+csv-vulnerability/*.csv
+
+# Temporary cloned repos for analysis
+compas-core/
+pudl/
+snl-quest/
+temoa/
+universal-battery-database/
+
+# Analysis results
+results/
+full_analysis_results/
