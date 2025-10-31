@@ -1,0 +1,179 @@
+[submodule "repos/battery-archive-sandbox"]
+	path = repos/battery-archive-sandbox
+	url = https://github.com/battery-lcf/battery-archive-sandbox
+	shallow = true
+[submodule "repos/ProbCas"]
+	path = repos/ProbCas
+	url = https://github.com/jbrowell/ProbCast
+	shallow = true
+[submodule "repos/openleadr-python"]
+	path = repos/openleadr-python
+	url = https://github.com/OpenLEADR/openleadr-python
+	shallow = true
+[submodule "repos/etmodel"]
+	path = repos/etmodel
+	url = https://github.com/quintel/etmodel
+	shallow = true
+[submodule "repos/gcam-core"]
+	path = repos/gcam-core
+	url = https://github.com/JGCRI/gcam-core
+	shallow = true
+[submodule "repos/oemof"]
+	path = repos/oemof
+	url = https://github.com/oemof/oemof
+	shallow = true
+[submodule "repos/PowerSimulations.jl"]
+	path = repos/PowerSimulations.jl
+	url = https://github.com/NREL-SIIP/PowerSimulations.jl
+	shallow = true
+[submodule "repos/plu"]
+	path = repos/plu
+	url = https://github.com/Breakthrough-Energy/plug
+	shallow = true
+[submodule "repos/wattdepo"]
+	path = repos/wattdepo
+	url = https://github.com/wattdepot/wattdepot
+	shallow = true
+[submodule "repos/mos"]
+	path = repos/mos
+	url = https://github.com/MATPOWER/most
+	shallow = true
+[submodule "repos/OnSSET-2016"]
+	path = repos/OnSSET-2016
+	url = https://github.com/KTH-dESA/OnSSET-2016
+	shallow = true
+[submodule "repos/PowerModels.jl"]
+	path = repos/PowerModels.jl
+	url = https://github.com/lanl-ansi/PowerModels.jl
+	shallow = true
+[submodule "repos/REopt_Lite_API"]
+	path = repos/REopt_Lite_API
+	url = https://github.com/NREL/REopt_Lite_API
+	shallow = true
+[submodule "repos/solar-pv-global-inventory"]
+	path = repos/solar-pv-global-inventory
+	url = https://github.com/Lkruitwagen/solar-pv-global-inventory
+	shallow = true
+[submodule "repos/Antares_Simulator"]
+	path = repos/Antares_Simulator
+	url = https://github.com/AntaresSimulatorTeam/Antares_Simulator
+	shallow = true
+[submodule "repos/AnyMOD.jl"]
+	path = repos/AnyMOD.jl
+	url = https://github.com/leonardgoeke/AnyMOD.jl
+	shallow = true
+[submodule "repos/clima"]
+	path = repos/clima
+	url = https://github.com/CenterForTheBuiltEnvironment/clima
+	shallow = true
+[submodule "repos/CapacityExpansion.jl"]
+	path = repos/CapacityExpansion.jl
+	url = https://github.com/YoungFaithful/CapacityExpansion.jl
+	shallow = true
+[submodule "repos/CarrierCapture.jl"]
+	path = repos/CarrierCapture.jl
+	url = https://github.com/WMD-group/CarrierCapture.jl
+	shallow = true
+[submodule "repos/CityEnergyAnalys"]
+	path = repos/CityEnergyAnalys
+	url = https://github.com/architecture-building-systems/CityEnergyAnalyst
+	shallow = true
+[submodule "repos/compas-core"]
+	path = repos/compas-core
+	url = https://github.com/com-pas/compas-core
+	shallow = true
+[submodule "repos/opendigitaltwins-energygrid"]
+	path = repos/opendigitaltwins-energygrid
+	url = https://github.com/Azure/opendigitaltwins-energygrid
+	shallow = true
+[submodule "repos/digital_wra_data_standard"]
+	path = repos/digital_wra_data_standard
+	url = https://github.com/IEA-Task-43/digital_wra_data_standard
+	shallow = true
+[submodule "repos/Egre"]
+	path = repos/Egre
+	url = https://github.com/grid-parity-exchange/Egret
+	shallow = true
+[submodule "repos/eps-us"]
+	path = repos/eps-us
+	url = https://github.com/Energy-Innovation/eps-us
+	shallow = true
+[submodule "repos/etengine"]
+	path = repos/etengine
+	url = https://github.com/quintel/etengine
+	shallow = true
+[submodule "repos/flexmeasures"]
+	path = repos/flexmeasures
+	url = https://github.com/SeitaBV/flexmeasures
+	shallow = true
+[submodule "repos/gsf"]
+	path = repos/gsf
+	url = https://github.com/GridProtectionAlliance/gsf
+	shallow = true
+[submodule "repos/GasModels.jl"]
+	path = repos/GasModels.jl
+	url = https://github.com/lanl-ansi/GasModels.jl
+	shallow = true
+[submodule "repos/GeoThermalCloud.jl"]
+	path = repos/GeoThermalCloud.jl
+	url = https://github.com/SmartTensors/GeoThermalCloud.jl
+	shallow = true
+[submodule "repos/GlobalEnergyGIS"]
+	path = repos/GlobalEnergyGIS
+	url = https://github.com/niclasmattsson/GlobalEnergyGIS
+	shallow = true
+[submodule "repos/GreenGuard"]
+	path = repos/GreenGuard
+	url = https://github.com/signals-dev/GreenGuard
+	shallow = true
+[submodule "repos/gsy-e"]
+	path = repos/gsy-e
+	url = https://github.com/gridsingularity/gsy-e
+	shallow = true
+[submodule "repos/Grid2Op"]
+	path = repos/Grid2Op
+	url = https://github.com/rte-france/Grid2Op
+	shallow = true
+[submodule "repos/gridlabd"]
+	path = repos/gridlabd
+	url = https://github.com/slacgismo/gridlabd
+	shallow = true
+[submodule "repos/gridpath"]
+	path = repos/gridpath
+	url = https://github.com/blue-marble/gridpath
+	shallow = true
+[submodule "repos/gym-electric-motor"]
+	path = repos/gym-electric-motor
+	url = https://github.com/upb-lea/gym-electric-motor
+	shallow = true
+[submodule "repos/gym-anm"]
+	path = repos/gym-anm
+	url = https://github.com/robinhenry/gym-anm
+	shallow = true
+[submodule "repos/HAMS"]
+	path = repos/HAMS
+	url = https://github.com/YingyiLiu/HAMS
+	shallow = true
+[submodule "repos/HIM"]
+	path = repos/HIM
+	url = https://github.com/FZJ-IEK3-VSA/HIM
+	shallow = true
+[submodule "repos/HPWHsim"]
+	path = repos/HPWHsim
+	url = https://github.com/EcotopeResearch/HPWHsim
+	shallow = true
+[submodule "repos/hescore-hpxml"]
+	path = repos/hescore-hpxml
+	url = https://github.com/NREL/hescore-hpxml
+	shallow = true
+[submodule "repos/Hotmaps-toolbox-service"]
+	path = repos/Hotmaps-toolbox-service
+	url = https://github.com/HotMaps/Hotmaps-toolbox-service
+	shallow = true
+[submodule "repos/APIS"]
+	path = repos/APIS
+	url = https://github.com/hyphae/APIS
+	shallow = true
+[submodule "repos/IDEAS"]
+	path = repos/IDEAS
+	url = https://github.com/open-ideas/IDEAS
