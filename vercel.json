@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd energy-security-viz && npm install && npm run build",
+  "outputDirectory": "energy-security-viz/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+

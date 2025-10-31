@@ -1,0 +1,651 @@
+Projects pending scan: 162
+======================================================================
+
+Offgrid Systems
+  URL: https://github.com/offgridsystems
+  Safe name: offgrid-systems
+
+SciGRID
+  URL: http://git.scigrid.de
+  Safe name: scigrid
+
+DIETER
+  URL: https://www.diw.de/de/diw_01.c.599753.de/modelle.html
+  Safe name: dieter
+
+Frictionless Energy data
+  URL: https://sentinel-energy.github.io/friendly_data/
+  Safe name: frictionless-energy-data
+
+Power System Analysis Toolbox
+  URL: http://faraday1.ucd.ie/psat.html
+  Safe name: power-system-analysis-toolbox
+
+PyWake
+  URL: https://gitlab.windenergy.dtu.dk/TOPFARM/PyWake
+  Safe name: pywake
+
+QBlade
+  URL: https://qblade.org/downloads/
+  Safe name: qblade
+
+SmartGridToolbox
+  URL: https://gitlab.com/SmartGridToolbox/SmartGridToolbox
+  Safe name: smartgridtoolbox
+
+StorageVET
+  URL: https://github.com/epri-dev/StorageVET
+  Safe name: storagevet
+
+The Building Data Genome 2 Data-Set
+  URL: https://github.com/buds-lab/building-data-genome-project-2
+  Safe name: the-building-data-genome-2-data-set
+
+The Electricity Market Model EMMA
+  URL: https://github.com/emma-model/EMMA
+  Safe name: the-electricity-market-model-emma
+
+The Hydrogen Risk Assessment Models
+  URL: https://github.com/sandialabs/hyram
+  Safe name: the-hydrogen-risk-assessment-models
+
+The IDAES Toolkit
+  URL: https://github.com/IDAES/idaes-pse
+  Safe name: the-idaes-toolkit
+
+The Open Charge Point Protocol
+  URL: https://github.com/NewMotion/ocpp
+  Safe name: the-open-charge-point-protocol
+
+The Public Utility Data Liberation Project
+  URL: https://github.com/catalyst-cooperative/pudl
+  Safe name: the-public-utility-data-liberation-project
+
+The-building-data-genome-project
+  URL: https://github.com/buds-lab/the-building-data-genome-project
+  Safe name: the-building-data-genome-project
+
+Thermofeel
+  URL: https://github.com/ecmwf-projects/thermofeel
+  Safe name: thermofeel
+
+TimeSeriesClustering
+  URL: https://github.com/holgerteichgraeber/TimeSeriesClustering.jl
+  Safe name: timeseriesclustering
+
+Tonatiuh
+  URL: https://github.com/iat-cener/tonatiuh
+  Safe name: tonatiuh
+
+Tools for the iTEM databases
+  URL: https://github.com/transportenergy/database
+  Safe name: tools-for-the-item-databases
+
+TopFarm2
+  URL: https://gitlab.windenergy.dtu.dk/TOPFARM/TopFarm2
+  Safe name: topfarm2
+
+Transactive Energy Service System
+  URL: https://github.com/slacgismo/TESS
+  Safe name: transactive-energy-service-system
+
+UKgrid
+  URL: https://github.com/RamiKrispin/UKgrid
+  Safe name: ukgrid
+
+USgrid
+  URL: https://github.com/RamiKrispin/USgrid
+  Safe name: usgrid
+
+VILLASnode
+  URL: https://git.rwth-aachen.de/acs/public/villas/node
+  Safe name: villasnode
+
+VOLTTRON
+  URL: https://github.com/VOLTTRON/volttron
+  Safe name: volttron
+
+Vehicle Energy Dataset
+  URL: https://github.com/gsoh/VED
+  Safe name: vehicle-energy-dataset
+
+WEC-Sim
+  URL: https://github.com/WEC-Sim/WEC-Sim
+  Safe name: wec-sim
+
+WEIS
+  URL: https://github.com/WISDEM/WEIS
+  Safe name: weis
+
+WWCP_Core
+  URL: https://github.com/OpenChargingCloud/WWCP_Core
+  Safe name: wwcp_core
+
+WWCP_OCPP
+  URL: https://github.com/OpenChargingCloud/WWCP_OCPP
+  Safe name: wwcp_ocpp
+
+WecOptTool
+  URL: https://github.com/SNL-WaterPower/WecOptTool
+  Safe name: wecopttool
+
+WindSE
+  URL: https://github.com/NREL/WindSE
+  Safe name: windse
+
+WindTurbineClassification
+  URL: https://github.com/nmstreethran/WindTurbineClassification
+  Safe name: windturbineclassification
+
+amr-wind
+  URL: https://github.com/Exawind/amr-wind
+  Safe name: amr-wind
+
+antaresRead
+  URL: https://github.com/rte-antares-rpackage/antaresRead
+  Safe name: antaresread
+
+antaresViz
+  URL: https://github.com/rte-antares-rpackage/antaresViz
+  Safe name: antaresviz
+
+autoXRD
+  URL: https://github.com/PV-Lab/autoXRD
+  Safe name: autoxrd
+
+awebox
+  URL: https://github.com/awebox/awebox
+  Safe name: awebox
+
+bifacial_radiance
+  URL: https://github.com/NREL/bifacial_radiance
+  Safe name: bifacial_radiance
+
+bifacialvf
+  URL: https://github.com/NREL/bifacialvf
+  Safe name: bifacialvf
+
+biosteam
+  URL: https://github.com/BioSTEAMDevelopmentGroup/biosteam
+  Safe name: biosteam
+
+brightwind
+  URL: https://github.com/brightwind-dev/brightwind
+  Safe name: brightwind
+
+comfort_tool
+  URL: https://github.com/CenterForTheBuiltEnvironment/comfort_tool
+  Safe name: comfort_tool
+
+conventional power plants
+  URL: https://github.com/Open-Power-System-Data/conventional_power_plants
+  Safe name: conventional-power-plants
+
+deflex
+  URL: https://github.com/reegis/deflex
+  Safe name: deflex
+
+demandlib
+  URL: https://github.com/oemof/demandlib
+  Safe name: demandlib
+
+disaggregator
+  URL: https://github.com/DemandRegioTeam/disaggregator
+  Safe name: disaggregator
+
+docile-charge-point
+  URL: https://github.com/NewMotion/docile-charge-point
+  Safe name: docile-charge-point
+
+eDisGo
+  URL: https://github.com/openego/eDisGo/
+  Safe name: edisgo
+
+eiapy
+  URL: https://github.com/systemcatch/eiapy
+  Safe name: eiapy
+
+electricitymap-contrib
+  URL: https://github.com/tmrowco/electricitymap-contrib
+  Safe name: electricitymap-contrib
+
+emobility-smart-charging
+  URL: https://github.com/SAP/emobility-smart-charging
+  Safe name: emobility-smart-charging
+
+emobpy
+  URL: https://gitlab.com/diw-evu/emobpy/emobpy
+  Safe name: emobpy
+
+emonpi
+  URL: https://github.com/openenergymonitor/emonpi
+  Safe name: emonpi
+
+energy-py
+  URL: https://github.com/ADGEfficiency/energy-py
+  Safe name: energy-py
+
+energy-sparks
+  URL: https://github.com/Energy-Sparks/energy-sparks
+  Safe name: energy-sparks
+
+energyRt
+  URL: https://github.com/energyRt/energyRt/
+  Safe name: energyrt
+
+entsoe-py
+  URL: https://github.com/EnergieID/entsoe-py
+  Safe name: entsoe-py
+
+eplusr
+  URL: https://github.com/hongyuanjia/eplusr
+  Safe name: eplusr
+
+equiv-circ-model
+  URL: https://github.com/batterysim/equiv-circ-model
+  Safe name: equiv-circ-model
+
+feedinlib
+  URL: https://github.com/oemof/feedinlib
+  Safe name: feedinlib
+
+floris
+  URL: https://github.com/NREL/floris
+  Safe name: floris
+
+fractoolbox
+  URL: https://github.com/ICWallis/fractoolbox
+  Safe name: fractoolbox
+
+geothermics
+  URL: https://github.com/Japhiolite/geothermics
+  Safe name: geothermics
+
+go-ocpp
+  URL: https://github.com/voltbras/go-ocpp
+  Safe name: go-ocpp
+
+gopem
+  URL: https://github.com/ECSIM/gopem
+  Safe name: gopem
+
+honeybee
+  URL: https://github.com/ladybug-tools/honeybee
+  Safe name: honeybee
+
+hplib
+  URL: https://github.com/RE-Lab-Projects/hplib
+  Safe name: hplib
+
+hydropowerlib
+  URL: https://github.com/hydro-python/hydropowerlib
+  Safe name: hydropowerlib
+
+impedance.py
+  URL: https://github.com/ECSHackWeek/impedance.py
+  Safe name: impedancepy
+
+lib60870.NET
+  URL: https://github.com/mz-automation/lib60870.NET
+  Safe name: lib60870net
+
+lib60870
+  URL: https://github.com/mz-automation/lib60870
+  Safe name: lib60870
+
+libcimpp
+  URL: https://github.com/sogno-platform/libcimpp
+  Safe name: libcimpp
+
+libiec61850
+  URL: https://github.com/mz-automation/libiec61850
+  Safe name: libiec61850
+
+load_forecasting
+  URL: https://github.com/pyaf/load_forecasting
+  Safe name: load_forecasting
+
+makani
+  URL: https://github.com/google/makani
+  Safe name: makani
+
+modelica-ibpsa
+  URL: https://github.com/ibpsa/modelica-ibpsa
+  Safe name: modelica-ibpsa
+
+multiphysics
+  URL: https://github.com/charxie/multiphysics
+  Safe name: multiphysics
+
+nasapower
+  URL: https://github.com/ropensci/nasapower
+  Safe name: nasapower
+
+nempy
+  URL: https://github.com/UNSW-CEEM/nempy
+  Safe name: nempy
+
+offgridders
+  URL: https://github.com/rl-institut/offgridders
+  Safe name: offgridders
+
+open-MaStR
+  URL: https://github.com/OpenEnergyPlatform/open-MaStR
+  Safe name: open-mastr
+
+open-ev-data
+  URL: https://github.com/chargeprice/open-ev-data
+  Safe name: open-ev-data
+
+openCEM
+  URL: https://github.com/openCEMorg/openCEM
+  Safe name: opencem
+
+openENTRANCE
+  URL: https://github.com/openENTRANCE/nomenclature
+  Safe name: openentrance
+
+openHistorian
+  URL: https://github.com/GridProtectionAlliance/openHistorian
+  Safe name: openhistorian
+
+openPDC
+  URL: https://github.com/GridProtectionAlliance/openPDC
+  Safe name: openpdc
+
+openTEPES
+  URL: https://github.com/IIT-EnergySystemModels/openTEPES
+  Safe name: opentepes
+
+openXDA
+  URL: https://github.com/GridProtectionAlliance/openXDA
+  Safe name: openxda
+
+open_BEA
+  URL: https://gitlab.lrz.de/open-ees-ses/openbea
+  Safe name: open_bea
+
+openfast
+  URL: https://github.com/OpenFAST/openfast
+  Safe name: openfast
+
+openmodelica-microgrid-gym
+  URL: https://github.com/upb-lea/openmodelica-microgrid-gym
+  Safe name: openmodelica-microgrid-gym
+
+openv2g
+  URL: http://openv2g.sourceforge.net/
+  Safe name: openv2g
+
+origin
+  URL: https://github.com/energywebfoundation/origin
+  Safe name: origin
+
+pandapipes
+  URL: https://github.com/e2nIEE/pandapipes
+  Safe name: pandapipes
+
+pandapower
+  URL: https://github.com/e2nIEE/pandapower
+  Safe name: pandapower
+
+photovoltaic
+  URL: https://github.com/pvedu/photovoltaic
+  Safe name: photovoltaic
+
+power-wheel-card
+  URL: https://github.com/gurbyz/power-wheel-card
+  Safe name: power-wheel-card
+
+powerplantmatching
+  URL: https://github.com/FRESNA/powerplantmatching
+  Safe name: powerplantmatching
+
+predict_pv_yield
+  URL: https://github.com/openclimatefix/predict_pv_yield
+  Safe name: predict_pv_yield
+
+project1
+  URL: https://github.com/ibpsa/project1
+  Safe name: project1
+
+pv-system-profiler
+  URL: https://github.com/slacgismo/pv-system-profiler
+  Safe name: pv-system-profiler
+
+pv-terms
+  URL: https://github.com/DuraMAT/pv-terms
+  Safe name: pv-terms
+
+pvanalytics
+  URL: https://github.com/pvlib/pvanalytics
+  Safe name: pvanalytics
+
+pvcaptest
+  URL: https://github.com/pvcaptest/pvcaptest
+  Safe name: pvcaptest
+
+pvcompare
+  URL: https://github.com/greco-project/pvcompare
+  Safe name: pvcompare
+
+pvfactors
+  URL: https://github.com/SunPower/pvfactors
+  Safe name: pvfactors
+
+pvlib-python
+  URL: https://github.com/pvlib/pvlib-python
+  Safe name: pvlib-python
+
+pvoutput
+  URL: https://github.com/openclimatefix/pvoutput
+  Safe name: pvoutput
+
+pvtrace
+  URL: https://github.com/danieljfarrell/pvtrace
+  Safe name: pvtrace
+
+pyCity_base
+  URL: https://github.com/RWTH-EBC/pyCity
+  Safe name: pycity_base
+
+pyEIA
+  URL: https://github.com/thomastu/pyEIA
+  Safe name: pyeia
+
+pyGRETA
+  URL: https://github.com/tum-ens/pyGRETA
+  Safe name: pygreta
+
+pyam
+  URL: https://github.com/IAMconsortium/pyam
+  Safe name: pyam
+
+pycity_scheduling
+  URL: https://git.rwth-aachen.de/acs/public/simulation/pycity_scheduling
+  Safe name: pycity_scheduling
+
+pyconturb
+  URL: https://gitlab.windenergy.dtu.dk/pyconturb/pyconturb
+  Safe name: pyconturb
+
+pygfunction
+  URL: https://github.com/MassimoCimmino/pygfunction
+  Safe name: pygfunction
+
+pymgrid
+  URL: https://github.com/Total-RD/pymgrid
+  Safe name: pymgrid
+
+pypownet
+  URL: https://github.com/MarvinLer/pypownet
+  Safe name: pypownet
+
+pythermalcomfort
+  URL: https://github.com/CenterForTheBuiltEnvironment/pythermalcomfort
+  Safe name: pythermalcomfort
+
+rayflare
+  URL: https://github.com/qpv-research-group/rayflare
+  Safe name: rayflare
+
+rdtools
+  URL: https://github.com/NREL/rdtools
+  Safe name: rdtools
+
+reV
+  URL: https://github.com/NREL/reV
+  Safe name: rev
+
+reVX
+  URL: https://github.com/NREL/reVX
+  Safe name: revx
+
+renewable power plant
+  URL: https://github.com/Open-Power-System-Data/renewable_power_plants
+  Safe name: renewable-power-plant
+
+resstock
+  URL: https://github.com/NREL/resstock
+  Safe name: resstock
+
+rl-testbed-for-energyplus
+  URL: https://github.com/IBM/rl-testbed-for-energyplus
+  Safe name: rl-testbed-for-energyplus
+
+simses
+  URL: https://gitlab.lrz.de/open-ees-ses/simses
+  Safe name: simses
+
+snl-quest
+  URL: https://github.com/snl-quest/snl-quest
+  Safe name: snl-quest
+
+solaR
+  URL: https://github.com/oscarperpinan/solar
+  Safe name: solar
+
+solar-data-tools
+  URL: https://github.com/slacgismo/solar-data-tools
+  Safe name: solar-data-tools
+
+solariot
+  URL: https://github.com/meltaxa/solariot
+  Safe name: solariot
+
+solarpy
+  URL: https://github.com/aqreed/solarpy
+  Safe name: solarpy
+
+solax
+  URL: https://github.com/squishykid/solax
+  Safe name: solax
+
+solcore5
+  URL: https://github.com/qpv-research-group/solcore5
+  Safe name: solcore5
+
+teb
+  URL: https://github.com/TEB-model/teb
+  Safe name: teb
+
+thermo
+  URL: https://github.com/CalebBell/thermo
+  Safe name: thermo
+
+tsam
+  URL: https://github.com/FZJ-IEK3-VSA/tsam
+  Safe name: tsam
+
+turbinesFoam
+  URL: https://github.com/turbinesFoam/turbinesFoam
+  Safe name: turbinesfoam
+
+universal-battery-database
+  URL: https://github.com/Samuel-Buteau/universal-battery-database
+  Safe name: universal-battery-database
+
+whobs-server
+  URL: https://github.com/PyPSA/whobs-server
+  Safe name: whobs-server
+
+windrose
+  URL: https://github.com/python-windrose/windrose
+  Safe name: windrose
+
+EF-Pi
+  URL: https://github.com/flexiblepower/fpai-core
+  Safe name: ef-pi
+
+OperatorFabric
+  URL: https://github.com/opfab/operatorfabric-core
+  Safe name: operatorfabric
+
+RIAPS
+  URL: https://github.com/RIAPS/riaps-core
+  Safe name: riaps
+
+SEAPATH
+  URL: https://github.com/seapath
+  Safe name: seapath
+
+DistAIX
+  URL: https://git.rwth-aachen.de/acs/public/simulation/DistAIXFramework/distaix
+  Safe name: distaix
+
+GSEE
+  URL: https://github.com/renewables-ninja/gsee
+  Safe name: gsee
+
+MATPOWER
+  URL: https://github.com/MATPOWER/matpower
+  Safe name: matpower
+
+OpenDSS
+  URL: https://sourceforge.net/projects/electricdss
+  Safe name: opendss
+
+PYPOWER
+  URL: https://github.com/rwl/PYPOWER
+  Safe name: pypower
+
+PowerSimData
+  URL: https://github.com/Breakthrough-Energy/PowerSimData
+  Safe name: powersimdata
+
+PowerSimulationsDynamics.jl
+  URL: https://github.com/NREL-SIIP/PowerSimulationsDynamics.jl
+  Safe name: powersimulationsdynamicsjl
+
+PyPSA
+  URL: https://github.com/PyPSA/PyPSA
+  Safe name: pypsa
+
+REISE.jl
+  URL: https://github.com/Breakthrough-Energy/REISE.jl
+  Safe name: reisejl
+
+TEASER
+  URL: https://github.com/RWTH-EBC/TEASER
+  Safe name: teaser
+
+VILLAScontroller
+  URL: https://git.rwth-aachen.de/acs/public/villas/controller
+  Safe name: villascontroller
+
+VILLASdataprocessing
+  URL: https://git.rwth-aachen.de/acs/public/villas/dataprocessing
+  Safe name: villasdataprocessing
+
+VILLASfpga
+  URL: https://git.rwth-aachen.de/acs/public/villas/fpga/fpga
+  Safe name: villasfpga
+
+renpass
+  URL: https://github.com/fraukewiese/renpass
+  Safe name: renpass
+
+pyVolt
+  URL: https://git.rwth-aachen.de/acs/public/automation/se/pyvolt
+  Safe name: pyvolt
+
