@@ -505,7 +505,7 @@ function renderProjectList(projects) {
   container.innerHTML = `
     <div class="project-grid">
       ${vulnerableProjects.map(p => `
-        <div class="project-card">
+        <div class="project-card ${p.repo_url ? 'clickable' : ''}" ${p.repo_url ? `onclick="window.open('${p.repo_url}', '_blank')"` : ''}>
           <h4>${p.project}</h4>
           <div class="meta">
             <span>📂 ${p.category}</span><br/>
@@ -515,6 +515,7 @@ function renderProjectList(projects) {
           <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-secondary);">
             ${p.details.unique_packages} unique packages affected
           </div>
+          ${p.repo_url ? '<div class="repo-link-indicator">🔗 Click to view repository</div>' : ''}
         </div>
       `).join('')}
     </div>

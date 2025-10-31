@@ -60,6 +60,7 @@ def load_projects_metadata(csv_file):
                         'languages': row.get('Languages', ''),
                         'license': row.get('License', ''),
                         'description': row.get('Description', ''),
+                        'repo_url': url,
                     }
     
     return projects_meta
@@ -171,6 +172,7 @@ def analyze_vulnerabilities(vulnerabilities, projects, projects_meta):
             'status': status,
             'category': meta.get('category', 'Unknown'),
             'languages': meta.get('languages', ''),
+            'repo_url': meta.get('repo_url', ''),
             'details': {
                 'severity_counts': dict(project_details.get(name, {}).get('severity_counts', {})),
                 'package_types': dict(project_details.get(name, {}).get('package_types', {})),

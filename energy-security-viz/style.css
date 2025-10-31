@@ -424,13 +424,36 @@ body {
   border-radius: 12px;
   border: 1px solid var(--border);
   transition: all 0.3s ease;
+  position: relative;
+}
+
+.project-card.clickable {
   cursor: pointer;
 }
 
-.project-card:hover {
+.project-card.clickable:hover {
   border-color: var(--primary);
   transform: translateY(-2px);
   box-shadow: 0 8px 24px var(--shadow);
+  background: var(--bg-elevated);
+}
+
+.project-card:not(.clickable) {
+  cursor: default;
+}
+
+.repo-link-indicator {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--primary);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card.clickable:hover .repo-link-indicator {
+  opacity: 1;
 }
 
 .project-card h4 {
