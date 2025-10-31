@@ -177,3 +177,4 @@
 [submodule "repos/IDEAS"]
 	path = repos/IDEAS
 	url = https://github.com/open-ideas/IDEAS
+	shallow = true
