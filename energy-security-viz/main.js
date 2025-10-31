@@ -310,7 +310,7 @@ function renderProjectExplorer() {
   // Populate category filter
   const categoryFilter = document.getElementById('categoryFilter');
   const categories = [...new Set(project_distribution.map(p => p.category))].sort();
-  categoryFilter.innerHTML += categories.map(cat => 
+  categoryFilter.innerHTML = '<option value="">All Categories</option>' + categories.map(cat => 
     `<option value="${cat}">${cat}</option>`
   ).join('');
   
@@ -328,8 +328,8 @@ function renderProjectExplorer() {
     
     const filtered = project_distribution.filter(p => {
       const matchesSearch = p.project.toLowerCase().includes(searchTerm);
-      const matchesCategory = !selectedCategory || p.category === selectedCategory;
-      const matchesStatus = !selectedStatus || p.status === selectedStatus;
+      const matchesCategory = selectedCategory === '' || p.category === selectedCategory;
+      const matchesStatus = selectedStatus === '' || p.status === selectedStatus;
       return matchesSearch && matchesCategory && matchesStatus;
     });
     
@@ -419,25 +419,41 @@ function renderProjectBubbleChart(projects) {
 
 function renderProjectList(projects) {
   const container = document.getElementById('projectList');
-  const vulnerableProjects = projects.filter(p => p.vulnerabilities > 0).slice(0, 20);
+  const countElement = document.getElementById('projectCount');
+  
+  // Update the count display
+  if (countElement) {
+    countElement.textContent = projects.length;
+  }
+  
+  // Show first 50 projects (adjust as needed)
+  const displayProjects = projects.slice(0, 50);
+  
+  if (displayProjects.length === 0) {
+    container.innerHTML = '<p style="text-align: center; padding: 2rem; color: var(--text-secondary);">No projects match the current filters.</p>';
+    return;
+  }
   
   container.innerHTML = `
     <div class="project-grid">
-      ${vulnerableProjects.map(p => `
+      ${displayProjects.map(p => `
         <div class="project-card ${p.repo_url ? 'clickable' : ''}" ${p.repo_url ? `onclick="window.open('${p.repo_url}', '_blank')"` : ''}>
           <h4>${p.project}</h4>
           <div class="meta">
             <span>${p.category}</span><br/>
             <span>${p.languages || 'N/A'}</span>
           </div>
-          <div class="vuln-count">${p.vulnerabilities} vulnerabilities</div>
+          <div class="vuln-count" style="color: ${p.vulnerabilities > 0 ? 'var(--danger)' : 'var(--success)'};">
+            ${p.vulnerabilities} ${p.vulnerabilities === 1 ? 'vulnerability' : 'vulnerabilities'}
+          </div>
           <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-secondary);">
-            ${p.details.unique_packages} unique packages affected
+            ${p.details.unique_packages > 0 ? `${p.details.unique_packages} unique packages affected` : 'No vulnerable packages'}
           </div>
           ${p.repo_url ? '<div class="repo-link-indicator">Click to view repository →</div>' : ''}
         </div>
       `).join('')}
     </div>
+    ${projects.length > 50 ? `<p style="text-align: center; margin-top: 1rem; color: var(--text-secondary); font-size: 0.9rem;">Showing first 50 of ${projects.length} projects</p>` : ''}
   `;
 }
 

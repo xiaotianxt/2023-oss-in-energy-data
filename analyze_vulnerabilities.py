@@ -42,6 +42,20 @@ def load_summary(csv_dir):
     
     return projects
 
+def normalize_project_name(name):
+    """Normalize project name for consistent matching."""
+    import re
+    name = name.lower()
+    # Replace underscores and spaces with hyphens first
+    name = name.replace('_', '-').replace(' ', '-')
+    # Remove special characters but keep alphanumeric and hyphens
+    name = re.sub(r'[^a-z0-9-]', '', name)
+    # Remove multiple consecutive hyphens
+    name = re.sub(r'-+', '-', name)
+    # Strip leading/trailing hyphens
+    name = name.strip('-')
+    return name
+
 def load_projects_metadata(csv_file):
     """Load project metadata from projects.csv."""
     projects_meta = {}
@@ -52,16 +66,36 @@ def load_projects_metadata(csv_file):
             if 'Repository URL' in row and row['Repository URL']:
                 # Extract project name from URL
                 url = row['Repository URL'].strip()
-                if url:
-                    project_name = url.rstrip('/').split('/')[-1].lower()
-                    projects_meta[project_name] = {
-                        'name': row.get('Project', ''),
+                project_name_from_csv = row.get('Project', '').strip()
+                
+                if url and project_name_from_csv:
+                    metadata = {
+                        'name': project_name_from_csv,
                         'category': row.get('Category', 'Unknown'),
                         'languages': row.get('Languages', ''),
                         'license': row.get('License', ''),
                         'description': row.get('Description', ''),
                         'repo_url': url,
                     }
+                    
+                    # Create multiple lookup keys for better matching:
+                    # 1. Repository name from URL (e.g., "anymod-jl" or "solar-pv-global-inventory")
+                    repo_name = url.rstrip('/').split('/')[-1].lower()
+                    
+                    # 2. Repository name normalized (e.g., "anymodjl")
+                    normalized_repo_name = normalize_project_name(repo_name)
+                    
+                    # 3. Project name from CSV, lowercase (e.g., "anymod.jl", "open_bea")
+                    lowercase_project_name = project_name_from_csv.lower()
+                    
+                    # 4. Project name from CSV, normalized (e.g., "anymod-jl" from "AnyMOD.jl", "open-bea" from "open_BEA")
+                    normalized_project_name = normalize_project_name(project_name_from_csv)
+                    
+                    # Store under all possible keys for flexible matching
+                    projects_meta[repo_name] = metadata
+                    projects_meta[normalized_repo_name] = metadata
+                    projects_meta[lowercase_project_name] = metadata
+                    projects_meta[normalized_project_name] = metadata
     
     return projects_meta
 
@@ -132,12 +166,15 @@ def analyze_vulnerabilities(vulnerabilities, projects, projects_meta):
         
         # Category analysis
         meta = projects_meta.get(project, {})
+        if meta is None:
+            meta = {}
         category = meta.get('category', 'Unknown')
         category_vulns[category] += 1
         category_projects[category].add(project)
         
         # Language analysis
-        languages = meta.get('languages', '').split(',')
+        languages_str = meta.get('languages', '') or ''
+        languages = languages_str.split(',')
         for lang in languages:
             lang = lang.strip()
             if lang:
@@ -165,14 +202,16 @@ def analyze_vulnerabilities(vulnerabilities, projects, projects_meta):
         status = proj['Status']
         
         meta = projects_meta.get(name, {})
+        if meta is None:
+            meta = {}
         
         project_vuln_dist.append({
             'project': name,
             'vulnerabilities': vuln_count,
             'status': status,
-            'category': meta.get('category', 'Unknown'),
-            'languages': meta.get('languages', ''),
-            'repo_url': meta.get('repo_url', ''),
+            'category': meta.get('category', 'Unknown') or 'Unknown',
+            'languages': meta.get('languages', '') or '',
+            'repo_url': meta.get('repo_url', '') or '',
             'details': {
                 'severity_counts': dict(project_details.get(name, {}).get('severity_counts', {})),
                 'package_types': dict(project_details.get(name, {}).get('package_types', {})),

@@ -648,16 +648,21 @@ body {
 
 /* Footer */
 .footer {
-  background: var(--iron-gray);
+  background: var(--bg-secondary);
   padding: 1.5rem 0;
   text-align: center;
-  border-top: 2px solid var(--border-strong);
+  border-top: 2px solid var(--steel-gray);
   margin-top: 3rem;
 }
 
 .footer p {
-  color: var(--white);
+  color: var(--text-secondary);
   font-size: 0.9rem;
+}
+
+.footer strong {
+  color: var(--carnegie-red);
+  font-weight: 600;
 }
 
 /* Responsive */
