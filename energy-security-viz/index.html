@@ -11,8 +11,20 @@
       <!-- Header -->
       <header class="header">
         <div class="container">
-          <h1>⚡ Energy Sector Open Source Security Dashboard</h1>
-          <p class="subtitle">Comprehensive vulnerability analysis of 375 energy-related open source projects</p>
+          <div class="header-content">
+            <div class="header-logos">
+              <a href="https://www.cmu.edu" target="_blank" rel="noopener noreferrer" title="Visit Carnegie Mellon University">
+                <img src="/cmu-logo.png" alt="Carnegie Mellon University" class="header-logo" onerror="this.style.display='none'">
+              </a>
+              <a href="https://www.cmu.edu/ini/cmist/" target="_blank" rel="noopener noreferrer" title="Visit CMIST">
+                <img src="/cmist-logo.png" alt="CMIST" class="header-logo" onerror="this.style.display='none'">
+              </a>
+            </div>
+            <div class="header-text">
+              <h1>Energy Sector Open Source Security Dashboard</h1>
+              <p class="subtitle">Comprehensive vulnerability analysis of 375 energy-related open source projects</p>
+            </div>
+          </div>
         </div>
       </header>
 
@@ -26,11 +38,11 @@
       <!-- Navigation Tabs -->
       <nav class="tabs">
         <div class="container">
-          <button class="tab-btn active" data-tab="ecosystem">🌐 Ecosystem View</button>
-          <button class="tab-btn" data-tab="packages">📦 Package Analysis</button>
-          <button class="tab-btn" data-tab="projects">🚀 Project Explorer</button>
-          <button class="tab-btn" data-tab="categories">📊 Category Insights</button>
-          <button class="tab-btn" data-tab="network">🕸️ Dependency Network</button>
+          <button class="tab-btn active" data-tab="ecosystem">Ecosystem View</button>
+          <button class="tab-btn" data-tab="packages">Package Analysis</button>
+          <button class="tab-btn" data-tab="projects">Project Explorer</button>
+          <button class="tab-btn" data-tab="categories">Category Insights</button>
+          <button class="tab-btn" data-tab="network">Dependency Network</button>
         </div>
       </nav>
 
@@ -40,7 +52,7 @@
           
           <!-- Ecosystem View Tab -->
           <div class="tab-content active" id="ecosystem">
-            <h2>🌐 Security Ecosystem Overview</h2>
+            <h2>Security Ecosystem Overview</h2>
             <div class="chart-grid">
               <div class="chart-card">
                 <h3>Vulnerability Distribution by Severity</h3>
@@ -63,7 +75,7 @@
 
           <!-- Package Analysis Tab -->
           <div class="tab-content" id="packages">
-            <h2>📦 Most Vulnerable Packages</h2>
+            <h2>Most Vulnerable Packages</h2>
             <div class="chart-card">
               <h3>Top 20 Risky Dependencies</h3>
               <div id="packageTable"></div>
@@ -72,7 +84,7 @@
 
           <!-- Project Explorer Tab -->
           <div class="tab-content" id="projects">
-            <h2>🚀 Project Security Explorer</h2>
+            <h2>Project Security Explorer</h2>
             <div class="controls">
               <input type="text" id="projectSearch" placeholder="Search projects..." />
               <select id="categoryFilter">
@@ -92,7 +104,7 @@
 
           <!-- Category Insights Tab -->
           <div class="tab-content" id="categories">
-            <h2>📊 Category Security Analysis</h2>
+            <h2>Category Security Analysis</h2>
             <div class="chart-grid">
               <div class="chart-card">
                 <h3>Vulnerabilities by Category</h3>
@@ -111,11 +123,8 @@
 
           <!-- Dependency Network Tab -->
           <div class="tab-content" id="network">
-            <h2>🕸️ Dependency Risk Network</h2>
-            <p class="description">Interactive network showing high-risk dependencies and their project impact</p>
-            <div class="chart-card">
-              <div id="networkGraph"></div>
-            </div>
+            <h2>Dependency Risk Network</h2>
+            <p class="description">Most common vulnerabilities across analyzed packages</p>
             <div class="chart-card">
               <h3>Most Common Vulnerabilities</h3>
               <div id="vulnTable"></div>
@@ -128,9 +137,9 @@
       <!-- Footer -->
       <footer class="footer">
         <div class="container">
-          <p>🔍 Data generated using <strong>Grype</strong> vulnerability scanner | 
-             📊 Analyzing <strong>375</strong> open source projects | 
-             ⏰ Last updated: <span id="lastUpdate"></span></p>
+          <p>Data generated using <strong>Grype</strong> vulnerability scanner | 
+             Analyzing <strong>375</strong> open source projects | 
+             Last updated: <span id="lastUpdate"></span></p>
         </div>
       </footer>
     </div>

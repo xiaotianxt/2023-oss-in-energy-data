@@ -39,19 +39,19 @@ async function init() {
     console.error('Error loading data:', error);
     showLoading(false); // Hide loading overlay
     
-    const app = document.getElementById('app');
+      const app = document.getElementById('app');
     if (app) {
       app.innerHTML = `
-        <div style="text-align: center; padding: 4rem; color: #ef4444; max-width: 600px; margin: 0 auto;">
-          <h2>❌ Error Loading Data</h2>
-          <p style="margin: 1rem 0; color: #cbd5e1;">Please make sure the vulnerability-data.json file exists in the public folder.</p>
-          <p style="margin: 1rem 0; color: #cbd5e1; font-size: 0.9rem;">Error details: ${error.message}</p>
-          <details style="margin-top: 2rem; text-align: left; background: #1e293b; padding: 1rem; border-radius: 8px;">
-            <summary style="cursor: pointer; color: #f59e0b;">Troubleshooting Steps</summary>
-            <ol style="margin-top: 1rem; color: #cbd5e1; line-height: 1.8;">
-              <li>Make sure you've run: <code style="background: #0f172a; padding: 0.2rem 0.5rem; border-radius: 4px;">python3 analyze_vulnerabilities.py</code></li>
-              <li>Check that <code style="background: #0f172a; padding: 0.2rem 0.5rem; border-radius: 4px;">public/vulnerability-data.json</code> exists</li>
-              <li>Try restarting the dev server: <code style="background: #0f172a; padding: 0.2rem 0.5rem; border-radius: 4px;">npm run dev</code></li>
+        <div style="text-align: center; padding: 4rem; color: #C41230; max-width: 600px; margin: 0 auto;">
+          <h2>Error Loading Data</h2>
+          <p style="margin: 1rem 0; color: #6D6E71;">Please make sure the vulnerability-data.json file exists in the public folder.</p>
+          <p style="margin: 1rem 0; color: #6D6E71; font-size: 0.9rem;">Error details: ${error.message}</p>
+          <details style="margin-top: 2rem; text-align: left; background: #E0E0E0; padding: 1rem; border-radius: 8px;">
+            <summary style="cursor: pointer; color: #C41230;">Troubleshooting Steps</summary>
+            <ol style="margin-top: 1rem; color: #000000; line-height: 1.8;">
+              <li>Make sure you've run: <code style="background: #FAFAFA; padding: 0.2rem 0.5rem; border-radius: 4px; border: 1px solid #D4D4D4;">python3 analyze_vulnerabilities.py</code></li>
+              <li>Check that <code style="background: #FAFAFA; padding: 0.2rem 0.5rem; border-radius: 4px; border: 1px solid #D4D4D4;">public/vulnerability-data.json</code> exists</li>
+              <li>Try restarting the dev server: <code style="background: #FAFAFA; padding: 0.2rem 0.5rem; border-radius: 4px; border: 1px solid #D4D4D4;">npm run dev</code></li>
               <li>Check browser console for more details (F12)</li>
             </ol>
           </details>
@@ -86,17 +86,17 @@ function renderStats() {
   const statsGrid = document.getElementById('statsGrid');
   
   const stats = [
-    { label: 'Total Projects', value: overview.total_projects, icon: '🚀' },
-    { label: 'Vulnerable Projects', value: overview.vulnerable_projects, icon: '⚠️' },
-    { label: 'Clean Projects', value: overview.clean_projects, icon: '✅' },
-    { label: 'Total Vulnerabilities', value: overview.total_vulnerabilities.toLocaleString(), icon: '🔍' },
-    { label: 'Unique Packages', value: overview.unique_packages, icon: '📦' },
-    { label: 'Unique CVEs', value: overview.unique_vulns, icon: '🔐' },
+    { label: 'Total Projects', value: overview.total_projects },
+    { label: 'Vulnerable Projects', value: overview.vulnerable_projects },
+    { label: 'Clean Projects', value: overview.clean_projects },
+    { label: 'Total Vulnerabilities', value: overview.total_vulnerabilities.toLocaleString() },
+    { label: 'Unique Packages', value: overview.unique_packages },
+    { label: 'Unique CVEs', value: overview.unique_vulns },
   ];
   
   statsGrid.innerHTML = stats.map(stat => `
     <div class="stat-card">
-      <span class="stat-value">${stat.icon} ${stat.value}</span>
+      <span class="stat-value">${stat.value}</span>
       <span class="stat-label">${stat.label}</span>
     </div>
   `).join('');
@@ -115,11 +115,11 @@ function renderSeverityChart() {
   const { severity_distribution } = vulnData;
   
   const colors = {
-    'Critical': '#922b21',
-    'High': '#c0392b',
-    'Medium': '#f39c12',
-    'Low': '#27ae60',
-    'Negligible': '#6b7280'
+    'Critical': '#941120',  // Skibo Red
+    'High': '#C41230',      // Carnegie Red
+    'Medium': '#FDB515',    // Gold Thread
+    'Low': '#009647',       // Green Thread
+    'Negligible': '#6D6E71' // Iron Gray
   };
   
   new Chart(ctx, {
@@ -128,9 +128,9 @@ function renderSeverityChart() {
       labels: severity_distribution.map(s => s.severity),
       datasets: [{
         data: severity_distribution.map(s => s.count),
-        backgroundColor: severity_distribution.map(s => colors[s.severity] || '#6b7280'),
+        backgroundColor: severity_distribution.map(s => colors[s.severity] || '#6D6E71'),
         borderWidth: 2,
-        borderColor: '#1e293b'
+        borderColor: '#FFFFFF'
       }]
     },
     options: {
@@ -139,7 +139,7 @@ function renderSeverityChart() {
       plugins: {
         legend: {
           position: 'right',
-          labels: { color: '#f1f5f9', font: { size: 12 } }
+          labels: { color: '#000000', font: { size: 12, weight: '500' } }
         },
         tooltip: {
           callbacks: {
@@ -166,11 +166,11 @@ function renderPackageTypeChart() {
       datasets: [{
         data: package_types.map(p => p.count),
         backgroundColor: [
-          '#e67e22', '#d35400', '#f39c12', '#16a085',
-          '#27ae60', '#3d5a6b', '#c0392b', '#5a7a8e'
+          '#C41230', '#EF3A47', '#007BC0', '#009647',
+          '#FDB515', '#6D6E71', '#008F91', '#BCB49E'
         ],
         borderWidth: 2,
-        borderColor: '#0f1419'
+        borderColor: '#FFFFFF'
       }]
     },
     options: {
@@ -179,7 +179,7 @@ function renderPackageTypeChart() {
       plugins: {
         legend: {
           position: 'right',
-          labels: { color: '#f1f5f9', font: { size: 12 } }
+          labels: { color: '#000000', font: { size: 12, weight: '500' } }
         }
       }
     }
@@ -197,11 +197,11 @@ function renderLanguageChart() {
       datasets: [{
         label: 'Vulnerabilities',
         data: language_analysis.map(l => l.vulnerabilities),
-        backgroundColor: 'rgba(230, 126, 34, 0.8)',
-        borderColor: '#e67e22',
+        backgroundColor: 'rgba(196, 18, 48, 0.8)',
+        borderColor: '#C41230',
         borderWidth: 1,
         borderRadius: 4,
-        hoverBackgroundColor: '#d35400'
+        hoverBackgroundColor: '#941120'
       }]
     },
     options: {
@@ -218,11 +218,11 @@ function renderLanguageChart() {
       },
       scales: {
         x: {
-          ticks: { color: '#cbd5e1' },
-          grid: { color: '#475569' }
+          ticks: { color: '#000000', font: { weight: '500' } },
+          grid: { color: '#E0E0E0' }
         },
         y: {
-          ticks: { color: '#cbd5e1' },
+          ticks: { color: '#000000', font: { weight: '500' } },
           grid: { display: false }
         }
       }
@@ -234,118 +234,37 @@ function renderCategoryHealthChart() {
   const container = document.getElementById('categoryHealthChart');
   const { category_health } = vulnData;
   
-  container.innerHTML = category_health.map(cat => `
-    <div class="health-bar-container">
-      <div class="health-bar-label">
-        <span><strong>${cat.category}</strong> (${cat.total_projects} projects)</span>
-        <span>${cat.health_score}% healthy | ${cat.total_vulns} vulns</span>
-      </div>
-      <div class="health-bar">
-        <div class="health-bar-fill" style="width: ${cat.health_score}%">
-          ${cat.clean} clean / ${cat.vulnerable} vulnerable
+  // CMU color palette for health bars
+  const getHealthColor = (healthScore) => {
+    if (healthScore >= 90) return '#009647';  // Green Thread - Excellent
+    if (healthScore >= 75) return '#007BC0';  // Highlands Sky - Good
+    if (healthScore >= 60) return '#008F91';  // Teal Thread - Fair
+    if (healthScore >= 40) return '#FDB515';  // Gold Thread - Warning
+    if (healthScore >= 20) return '#EF3A47';  // Scots Rose - Poor
+    return '#941120';  // Skibo Red - Critical
+  };
+  
+  container.innerHTML = category_health.map(cat => {
+    const barColor = getHealthColor(cat.health_score);
+    return `
+      <div class="health-bar-container">
+        <div class="health-bar-label">
+          <span><strong>${cat.category}</strong> (${cat.total_projects} projects)</span>
+          <span>${cat.health_score}% healthy | ${cat.total_vulns} vulns</span>
+        </div>
+        <div class="health-bar">
+          <div class="health-bar-fill" style="width: ${cat.health_score}%; background: ${barColor};">
+            ${cat.clean} clean / ${cat.vulnerable} vulnerable
+          </div>
         </div>
       </div>
-    </div>
-  `).join('');
+    `;
+  }).join('');
 }
 
-// Package Analysis with Bubble Chart
+// Package Analysis
 function renderPackageAnalysis() {
   renderPackageTable();
-}
-
-function renderPackageBubbleChart() {
-  const container = document.getElementById('packageBubbleChart');
-  const { top_packages } = vulnData;
-  
-  // Get container width, fallback to parent or default
-  const width = container.clientWidth || container.parentElement?.clientWidth || 1200;
-  const height = 600;
-  
-  // Clear previous
-  container.innerHTML = '';
-  
-  const svg = d3.select(container)
-    .append('svg')
-    .attr('width', '100%')
-    .attr('height', height)
-    .attr('viewBox', `0 0 ${width} ${height}`)
-    .attr('preserveAspectRatio', 'xMidYMid meet');
-  
-  // Scales (define these BEFORE using them in simulation)
-  const radiusScale = d3.scaleSqrt()
-    .domain([0, d3.max(top_packages, d => d.vulnerabilities)])
-    .range([10, 60]);
-  
-  const colorScale = d3.scaleSequential()
-    .domain([0, d3.max(top_packages, d => d.projects_affected)])
-    .interpolator(d3.interpolateRgb('#27ae60', '#c0392b'));
-  
-  // Create simulation (now radiusScale is defined)
-  const simulation = d3.forceSimulation(top_packages.slice(0, 40))
-    .force('charge', d3.forceManyBody().strength(5))
-    .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collision', d3.forceCollide().radius(d => radiusScale(d.vulnerabilities) + 2));
-  
-  // Tooltip
-  const tooltip = d3.select('body').append('div')
-    .attr('class', 'tooltip')
-    .style('position', 'absolute');
-  
-  // Draw bubbles
-  const bubbles = svg.selectAll('circle')
-    .data(top_packages.slice(0, 40))
-    .enter()
-    .append('circle')
-    .attr('r', d => radiusScale(d.vulnerabilities))
-    .attr('fill', d => colorScale(d.projects_affected))
-    .attr('opacity', 0.8)
-    .attr('stroke', '#1e293b')
-    .attr('stroke-width', 2)
-    .on('mouseover', (event, d) => {
-      tooltip
-        .style('opacity', 1)
-        .html(`
-          <strong>${d.package}</strong> v${d.version}<br/>
-          <strong>Vulnerabilities:</strong> ${d.vulnerabilities}<br/>
-          <strong>Projects Affected:</strong> ${d.projects_affected}<br/>
-          <strong>Type:</strong> ${d.type}
-        `)
-        .style('left', (event.pageX + 10) + 'px')
-        .style('top', (event.pageY - 28) + 'px')
-        .classed('show', true);
-      
-      d3.select(event.currentTarget)
-        .attr('stroke', '#f59e0b')
-        .attr('stroke-width', 3);
-    })
-    .on('mouseout', (event) => {
-      tooltip.classed('show', false);
-      d3.select(event.currentTarget)
-        .attr('stroke', '#1e293b')
-        .attr('stroke-width', 2);
-    });
-  
-  // Add labels for top 10
-  const labels = svg.selectAll('text')
-    .data(top_packages.slice(0, 10))
-    .enter()
-    .append('text')
-    .attr('class', 'node-label')
-    .attr('text-anchor', 'middle')
-    .attr('dy', 4)
-    .text(d => d.package.length > 12 ? d.package.slice(0, 12) + '...' : d.package);
-  
-  // Update positions on tick
-  simulation.on('tick', () => {
-    bubbles
-      .attr('cx', d => Math.max(radiusScale(d.vulnerabilities), Math.min(width - radiusScale(d.vulnerabilities), d.x)))
-      .attr('cy', d => Math.max(radiusScale(d.vulnerabilities), Math.min(height - radiusScale(d.vulnerabilities), d.y)));
-    
-    labels
-      .attr('x', d => Math.max(radiusScale(d.vulnerabilities), Math.min(width - radiusScale(d.vulnerabilities), d.x)))
-      .attr('y', d => Math.max(radiusScale(d.vulnerabilities), Math.min(height - radiusScale(d.vulnerabilities), d.y)));
-  });
 }
 
 function renderPackageTable() {
@@ -464,8 +383,8 @@ function renderProjectBubbleChart(projects) {
     .append('circle')
     .attr('r', d => radiusScale(d.vulnerabilities))
     .attr('fill', d => colorScale(d.category))
-    .attr('opacity', 0.7)
-    .attr('stroke', '#1e293b')
+    .attr('opacity', 0.8)
+    .attr('stroke', '#D4D4D4')
     .attr('stroke-width', 2)
     .on('mouseover', (event, d) => {
       tooltip
@@ -481,13 +400,13 @@ function renderProjectBubbleChart(projects) {
         .classed('show', true);
       
       d3.select(event.currentTarget)
-        .attr('stroke', '#f59e0b')
+        .attr('stroke', '#C41230')
         .attr('stroke-width', 3);
     })
     .on('mouseout', (event) => {
       tooltip.classed('show', false);
       d3.select(event.currentTarget)
-        .attr('stroke', '#1e293b')
+        .attr('stroke', '#D4D4D4')
         .attr('stroke-width', 2);
     });
   
@@ -508,14 +427,14 @@ function renderProjectList(projects) {
         <div class="project-card ${p.repo_url ? 'clickable' : ''}" ${p.repo_url ? `onclick="window.open('${p.repo_url}', '_blank')"` : ''}>
           <h4>${p.project}</h4>
           <div class="meta">
-            <span>📂 ${p.category}</span><br/>
-            <span>💻 ${p.languages || 'N/A'}</span>
+            <span>${p.category}</span><br/>
+            <span>${p.languages || 'N/A'}</span>
           </div>
           <div class="vuln-count">${p.vulnerabilities} vulnerabilities</div>
           <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-secondary);">
             ${p.details.unique_packages} unique packages affected
           </div>
-          ${p.repo_url ? '<div class="repo-link-indicator">🔗 Click to view repository</div>' : ''}
+          ${p.repo_url ? '<div class="repo-link-indicator">Click to view repository →</div>' : ''}
         </div>
       `).join('')}
     </div>
@@ -542,11 +461,11 @@ function renderCategoryVulnChart() {
       datasets: [{
         label: 'Total Vulnerabilities',
         data: topCategories.map(c => c.vulnerabilities),
-        backgroundColor: 'rgba(192, 57, 43, 0.8)',
-        borderColor: '#c0392b',
+        backgroundColor: 'rgba(196, 18, 48, 0.8)',
+        borderColor: '#C41230',
         borderWidth: 1,
         borderRadius: 4,
-        hoverBackgroundColor: '#922b21'
+        hoverBackgroundColor: '#941120'
       }]
     },
     options: {
@@ -557,12 +476,12 @@ function renderCategoryVulnChart() {
       },
       scales: {
         x: {
-          ticks: { color: '#cbd5e1', maxRotation: 45, minRotation: 45 },
+          ticks: { color: '#000000', maxRotation: 45, minRotation: 45, font: { weight: '500' } },
           grid: { display: false }
         },
         y: {
-          ticks: { color: '#cbd5e1' },
-          grid: { color: '#475569' }
+          ticks: { color: '#000000', font: { weight: '500' } },
+          grid: { color: '#E0E0E0' }
         }
       }
     }
@@ -582,11 +501,11 @@ function renderCategoryProjectChart() {
       datasets: [{
         label: 'Vulnerable Projects',
         data: topCategories.map(c => c.projects),
-        backgroundColor: 'rgba(61, 90, 107, 0.8)',
-        borderColor: '#3d5a6b',
+        backgroundColor: 'rgba(109, 110, 113, 0.8)',
+        borderColor: '#6D6E71',
         borderWidth: 1,
         borderRadius: 4,
-        hoverBackgroundColor: '#2c4050'
+        hoverBackgroundColor: '#4A4B4D'
       }]
     },
     options: {
@@ -597,12 +516,12 @@ function renderCategoryProjectChart() {
       },
       scales: {
         x: {
-          ticks: { color: '#cbd5e1', maxRotation: 45, minRotation: 45 },
+          ticks: { color: '#000000', maxRotation: 45, minRotation: 45, font: { weight: '500' } },
           grid: { display: false }
         },
         y: {
-          ticks: { color: '#cbd5e1' },
-          grid: { color: '#475569' }
+          ticks: { color: '#000000', font: { weight: '500' } },
+          grid: { color: '#E0E0E0' }
         }
       }
     }
@@ -639,113 +558,9 @@ function renderCategoryMatrix() {
   `;
 }
 
-// Dependency Network
+// Dependency Network - table only, no bubble chart
 function renderDependencyNetwork() {
-  renderNetworkGraph();
   renderVulnTable();
-}
-
-function renderNetworkGraph() {
-  const container = document.getElementById('networkGraph');
-  const { dependency_network } = vulnData;
-  
-  const width = container.clientWidth || container.parentElement?.clientWidth || 1200;
-  const height = 700;
-  
-  container.innerHTML = '';
-  
-  const topDeps = dependency_network.slice(0, 30);
-  
-  const svg = d3.select(container)
-    .append('svg')
-    .attr('width', '100%')
-    .attr('height', height)
-    .attr('viewBox', `0 0 ${width} ${height}`)
-    .attr('preserveAspectRatio', 'xMidYMid meet');
-  
-  // Create a force simulation
-  const simulation = d3.forceSimulation(topDeps)
-    .force('charge', d3.forceManyBody().strength(-200))
-    .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collision', d3.forceCollide().radius(d => Math.sqrt(d.risk_score) / 2 + 20));
-  
-  const colorScale = d3.scaleSequential()
-    .domain([0, d3.max(topDeps, d => d.risk_score)])
-    .interpolator(d3.interpolateRgb('#16a085', '#c0392b'));
-  
-  const radiusScale = d3.scaleSqrt()
-    .domain([0, d3.max(topDeps, d => d.risk_score)])
-    .range([15, 50]);
-  
-  const tooltip = d3.select('body').select('.tooltip').empty() 
-    ? d3.select('body').append('div').attr('class', 'tooltip')
-    : d3.select('body').select('.tooltip');
-  
-  const nodes = svg.selectAll('circle')
-    .data(topDeps)
-    .enter()
-    .append('circle')
-    .attr('class', 'node')
-    .attr('r', d => radiusScale(d.risk_score))
-    .attr('fill', d => colorScale(d.risk_score))
-    .attr('stroke', '#1e293b')
-    .attr('stroke-width', 2)
-    .on('mouseover', (event, d) => {
-      tooltip
-        .html(`
-          <strong>${d.package}</strong><br/>
-          <strong>Version:</strong> ${d.version}<br/>
-          <strong>Type:</strong> ${d.type}<br/>
-          <strong>Vulnerabilities:</strong> ${d.vulnerabilities}<br/>
-          <strong>Projects Affected:</strong> ${d.projects_affected}<br/>
-          <strong>Risk Score:</strong> ${d.risk_score}
-        `)
-        .style('left', (event.pageX + 10) + 'px')
-        .style('top', (event.pageY - 28) + 'px')
-        .classed('show', true);
-    })
-    .on('mouseout', () => {
-      tooltip.classed('show', false);
-    })
-    .call(d3.drag()
-      .on('start', dragstarted)
-      .on('drag', dragged)
-      .on('end', dragended));
-  
-  const labels = svg.selectAll('text')
-    .data(topDeps)
-    .enter()
-    .append('text')
-    .attr('class', 'node-label')
-    .attr('text-anchor', 'middle')
-    .text(d => d.package.length > 10 ? d.package.slice(0, 10) + '...' : d.package);
-  
-  simulation.on('tick', () => {
-    nodes
-      .attr('cx', d => Math.max(radiusScale(d.risk_score), Math.min(width - radiusScale(d.risk_score), d.x)))
-      .attr('cy', d => Math.max(radiusScale(d.risk_score), Math.min(height - radiusScale(d.risk_score), d.y)));
-    
-    labels
-      .attr('x', d => Math.max(radiusScale(d.risk_score), Math.min(width - radiusScale(d.risk_score), d.x)))
-      .attr('y', d => Math.max(radiusScale(d.risk_score), Math.min(height - radiusScale(d.risk_score), d.y)) + radiusScale(d.risk_score) + 15);
-  });
-  
-  function dragstarted(event) {
-    if (!event.active) simulation.alphaTarget(0.3).restart();
-    event.subject.fx = event.subject.x;
-    event.subject.fy = event.subject.y;
-  }
-  
-  function dragged(event) {
-    event.subject.fx = event.x;
-    event.subject.fy = event.y;
-  }
-  
-  function dragended(event) {
-    if (!event.active) simulation.alphaTarget(0);
-    event.subject.fx = null;
-    event.subject.fy = null;
-  }
 }
 
 function renderVulnTable() {
@@ -789,22 +604,34 @@ function showLoading(show = true) {
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(15, 23, 42, 0.95);
+      background: rgba(255, 255, 255, 0.95);
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       z-index: 9999;
-      color: #f1f5f9;
+      color: #000000;
     `;
     overlay.innerHTML = `
-      <div class="spinner" style="width: 60px; height: 60px; border: 4px solid #475569; border-top-color: #6366f1; border-radius: 50%; animation: spin 1s linear infinite;"></div>
+      <div class="spinner" style="width: 60px; height: 60px; border: 4px solid #E0E0E0; border-top-color: #C41230; border-radius: 50%; animation: spin 1s linear infinite;"></div>
       <h2 style="margin-top: 2rem;">Loading Security Dashboard...</h2>
-      <p style="color: #cbd5e1; margin-top: 0.5rem;">Analyzing 375 energy sector projects</p>
+      <p style="color: #6D6E71; margin-top: 0.5rem;">Analyzing 375 energy sector projects</p>
     `;
     document.body.appendChild(overlay);
   } else if (!show && overlay) {
     overlay.remove();
+  }
+}
+
+// Sticky header scroll effect
+function handleScroll() {
+  const header = document.querySelector('.header');
+  const tabs = document.querySelector('.tabs');
+  
+  if (window.scrollY > 100) {
+    tabs.classList.add('scrolled');
+  } else {
+    tabs.classList.remove('scrolled');
   }
 }
 
@@ -813,9 +640,11 @@ if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
     showLoading(true);
     init();
+    window.addEventListener('scroll', handleScroll);
   });
 } else {
   showLoading(true);
   init();
+  window.addEventListener('scroll', handleScroll);
 }
 

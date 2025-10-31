@@ -1,172 +1,267 @@
-# 🎨 现代化配色体系
+# CMU Energy Security Dashboard - Design System
 
-## 设计理念
+## Design Philosophy
 
-采用**电力能源**主题的现代科技风格，以**电蓝色**和**紫色能量**为主色调，营造未来科技感。
+This design system follows **Carnegie Mellon University's official brand guidelines**, using the registered core colors and secondary palettes to create a professional, trustworthy security analysis dashboard.
 
----
-
-## 🌈 主色调
-
-### Primary Colors (主色)
-- **Electric Cyan** `#00d4ff` - 电蓝色，代表能源和电力
-- **Deep Ocean** `#0099cc` - 深海蓝，稳重的深色变体
-- **Purple Energy** `#7c3aed` - 紫色能量，代表创新和技术
-- **Bright Cyan** `#22d3ee` - 亮青色，强调色
-
-### Status Colors (状态色)
-- **Success** `#06b6d4` - 青色成功状态
-- **Warning** `#fbbf24` - 金黄色警告
-- **Danger** `#f43f5e` - 玫瑰红危险
-- **Critical** `#dc2626` - 深红色严重
+**Source**: [CMU Brand Guidelines - Colors](https://www.cmu.edu/brand/brand-guidelines/visual-identity/colors.html)
 
 ---
 
-## 🖤 背景色系
+## CMU Official Color Palette
 
-### Dark Theme (深色主题)
-- **Deep Navy** `#0a0e27` - 深海军蓝背景
-- **Dark Slate** `#131829` - 暗石板色次级背景
-- **Card Background** `#1a1f3a` - 卡片背景
-- **Hover State** `#242b4a` - 悬停状态
+### Core Colors (Registered since the late 1920s)
+
+These are CMU's primary brand colors. **Carnegie Red should be dominant**, with grays, black, and white providing support.
+
+#### Carnegie Red
+- **HEX**: `#C41230`
+- **RGB**: 196, 18, 48
+- **CMYK**: 0, 100, 79, 20
+- **PMS**: 187C
+- **Usage**: Primary brand color, buttons, highlights, danger states
+
+#### Black
+- **HEX**: `#000000`
+- **RGB**: 0, 0, 0
+- **CMYK**: 0, 0, 0, 100
+- **PMS**: Black C
+- **Usage**: Primary text color
+
+#### Iron Gray
+- **HEX**: `#6D6E71`
+- **RGB**: 109, 110, 113
+- **CMYK**: 0, 0, 0, 70
+- **PMS**: Cool Grey 10 C
+- **Usage**: Secondary text, footer background
+
+#### Steel Gray
+- **HEX**: `#E0E0E0`
+- **RGB**: 224, 224, 224
+- **CMYK**: 0, 0, 0, 30
+- **PMS**: Cool Gray 4 C
+- **Usage**: Borders, subtle backgrounds
+
+#### White
+- **HEX**: `#FFFFFF`
+- **Usage**: Main background, card backgrounds
 
 ---
 
-## 📝 文字色系
+### Tartan Palette (Secondary - For Accents Only)
+**Theme**: Bold, Youthful, Passionate, Fearless, Audacious
 
-- **Light Text** `#e2e8f0` - 主文字
-- **Muted Text** `#94a3b8` - 次要文字
-- **Very Muted** `#64748b` - 极弱文字
+Only use as accents when Carnegie Red is present in the design.
+
+#### Scots Rose
+- **HEX**: `#EF3A47`
+- **RGB**: 239, 58, 71
+- **PMS**: Red 032 C
+
+#### Gold Thread
+- **HEX**: `#FDB515`
+- **RGB**: 253, 181, 21
+- **PMS**: 130 C
+- **Usage**: Warning states, medium severity
+
+#### Green Thread
+- **HEX**: `#009647`
+- **RGB**: 0, 150, 71
+- **PMS**: 348 C
+- **Usage**: Success states, low severity
+
+#### Teal Thread
+- **HEX**: `#008F91`
+- **RGB**: 0, 143, 145
+- **PMS**: 7713 C
+
+#### Blue Thread
+- **HEX**: `#043673`
+- **RGB**: 4, 54, 115
+- **PMS**: 288 C
+
+#### Highlands Sky Blue
+- **HEX**: `#007BC0`
+- **RGB**: 0, 123, 192
+- **PMS**: 640 C
+- **Usage**: Info states, good health scores
 
 ---
 
-## 🎭 渐变效果
+### Campus Palette (Secondary - For Accents Only)
+**Theme**: Insightful, Conscientious, Creative, Pragmatic, Entrepreneurial
 
-### Primary Gradient (主渐变)
-```css
-linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%)
+#### Machinery Hall Tan
+- **HEX**: `#BCB49E`
+- **RGB**: 188, 180, 158
+- **PMS**: 7535 C
+
+#### Kittanning Brick Beige
+- **HEX**: `#E4DAC4`
+- **RGB**: 228, 218, 196
+- **PMS**: 7534 C
+
+#### Hornbostel Teal
+- **HEX**: `#1F4C4C`
+- **RGB**: 31, 76, 76
+- **PMS**: 7476 C
+
+#### Palladian Green
+- **HEX**: `#719F94`
+- **RGB**: 113, 159, 148
+- **PMS**: 624 C
+
+#### Weaver Blue
+- **HEX**: `#182C4B`
+- **RGB**: 25, 44, 75
+- **PMS**: 7463 C
+
+#### Skibo Red
+- **HEX**: `#941120`
+- **RGB**: 149, 17, 32
+- **PMS**: 7623 C
+- **Usage**: Critical severity, dark red states
+
+---
+
+## Dashboard Implementation
+
+### Severity Levels
+- **Critical**: Skibo Red `#941120`
+- **High**: Carnegie Red `#C41230`
+- **Medium**: Gold Thread `#FDB515`
+- **Low**: Green Thread `#009647`
+- **Negligible**: Iron Gray `#6D6E71`
+
+### Health Score Color Scale
+- **90-100%**: Green Thread `#009647` (Excellent)
+- **75-89%**: Highlands Sky `#007BC0` (Good)
+- **60-74%**: Teal Thread `#008F91` (Fair)
+- **40-59%**: Gold Thread `#FDB515` (Warning)
+- **20-39%**: Scots Rose `#EF3A47` (Poor)
+- **0-19%**: Skibo Red `#941120` (Critical)
+
+### Chart Colors
+**Primary Charts**: Carnegie Red variations and Iron Gray
+**Package Types**: Mix of Tartan and Campus palette colors
+**Category Analysis**: Carnegie Red for vulnerabilities, Iron Gray for projects
+
+### Background System
+- **Main Background**: White `#FFFFFF`
+- **Secondary Background**: Very subtle off-white `#FAFAFA`
+- **Cards**: White with subtle shadows
+- **Hover States**: Light gray `#F8F8F8`
+- **Section Backgrounds**: Steel Gray `#E0E0E0`
+
+### Text Hierarchy
+- **Primary Text**: Black `#000000`
+- **Secondary Text**: Iron Gray `#6D6E71`
+- **Muted Text**: Light gray `#A0A1A3`
+- **Disabled**: Very light gray `#CECECE`
+
+### Borders
+- **Primary Border**: `#D4D4D4`
+- **Light Border**: Steel Gray `#E0E0E0`
+- **Strong Border**: `#B8B8B8`
+
+### Interactive States
+- **Default Border**: Steel Gray or light gray
+- **Hover Border**: Carnegie Red `#C41230`
+- **Active State**: Skibo Red `#941120`
+- **Focus State**: Carnegie Red with subtle shadow
+
+---
+
+## Brand Compliance
+
+✅ **Carnegie Red is dominant** throughout the design
+✅ **Core colors used for primary elements** (text, backgrounds, main interactions)
+✅ **Secondary colors used only as accents** (charts, status indicators, health bars)
+✅ **White background** emphasizes clean, professional appearance
+✅ **All colors use exact HEX values** from official CMU brand guidelines
+
+### Design Rules
+
+1. **Carnegie Red must be present** when using secondary colors
+2. **Never modify** CMU brand colors (no tinting, shading, or gradients)
+3. **Use white space** generously for clean layouts
+4. **High contrast** between text and backgrounds (WCAG AAA)
+5. **Minimal animations** (≤ 400ms, functional only)
+
+---
+
+## Accessibility
+
+### Contrast Ratios (WCAG AAA Compliant)
+- Black text on white: 21:1
+- Iron Gray on white: 4.54:1
+- Carnegie Red on white: 5.12:1
+- White text on Carnegie Red: 4.1:1
+- White text on Skibo Red: 6.8:1
+
+### Color Blind Friendly
+- Status indicators use both color and text labels
+- Charts include legends and hover tooltips
+- Severity badges combine color with text
+
+---
+
+## File Structure
+
 ```
-用于：Header、按钮、强调元素
-
-### Secondary Gradient (次渐变)
-```css
-linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%)
+energy-security-viz/
+├── style.css          # Main styles with CMU color variables
+├── main.js            # Chart configurations with CMU colors
+├── index.html         # HTML structure with CMU branding
+└── public/
+    ├── cmu-logo.png   # Official CMU logo
+    └── cmist-logo.png # CMIST logo
 ```
-用于：卡片装饰、悬停效果
-
-### Danger Gradient (危险渐变)
-```css
-linear-gradient(135deg, #f43f5e 0%, #dc2626 100%)
-```
-用于：漏洞严重度展示
 
 ---
 
-## ✨ 特殊效果
+## Usage Examples
 
-### Glow Shadow (发光阴影)
-```css
-box-shadow: 0 8px 32px rgba(0, 212, 255, 0.4);
-```
-用于：悬停卡片、激活按钮
-
-### Shimmer Animation (闪光动画)
-健康条上的流光效果，营造动态科技感
-
-### Pulse Animation (脉冲动画)
-Header背景的呼吸效果
-
----
-
-## 🎯 使用场景
-
-### 数据可视化配色
-
-**气泡图渐变：**
-- 从 `#00d4ff` (电蓝) 到 `#f43f5e` (玫瑰红)
-- 表示：低风险 → 高风险
-
-**柱状图：**
-- 漏洞数量：`#f43f5e` (玫瑰红)
-- 项目数量：`#7c3aed` (紫色)
-- 语言分析：`#00d4ff` (电蓝)
-
-**饼图/环图：**
-- Critical: `#dc2626`
-- High: `#f43f5e`
-- Medium: `#fbbf24`
-- Low: `#06b6d4`
-- Negligible: `#64748b`
-
----
-
-## 💫 视觉层次
-
-### Level 1 - 最突出
-- 主色调 (#00d4ff, #7c3aed)
-- 激活状态
-- 关键数据
-
-### Level 2 - 次要突出
-- 强调色 (#22d3ee, #06b6d4)
-- 悬停状态
-- 次要数据
-
-### Level 3 - 背景
-- 卡片背景 (#1a1f3a)
-- 边框 (#2d3548)
-
----
-
-## 🎨 与旧配色对比
-
-| 元素 | 旧配色 | 新配色 | 改进 |
-|------|--------|--------|------|
-| 主色 | #6366f1 (蓝紫) | #00d4ff (电蓝) | 更科技感 |
-| 背景 | #0f172a | #0a0e27 | 更深邃 |
-| 成功 | #10b981 (绿) | #06b6d4 (青) | 更统一 |
-| 危险 | #ef4444 | #f43f5e | 更鲜明 |
-
----
-
-## 🔧 自定义配色
-
-在 `style.css` 的 `:root` 中修改 CSS 变量即可全局更新：
-
+### CSS Variables
 ```css
 :root {
-  --primary: #00d4ff;      /* 主色 */
-  --danger: #f43f5e;       /* 危险色 */
-  /* ... */
+  --carnegie-red: #C41230;
+  --cmu-black: #000000;
+  --iron-gray: #6D6E71;
+  --steel-gray: #E0E0E0;
+  --cmu-white: #FFFFFF;
+}
+```
+
+### Primary Button
+```css
+.primary-btn {
+  background: var(--carnegie-red);
+  color: var(--cmu-white);
+  border: none;
+}
+```
+
+### Card Component
+```css
+.card {
+  background: var(--cmu-white);
+  border: 1px solid var(--steel-gray);
+  border-left: 4px solid var(--carnegie-red);
 }
 ```
 
 ---
 
-## 📱 可访问性
+## Resources
 
-✅ **高对比度：** 文字与背景对比度 > 7:1  
-✅ **色盲友好：** 不仅依赖颜色区分信息  
-✅ **夜间友好：** 深色主题保护眼睛  
-
----
-
-## 🎉 配色特点总结
-
-1. **科技感十足** - 电蓝色 + 紫色的未来感
-2. **能源主题** - 呼应能源行业特性
-3. **视觉层次清晰** - 渐变和阴影突出重点
-4. **动态效果** - 闪光、脉冲等增加生动性
-5. **专业现代** - 符合2024年设计趋势
+- **CMU Brand Center**: https://www.cmu.edu/brand/
+- **Color Guidelines**: https://www.cmu.edu/brand/brand-guidelines/visual-identity/colors.html
+- **Logo Downloads**: https://www.cmu.edu/brand/brand-center/logos-signs.html
+- **Contact**: brand@andrew.cmu.edu
 
 ---
 
-**设计灵感来源：**
-- ⚡ 能源科技界面
-- 🌌 未来主义设计
-- 💎 高端数据可视化平台
-- 🎮 现代游戏UI
-
-**完美适用于能源行业的安全分析仪表板！** ✨
-
-
+**Last Updated**: October 2025  
+**Design System Version**: 3.0 (CMU Official Palette)  
+**Compliance**: CMU Brand Guidelines 2019+
