@@ -43,6 +43,7 @@
           <button class="tab-btn" data-tab="projects">Project Explorer</button>
           <button class="tab-btn" data-tab="categories">Category Insights</button>
           <button class="tab-btn" data-tab="network">Dependency Network</button>
+          <button class="tab-btn" data-tab="sourcecode">Source Code Analysis</button>
         </div>
       </nav>
 
@@ -129,6 +130,49 @@
             <div class="chart-card">
               <h3>Most Common Vulnerabilities</h3>
               <div id="vulnTable"></div>
+            </div>
+          </div>
+
+          <!-- Source Code Analysis Tab -->
+          <div class="tab-content" id="sourcecode">
+            <h2>Source Code Vulnerability Analysis</h2>
+            <p class="description">Static analysis findings from <strong id="sourceCodeRepoCount">0</strong> repositories with <strong id="sourceCodeIssueCount">0</strong> security issues</p>
+            
+            <div class="chart-grid">
+              <div class="chart-card">
+                <h3>Severity Distribution</h3>
+                <canvas id="sourceCodeSeverityChart"></canvas>
+              </div>
+              <div class="chart-card">
+                <h3>Top CWE Categories</h3>
+                <canvas id="sourceCodeCweChart"></canvas>
+              </div>
+            </div>
+            
+            <div class="chart-card">
+              <h3>Issue Type Distribution</h3>
+              <canvas id="sourceCodeIssueTypeChart"></canvas>
+            </div>
+
+            <div class="chart-card">
+              <h3>Repository Security Issues</h3>
+              <div class="controls">
+                <input type="text" id="sourceCodeSearch" placeholder="Search repositories..." />
+                <select id="sourceCodeCategoryFilter">
+                  <option value="">All Categories</option>
+                </select>
+                <select id="sourceCodeSeverityFilter">
+                  <option value="">All Severities</option>
+                  <option value="HIGH">High</option>
+                  <option value="MEDIUM">Medium</option>
+                </select>
+              </div>
+              <div id="sourceCodeRepoList"></div>
+            </div>
+
+            <div class="chart-card" id="sourceCodeDetailCard" style="display: none;">
+              <h3>Code Snippets: <span id="selectedRepoName"></span></h3>
+              <div id="sourceCodeSnippets"></div>
             </div>
           </div>
 

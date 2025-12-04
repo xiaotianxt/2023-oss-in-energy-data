@@ -4,21 +4,33 @@ import Chart from 'chart.js/auto';
 
 // Global data storage
 let vulnData = null;
+let sourceCodeData = null;
 
 // Initialize the application
 async function init() {
   try {
     console.log('Loading vulnerability data...');
     
-    // Load data
-    const response = await fetch('/vulnerability-data.json');
+    // Load both data files in parallel
+    const [vulnResponse, sourceCodeResponse] = await Promise.all([
+      fetch('/vulnerability-data.json'),
+      fetch('/sourcecode-vulnerabilities.json')
+    ]);
     
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+    if (!vulnResponse.ok) {
+      throw new Error(`HTTP error! status: ${vulnResponse.status}`);
     }
     
-    vulnData = await response.json();
-    console.log('Data loaded successfully:', vulnData.overview);
+    vulnData = await vulnResponse.json();
+    console.log('Vulnerability data loaded successfully:', vulnData.overview);
+    
+    // Load source code data (optional, don't fail if missing)
+    if (sourceCodeResponse.ok) {
+      sourceCodeData = await sourceCodeResponse.json();
+      console.log('Source code data loaded successfully:', sourceCodeData.overview);
+    } else {
+      console.warn('Source code data not available');
+    }
     
     // Setup the UI
     setupTabs();
@@ -28,6 +40,11 @@ async function init() {
     renderProjectExplorer();
     renderCategoryInsights();
     renderDependencyNetwork();
+    
+    // Render source code analysis if data available
+    if (sourceCodeData) {
+      renderSourceCodeAnalysis();
+    }
     
     // Set last update time
     document.getElementById('lastUpdate').textContent = new Date().toLocaleDateString();
@@ -605,6 +622,355 @@ function renderVulnTable() {
       </table>
     </div>
   `;
+}
+
+// Source Code Analysis
+function renderSourceCodeAnalysis() {
+  if (!sourceCodeData) return;
+  
+  const { overview, repositories } = sourceCodeData;
+  
+  // Update counts
+  document.getElementById('sourceCodeRepoCount').textContent = overview.total_repositories;
+  document.getElementById('sourceCodeIssueCount').textContent = overview.total_issues;
+  
+  // Render charts
+  renderSourceCodeSeverityChart();
+  renderSourceCodeCweChart();
+  renderSourceCodeIssueTypeChart();
+  
+  // Populate category filter
+  const categoryFilter = document.getElementById('sourceCodeCategoryFilter');
+  const categories = [...new Set(repositories.map(r => r.category))].sort();
+  categoryFilter.innerHTML = '<option value="">All Categories</option>' + 
+    categories.map(cat => `<option value="${cat}">${cat}</option>`).join('');
+  
+  // Render repository list
+  renderSourceCodeRepoList(repositories);
+  
+  // Setup filters
+  setupSourceCodeFilters();
+}
+
+function renderSourceCodeSeverityChart() {
+  const ctx = document.getElementById('sourceCodeSeverityChart');
+  const { severity_distribution } = sourceCodeData.overview;
+  
+  const colors = {
+    'HIGH': '#C41230',
+    'MEDIUM': '#FDB515',
+    'LOW': '#009647'
+  };
+  
+  const labels = Object.keys(severity_distribution);
+  const data = Object.values(severity_distribution);
+  
+  new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: labels,
+      datasets: [{
+        data: data,
+        backgroundColor: labels.map(l => colors[l] || '#6D6E71'),
+        borderWidth: 2,
+        borderColor: '#FFFFFF'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: {
+          position: 'right',
+          labels: { color: '#000000', font: { size: 12, weight: '500' } }
+        },
+        tooltip: {
+          callbacks: {
+            label: (context) => {
+              const total = context.dataset.data.reduce((a, b) => a + b, 0);
+              const percentage = ((context.raw / total) * 100).toFixed(1);
+              return `${context.label}: ${context.raw} (${percentage}%)`;
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+function renderSourceCodeCweChart() {
+  const ctx = document.getElementById('sourceCodeCweChart');
+  const { cwe_distribution } = sourceCodeData;
+  
+  // CWE descriptions for better readability
+  const cweDescriptions = {
+    'CWE-78': 'OS Command Injection',
+    'CWE-89': 'SQL Injection',
+    'CWE-400': 'Resource Exhaustion',
+    'CWE-502': 'Deserialization',
+    'CWE-20': 'Input Validation',
+    'CWE-22': 'Path Traversal',
+    'CWE-377': 'Insecure Temp File',
+    'CWE-327': 'Broken Crypto',
+    'CWE-605': 'Command Injection',
+    'CWE-80': 'XSS',
+    'CWE-732': 'Incorrect Permissions',
+    'CWE-295': 'Cert Validation',
+    'CWE-94': 'Code Injection',
+    'CWE-319': 'Cleartext Transmission'
+  };
+  
+  const entries = Object.entries(cwe_distribution).slice(0, 10);
+  const labels = entries.map(([cwe]) => cweDescriptions[cwe] || cwe);
+  const data = entries.map(([, count]) => count);
+  
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Occurrences',
+        data: data,
+        backgroundColor: 'rgba(196, 18, 48, 0.8)',
+        borderColor: '#C41230',
+        borderWidth: 1,
+        borderRadius: 4
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: {
+          ticks: { color: '#000000', font: { weight: '500' } },
+          grid: { color: '#E0E0E0' }
+        },
+        y: {
+          ticks: { color: '#000000', font: { weight: '500' } },
+          grid: { display: false }
+        }
+      }
+    }
+  });
+}
+
+function renderSourceCodeIssueTypeChart() {
+  const ctx = document.getElementById('sourceCodeIssueTypeChart');
+  const { issue_types } = sourceCodeData;
+  
+  // Simplify issue type names
+  const simplifyIssueName = (name) => {
+    const parts = name.split(':');
+    return parts.length > 1 ? parts[1].replace(/_/g, ' ') : name;
+  };
+  
+  const entries = Object.entries(issue_types).slice(0, 15);
+  const labels = entries.map(([type]) => simplifyIssueName(type));
+  const data = entries.map(([, count]) => count);
+  
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Occurrences',
+        data: data,
+        backgroundColor: [
+          '#C41230', '#EF3A47', '#007BC0', '#009647', '#FDB515',
+          '#6D6E71', '#008F91', '#BCB49E', '#043673', '#941120',
+          '#719F94', '#182C4B', '#1F4C4C', '#E4DAC4', '#4A4B4D'
+        ],
+        borderWidth: 1,
+        borderRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        x: {
+          ticks: { 
+            color: '#000000', 
+            font: { weight: '500', size: 10 },
+            maxRotation: 45,
+            minRotation: 45
+          },
+          grid: { display: false }
+        },
+        y: {
+          ticks: { color: '#000000', font: { weight: '500' } },
+          grid: { color: '#E0E0E0' }
+        }
+      }
+    }
+  });
+}
+
+function renderSourceCodeRepoList(repositories) {
+  const container = document.getElementById('sourceCodeRepoList');
+  
+  if (repositories.length === 0) {
+    container.innerHTML = '<p style="text-align: center; padding: 2rem; color: var(--text-secondary);">No repositories match the current filters.</p>';
+    return;
+  }
+  
+  container.innerHTML = `
+    <div class="table-container">
+      <table class="data-table source-code-table">
+        <thead>
+          <tr>
+            <th>Repository</th>
+            <th>Category</th>
+            <th>Total Issues</th>
+            <th>High</th>
+            <th>Medium</th>
+            <th>Top CWE</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${repositories.map(repo => {
+            const highCount = repo.severity_counts['HIGH'] || 0;
+            const mediumCount = repo.severity_counts['MEDIUM'] || 0;
+            const topCwe = Object.entries(repo.cwe_counts).sort((a, b) => b[1] - a[1])[0];
+            
+            return `
+              <tr class="repo-row" data-repo="${repo.name}">
+                <td>
+                  <strong>${repo.name}</strong>
+                  ${repo.url ? `<a href="${repo.url}" target="_blank" class="repo-external-link" title="View on GitHub">↗</a>` : ''}
+                </td>
+                <td><span class="category-badge">${repo.category}</span></td>
+                <td><strong>${repo.total_issues}</strong></td>
+                <td><span class="severity-badge severity-High">${highCount}</span></td>
+                <td><span class="severity-badge severity-Medium">${mediumCount}</span></td>
+                <td>${topCwe ? `${topCwe[0]} (${topCwe[1]})` : '-'}</td>
+                <td><button class="view-code-btn" data-repo="${repo.name}">View Code</button></td>
+              </tr>
+            `;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>
+  `;
+  
+  // Add click handlers for view code buttons
+  container.querySelectorAll('.view-code-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const repoName = btn.dataset.repo;
+      showSourceCodeSnippets(repoName);
+    });
+  });
+  
+  // Add click handler for rows
+  container.querySelectorAll('.repo-row').forEach(row => {
+    row.addEventListener('click', () => {
+      const repoName = row.dataset.repo;
+      showSourceCodeSnippets(repoName);
+    });
+  });
+}
+
+function showSourceCodeSnippets(repoName) {
+  const repo = sourceCodeData.repositories.find(r => r.name === repoName);
+  if (!repo) return;
+  
+  const detailCard = document.getElementById('sourceCodeDetailCard');
+  const snippetsContainer = document.getElementById('sourceCodeSnippets');
+  const selectedRepoName = document.getElementById('selectedRepoName');
+  
+  selectedRepoName.textContent = `${repo.name} (${repo.total_issues} issues)`;
+  detailCard.style.display = 'block';
+  
+  // Sort issues by severity (HIGH first)
+  const sortedIssues = [...repo.issues].sort((a, b) => {
+    const order = { 'HIGH': 0, 'MEDIUM': 1, 'LOW': 2 };
+    return (order[a.severity] || 3) - (order[b.severity] || 3);
+  });
+  
+  snippetsContainer.innerHTML = `
+    <div class="code-snippets-container">
+      ${sortedIssues.slice(0, 50).map((issue, idx) => `
+        <div class="code-snippet-card">
+          <div class="snippet-header">
+            <span class="severity-badge severity-${issue.severity === 'HIGH' ? 'High' : 'Medium'}">${issue.severity}</span>
+            <span class="cwe-badge">${issue.cwe}</span>
+            <span class="confidence-badge">${issue.confidence}</span>
+          </div>
+          <div class="snippet-issue-id">${issue.issue_id}</div>
+          <div class="snippet-description">${issue.description}</div>
+          <div class="snippet-location">
+            <strong>Location:</strong> ${formatLocation(issue.location)}
+          </div>
+          <div class="snippet-code">
+            <pre><code>${escapeHtml(formatCodeSnippet(issue.code_snippet))}</code></pre>
+          </div>
+        </div>
+      `).join('')}
+      ${sortedIssues.length > 50 ? `<p class="more-issues-note">Showing first 50 of ${sortedIssues.length} issues</p>` : ''}
+    </div>
+  `;
+  
+  // Scroll to the detail card
+  detailCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function formatLocation(location) {
+  if (!location) return 'Unknown';
+  // Clean up the path - remove temp_repos prefix and normalize slashes
+  return location
+    .replace(/temp_repos\\repo_\d+\\/g, '')
+    .replace(/\\/g, '/')
+    .replace(/^\/+/, '');
+}
+
+function formatCodeSnippet(snippet) {
+  if (!snippet) return 'No code snippet available';
+  // Convert line number prefixes to more readable format
+  return snippet
+    .split('\\n')
+    .join('\n')
+    .replace(/^(\d+)\t/gm, '$1 | ');
+}
+
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+function setupSourceCodeFilters() {
+  const searchInput = document.getElementById('sourceCodeSearch');
+  const categoryFilter = document.getElementById('sourceCodeCategoryFilter');
+  const severityFilter = document.getElementById('sourceCodeSeverityFilter');
+  
+  const applyFilters = () => {
+    const searchTerm = searchInput.value.toLowerCase();
+    const selectedCategory = categoryFilter.value;
+    const selectedSeverity = severityFilter.value;
+    
+    const filtered = sourceCodeData.repositories.filter(repo => {
+      const matchesSearch = repo.name.toLowerCase().includes(searchTerm);
+      const matchesCategory = selectedCategory === '' || repo.category === selectedCategory;
+      const matchesSeverity = selectedSeverity === '' || 
+        (repo.severity_counts[selectedSeverity] && repo.severity_counts[selectedSeverity] > 0);
+      return matchesSearch && matchesCategory && matchesSeverity;
+    });
+    
+    renderSourceCodeRepoList(filtered);
+  };
+  
+  searchInput.addEventListener('input', applyFilters);
+  categoryFilter.addEventListener('change', applyFilters);
+  severityFilter.addEventListener('change', applyFilters);
 }
 
 // Show loading overlay
